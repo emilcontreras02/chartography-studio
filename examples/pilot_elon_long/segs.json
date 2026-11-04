@@ -1,0 +1,477 @@
+[
+{
+"p": 0,
+"s": "Elon Musk is the richest person in the world.",
+"t0": 0.0
+},
+{
+"p": 0,
+"s": "As of November first, Forbes puts his fortune at around 869 billion dollars.",
+"t0": 3.18
+},
+{
+"p": 1,
+"s": "So here's a question you've probably asked yourself at least once.",
+"t0": 9.7
+},
+{
+"p": 1,
+"s": "What if he just... gave it all away?",
+"t0": 13.66
+},
+{
+"p": 1,
+"s": "Every last dollar, split evenly.",
+"t0": 16.56
+},
+{
+"p": 1,
+"s": "Would it end poverty?",
+"t0": 19.52
+},
+{
+"p": 1,
+"s": "Would we all be rich?",
+"t0": 21.08
+},
+{
+"p": 1,
+"s": "Or would something strange happen?",
+"t0": 22.84
+},
+{
+"p": 2,
+"s": "Let's do the math.",
+"t0": 25.4
+},
+{
+"p": 2,
+"s": "Because the answer is not what most people expect.",
+"t0": 26.68
+},
+{
+"p": 3,
+"s": "First, let's get a feel for how big 869 billion dollars actually is.",
+"t0": 30.05
+},
+{
+"p": 4,
+"s": "The second richest person on Earth, Jeff Bezos, is worth about 361 billion.",
+"t0": 36.45
+},
+{
+"p": 4,
+"s": "Musk has more than twice that.",
+"t0": 42.57
+},
+{
+"p": 4,
+"s": "In fact, his fortune is bigger than the next three richest people combined.",
+"t0": 44.77
+},
+{
+"p": 5,
+"s": "Here's another way to see it.",
+"t0": 49.86
+},
+{
+"p": 5,
+"s": "The entire United States government, the military, Social Security, everything, spent about 7.4 trillion dollars in its last fiscal year.",
+"t0": 51.66
+},
+{
+"p": 5,
+"s": "That's roughly 20 billion dollars a day.",
+"t0": 61.34
+},
+{
+"p": 5,
+"s": "Musk's whole fortune would keep the US government running for about 43 days.",
+"t0": 64.94
+},
+{
+"p": 6,
+"s": "Hold on to that number.",
+"t0": 70.18
+},
+{
+"p": 6,
+"s": "43 days.",
+"t0": 71.7
+},
+{
+"p": 6,
+"s": "It matters later.",
+"t0": 73.3
+},
+{
+"p": 7,
+"s": "Now, the big split.",
+"t0": 74.98
+},
+{
+"p": 7,
+"s": "There are about 8.3 billion people alive right now.",
+"t0": 76.91
+},
+{
+"p": 8,
+"s": "Take 869 billion dollars, divide it by 8.3 billion people, and every single person on Earth gets about 104 dollars.",
+"t0": 81.31
+},
+{
+"p": 9,
+"s": "That's it.",
+"t0": 91.47
+},
+{
+"p": 9,
+"s": "One hundred and four dollars.",
+"t0": 92.24
+},
+{
+"p": 10,
+"s": "For a lot of people watching this, that's a nice dinner out, maybe a new pair of shoes.",
+"t0": 94.68
+},
+{
+"p": 10,
+"s": "Pleasant, but it doesn't change your life.",
+"t0": 99.52
+},
+{
+"p": 11,
+"s": "But for the hundreds of millions of people living on less than 3 dollars a day, 104 dollars is more than a month of living.",
+"t0": 102.32
+},
+{
+"p": 11,
+"s": "Same money, completely different meaning, depending on where you were born.",
+"t0": 110.64
+},
+{
+"p": 12,
+"s": "Okay.",
+"t0": 115.09
+},
+{
+"p": 12,
+"s": "What if he only gave it to Americans?",
+"t0": 116.48
+},
+{
+"p": 13,
+"s": "The US has about 342 million people.",
+"t0": 119.16
+},
+{
+"p": 13,
+"s": "Split 869 billion dollars between them, and every American, every adult and every kid, gets about 2,540 dollars.",
+"t0": 123.04
+},
+{
+"p": 14,
+"s": "And here's where it gets interesting.",
+"t0": 133.32
+},
+{
+"p": 14,
+"s": "America has actually tried something like this before.",
+"t0": 135.6
+},
+{
+"p": 14,
+"s": "During the pandemic, the government sent out three rounds of stimulus checks.",
+"t0": 139.0
+},
+{
+"p": 14,
+"s": "All together, about 476 million payments, worth roughly 814 billion dollars.",
+"t0": 144.33
+},
+{
+"p": 15,
+"s": "That's almost exactly Musk's fortune.",
+"t0": 150.85
+},
+{
+"p": 16,
+"s": "So we don't have to guess what happens.",
+"t0": 153.65
+},
+{
+"p": 16,
+"s": "We've seen it.",
+"t0": 155.81
+},
+{
+"p": 16,
+"s": "People paid bills, paid down debt, and spent it.",
+"t0": 156.97
+},
+{
+"p": 16,
+"s": "Some economists argue those checks, together with everything else happening at the time, helped push prices up in 2021 and 2022.",
+"t0": 160.27
+},
+{
+"p": 16,
+"s": "Others say broken supply chains were the bigger cause.",
+"t0": 169.27
+},
+{
+"p": 16,
+"s": "Either way, one burst of cash didn't make anyone rich for long.",
+"t0": 172.75
+},
+{
+"p": 17,
+"s": "So what if we aimed it where it matters most?",
+"t0": 177.07
+},
+{
+"p": 18,
+"s": "The World Bank says people living on less than 3 dollars a day are in extreme poverty.",
+"t0": 180.35
+},
+{
+"p": 18,
+"s": "By its latest count, that's around 838 million people.",
+"t0": 185.87
+},
+{
+"p": 19,
+"s": "Give Musk's fortune only to them, and each person gets about 1,040 dollars.",
+"t0": 190.51
+},
+{
+"p": 20,
+"s": "At 3 dollars a day, that's enough to lift every one of them above the extreme poverty line for about 346 days.",
+"t0": 196.16
+},
+{
+"p": 20,
+"s": "Almost a full year.",
+"t0": 204.12
+},
+{
+"p": 21,
+"s": "That's genuinely powerful.",
+"t0": 205.96
+},
+{
+"p": 21,
+"s": "But notice the word.",
+"t0": 208.05
+},
+{
+"p": 21,
+"s": "A year.",
+"t0": 209.85
+},
+{
+"p": 21,
+"s": "Not forever.",
+"t0": 210.89
+},
+{
+"p": 21,
+"s": "On day 347, the money runs out, and the things that kept people poor, no jobs, no roads, no schools, no stable government, are still there.",
+"t0": 212.29
+},
+{
+"p": 22,
+"s": "But here's the twist most people miss.",
+"t0": 222.93
+},
+{
+"p": 22,
+"s": "Musk doesn't actually have 869 billion dollars.",
+"t0": 225.65
+},
+{
+"p": 23,
+"s": "Not in cash, anyway.",
+"t0": 230.05
+},
+{
+"p": 24,
+"s": "His wealth is mostly ownership.",
+"t0": 231.61
+},
+{
+"p": 24,
+"s": "According to Forbes, nearly four fifths of it is his stake in SpaceX.",
+"t0": 233.93
+},
+{
+"p": 24,
+"s": "Most of the rest is Tesla.",
+"t0": 238.69
+},
+{
+"p": 24,
+"s": "To hand out cash, he'd have to sell those shares.",
+"t0": 240.69
+},
+{
+"p": 24,
+"s": "And to sell them, someone has to buy them.",
+"t0": 243.94
+},
+{
+"p": 25,
+"s": "We just watched what happens when SpaceX stock gets sold off.",
+"t0": 246.82
+},
+{
+"p": 25,
+"s": "After the company went public in June, its shares climbed fast, and Musk's net worth passed 1.3 trillion dollars.",
+"t0": 250.62
+},
+{
+"p": 25,
+"s": "Then the selling started.",
+"t0": 258.7
+},
+{
+"p": 25,
+"s": "In about six weeks, SpaceX shares fell 46 percent, and more than 600 billion dollars of Musk's fortune disappeared.",
+"t0": 260.54
+},
+{
+"p": 26,
+"s": "Think about that.",
+"t0": 269.02
+},
+{
+"p": 26,
+"s": "Split 600 billion dollars across everyone on Earth, and it's about 72 dollars each.",
+"t0": 270.14
+},
+{
+"p": 26,
+"s": "He lost most of your hundred dollar share, without giving anyone a single cent.",
+"t0": 276.1
+},
+{
+"p": 27,
+"s": "Now imagine him trying to sell everything at once.",
+"t0": 281.42
+},
+{
+"p": 27,
+"s": "The flood of shares would crash the price long before he finished.",
+"t0": 284.42
+},
+{
+"p": 27,
+"s": "By the time the money reached you, your 104 dollars might be 40.",
+"t0": 288.26
+},
+{
+"p": 27,
+"s": "Or 20.",
+"t0": 292.84
+},
+{
+"p": 28,
+"s": "His fortune is real in the way a house price is real.",
+"t0": 294.04
+},
+{
+"p": 28,
+"s": "It's what someone would pay for it today.",
+"t0": 297.4
+},
+{
+"p": 28,
+"s": "Try to sell every house on the street on the same afternoon, and that price is gone.",
+"t0": 299.92
+},
+{
+"p": 29,
+"s": "So, what would actually happen if Elon Musk gave everyone his money?",
+"t0": 305.12
+},
+{
+"p": 30,
+"s": "Everyone on Earth gets about 104 dollars, and probably much less after the crash.",
+"t0": 310.27
+},
+{
+"p": 30,
+"s": "Americans get a stimulus check they've basically seen before.",
+"t0": 315.27
+},
+{
+"p": 30,
+"s": "The world's poorest get a year of breathing room.",
+"t0": 318.83
+},
+{
+"p": 30,
+"s": "And then, in most places, life goes back to normal.",
+"t0": 321.99
+},
+{
+"p": 31,
+"s": "Remember those 43 days?",
+"t0": 325.57
+},
+{
+"p": 31,
+"s": "That's the real lesson.",
+"t0": 327.85
+},
+{
+"p": 31,
+"s": "The biggest fortune in history is enormous for one person, but small next to the world's economy, or even one government's yearly budget.",
+"t0": 329.49
+},
+{
+"p": 31,
+"s": "One person's money, given once, can't fix what whole systems create every single year.",
+"t0": 338.13
+},
+{
+"p": 32,
+"s": "That doesn't mean it would be worthless.",
+"t0": 344.23
+},
+{
+"p": 32,
+"s": "Aimed carefully, at clean water, vaccines, and schools, 869 billion dollars could change millions of lives for good.",
+"t0": 346.31
+},
+{
+"p": 32,
+"s": "It just wouldn't make all of us rich.",
+"t0": 355.07
+},
+{
+"p": 33,
+"s": "So now I'm curious.",
+"t0": 357.63
+},
+{
+"p": 33,
+"s": "If you woke up tomorrow with your 104 dollars from Elon, what would you spend it on?",
+"t0": 359.11
+},
+{
+"p": 33,
+"s": "Tell me in the comments.",
+"t0": 364.15
+},
+{
+"p": 34,
+"s": "And if you like seeing the world explained through numbers, subscribe to Chartography.",
+"t0": 365.51
+},
+{
+"p": 34,
+"s": "Every week, we take one big question, run the math, and show you the story behind the numbers.",
+"t0": 370.35
+}
+]

@@ -1,0 +1,4 @@
+__pycache__/
+*.part.mp4
+scenes_*/
+*.16k.wav

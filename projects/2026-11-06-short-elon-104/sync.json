@@ -1,0 +1,74 @@
+[
+ {
+  "phrase": "take 869 billion dollars",
+  "time": 2.94,
+  "match": 1.0,
+  "heard": "take eight hundred sixty nine billion dollars"
+ },
+ {
+  "phrase": "divided by 8.3 billion people",
+  "time": 5.74,
+  "match": 1.0,
+  "heard": "divided by eight point three billion people"
+ },
+ {
+  "phrase": "about one hundred four dollars",
+  "time": 10.9,
+  "match": 1.0,
+  "heard": "about one hundred four dollars"
+ },
+ {
+  "phrase": "that's it",
+  "time": 13.1,
+  "match": 1.0,
+  "heard": "that's it"
+ },
+ {
+  "phrase": "for a lot of people watching this",
+  "time": 16.22,
+  "match": 1.0,
+  "heard": "for a lot of people watching this"
+ },
+ {
+  "phrase": "a nice dinner out",
+  "time": 18.38,
+  "match": 1.0,
+  "heard": "a nice dinner out"
+ },
+ {
+  "phrase": "a new pair of shoes",
+  "time": 19.78,
+  "match": 1.0,
+  "heard": "a new pair of shoes"
+ },
+ {
+  "phrase": "pleasant but it",
+  "time": 21.18,
+  "match": 1.0,
+  "heard": "pleasant but it"
+ },
+ {
+  "phrase": "but for the hundreds of millions",
+  "time": 23.98,
+  "match": 1.0,
+  "heard": "but for the hundreds of millions"
+ },
+ {
+  "phrase": "is more than a month of living",
+  "time": 30.3,
+  "match": 1.0,
+  "heard": "is more than a month of living"
+ },
+ {
+  "phrase": "same money",
+  "time": 32.29,
+  "match": 1.0,
+  "heard": "same money"
+ },
+ {
+  "phrase": "where you were born",
+  "time": 35.85,
+  "match": 1.0,
+  "heard": "where you were born"
+ }
+]
