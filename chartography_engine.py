@@ -628,6 +628,34 @@ def paste_logo(img, size, xy, a=1.0):
         m = m.point(lambda v: int(v * a))
     img.paste(im, (int(xy[0]), int(xy[1])), m)
 
+_MASCOT = {}
+MASCOT_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'assets', 'mascot_sticker.png')
+
+def mascot(img, xy, height, a=1.0, T=None, start=None, flip=False, bob=True):
+    """Paste the Chartography mascot (white sticker outline, works on navy). xy = top-left.
+    In videos pass T and start: it pops in at `start` and bobs gently. flip=True makes it look right."""
+    key = (height, flip)
+    if key not in _MASCOT:
+        m = Image.open(MASCOT_PATH).convert('RGBA')
+        m = m.resize((int(m.width * height / m.height), height), Image.LANCZOS)
+        if flip:
+            m = m.transpose(Image.FLIP_LEFT_RIGHT)
+        _MASCOT[key] = m
+    m = _MASCOT[key]
+    x, y = xy
+    if T is not None and start is not None:
+        p = prog(T, start, 0.45)
+        a *= p
+        y += (1 - ease(p)) * 60
+        if bob:
+            y += math.sin((T - start) * 2.4) * 6
+    if a <= 0:
+        return
+    if a < 1:
+        r, g, b, al = m.split()
+        m = Image.merge('RGBA', (r, g, b, al.point(lambda v: int(v * a))))
+    img.paste(m, (int(x), int(y)), m)
+
 def chrome(img, d, source=None):
     """Brand footer: logo + wordmark bottom-right, source line bottom-left. Call in every scene."""
     m = 120 if MODE == 'long' else 70
@@ -747,8 +775,9 @@ def contact_sheet(video, times, out, cols=2):
     return out
 
 # ---------------- thumbnail ----------------
-def thumbnail(out, top, big, bottom, big_color=AMBER, bars=True):
-    """1280x720 long-form thumbnail: small mint line, one huge number/word, a big second line with underline."""
+def thumbnail(out, top, big, bottom, big_color=AMBER, bars=False, with_mascot=True):
+    """1280x720 long-form thumbnail: small mint line, one huge number/word, a big second line with underline,
+    and the mascot bottom-right (always include it - Brand Guide). Custom designs: call mascot(img, (x, y), 290)."""
     Wt, Ht = 1280, 720
     img = Image.new('RGB', (Wt, Ht), BG)
     d = ImageDraw.Draw(img)
@@ -757,11 +786,14 @@ def thumbnail(out, top, big, bottom, big_color=AMBER, bars=True):
             x = 900 + i * 110
             d.rounded_rectangle([x, 640 - h, x + 80, 640], radius=12, fill=c)
     d.text((70, 90), top.upper(), font=fit_font(d, top.upper(), 'sansb', 34, 780), fill=MINT)
-    bf = fit_font(d, big, 'serifb', 300, 800 if bars else 1140)
+    narrow = bars or with_mascot
+    bf = fit_font(d, big, 'serifb', 300, 800 if narrow else 1140)
     d.text((60, 150), big, font=bf, fill=big_color)
-    lf = fit_font(d, bottom, 'serifb', 150, 800 if bars else 1140)
+    lf = fit_font(d, bottom, 'serifb', 150, 780 if narrow else 1140)
     d.text((70, 480), bottom, font=lf, fill=CREAM)
     hand_underline(d, 70, 70 + d.textlength(bottom, font=lf), 650, 1.0, MINT, 10)
+    if with_mascot:
+        mascot(img, (890, 433), 290)
     im, m = logo(90)
     img.paste(im, (1160, 40), m)
     img.save(out)

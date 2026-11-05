@@ -39,6 +39,18 @@ Public raw URL of a file: `https://raw.githubusercontent.com/emilcontreras02/cha
 9. Title, description (with chapters from your scene start times for long-form, first chapter 0:00), tags.
 10. Copy final mp4 (+ thumbnail) into `media/`, project files into `projects/...`, commit and push.
 
+## Mascot (every video from Nov 6, 2026)
+The Chartography mascot (cap with bar chart, magnifying glass) is in `assets/mascot_sticker.png` (white sticker outline
+for the navy background; `assets/mascot.png` = no outline, `assets/logo_full.png` = full round logo).
+- **Thumbnail:** always include it. `ce.thumbnail(...)` adds it bottom-right; in a custom design call
+  `ce.mascot(img, (x, y), 290)` (about 40% of the height, bottom-right, magnifier pointing at the big number).
+  It must never cover text or the number - check at 320x180.
+- **Long-form video:** it appears in the opening hook scene (pops in next to the first big number), at the twist
+  (`flip=True` if it should look right), and in the final "subscribe to Chartography" scene. 3-4 scenes max, never on
+  top of a chart or text: `ce.mascot(img, (x, y), 300, T=T, start=t_cue)` (pops in at the cue and bobs gently).
+- **Shorts:** on the hook card (first second) and the last scene, kept inside y=250-1500 and away from the right edge.
+- Do not redraw, recolor or distort the mascot; only resize or flip it.
+
 ## Saving voice credits (ElevenLabs)
 Long-forms are the only thing that should spend credits (about 5,000-6,500 characters each). Shorts cost 0.
 - **Shorts are CUT from a long-form's existing voiceover**, never voiced fresh (unless the Calendar row says "fresh Short"
