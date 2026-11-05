@@ -14,7 +14,7 @@ Public raw URL of a file: `https://raw.githubusercontent.com/emilcontreras02/cha
 
 ## How a video is made (Drafter)
 1. Research and verify every number (open the source page in this run). Put sources in the Calendar row.
-2. Write the narration. Long-form 950-1,250 words (about 6.5-8.5 min); Short 85-130 words (35-50 s).
+2. Write the narration. Long-form 850-1,100 words (about 6-7.5 min, 5,000-6,500 characters). Shorts are cut from a long-form (see "Saving voice credits").
    Write numbers the way you want them read ("869 billion dollars", "8.3 billion people", "2,540 dollars").
    Short paragraphs; one idea per paragraph. Hook in the first sentence, payoff number in the first 5 s (2 s for Shorts).
 3. Voice: `ce.tts(script, 'vo.mp3')` with `ELEVENLABS_API_KEY` set in the environment of that one command only.
@@ -38,6 +38,25 @@ Public raw URL of a file: `https://raw.githubusercontent.com/emilcontreras02/cha
    style (1280x720, 2-4 words, one huge number). Shorts: `ce.short_cover(...)` is optional.
 9. Title, description (with chapters from your scene start times for long-form, first chapter 0:00), tags.
 10. Copy final mp4 (+ thumbnail) into `media/`, project files into `projects/...`, commit and push.
+
+## Saving voice credits (ElevenLabs)
+Long-forms are the only thing that should spend credits (about 5,000-6,500 characters each). Shorts cost 0.
+- **Shorts are CUT from a long-form's existing voiceover**, never voiced fresh (unless the Calendar row says "fresh Short"
+  and more than 15,000 characters are left). Every long-form project MUST commit `vo.mp3` and `words.json` for this.
+  ```python
+  dur, words = ce.cut_segment('projects/<long>/vo.mp3', 'projects/<long>/words.json',
+                              'first words of the first sentence', 'last words of the last sentence',
+                              'vo_short.mp3', 'words.json')
+  c = ce.Cues(words, dur)   # then build the vertical scenes exactly like examples/short_elon_104
+  ```
+  Pick a self-contained stretch of 35-60 s that starts on a sentence that works as a hook (a question or a surprising
+  number) and ends on a punchline. Design NEW vertical visuals for it (different layout from the long-form scenes) and
+  add an on-screen hook card in the first second, so it is a re-edit and not a reupload.
+  Each long-form gives 2-3 Shorts; never cut overlapping stretches for two Shorts.
+- Never re-voice a whole script. A missed sentence in `sentence_times` is almost always the transcriber, not the voice:
+  fix the cue phrase. If a narration line really must change, voice ONLY that paragraph and splice it in
+  (cut_segment before/after + ffmpeg concat).
+- Check every fact BEFORE calling `ce.tts`, so the Reviewer never needs a re-voice.
 
 ## Originality
 Each video needs its own question, data and structure. Do not copy a previous video's scene list with new numbers.

@@ -246,8 +246,8 @@ class Cues:
     """Find when a phrase is spoken. cues.at('one hundred and four dollars') -> seconds (start of first word).
     Write the phrase as in the script (digits fine). Searches forward from the previous cue unless after= is given."""
     def __init__(self, words, end=None):
-        self.words = words
-        self.W = [w for w, _ in words]
+        self.words = [[w.lower(), t] for w, t in words]
+        self.W = [w for w, _ in self.words]
         self.end = end or (words[-1][1] + 1.0 if words else 0)
         self.used = []
         self._pos = 0
@@ -301,6 +301,32 @@ class Cues:
                 if k not in first:
                     first[k] = self.words[b0 + j][1]
         return [(s, first.get(k)) for k, s in enumerate(sents)]
+
+def cut_segment(src_mp3, words, start_phrase, end_phrase, out_mp3, out_words=None, lead=0.12, tail=0.45):
+    """Cut a Short's voiceover out of a long-form voiceover - costs NO ElevenLabs credits.
+    start_phrase / end_phrase: the first words of the first sentence and the LAST words of the last sentence you keep
+    (exact script wording). Writes out_mp3 (with tiny fades) and out_words (word times shifted to start at 0).
+    Returns (duration, words). Then use ce.Cues(words, duration) exactly like a freshly voiced Short."""
+    if isinstance(words, str):
+        words = json.load(open(words))
+    c = Cues(words, duration(src_mp3))
+    t0 = c.at(start_phrase, lead=lead)
+    i, score = c._find(end_phrase, c._pos)
+    if i is None or score < 0.75:
+        raise ValueError(f'end phrase not found after start: "{end_phrase}" (best match {score:.2f})')
+    last = i + len(spoken_words(end_phrase)) - 1
+    last_t = c.words[last][1]
+    nxt = c.words[last + 1][1] if last + 1 < len(c.words) else c.end
+    t1 = min(nxt - 0.05, last_t + 1.2)  # stop before the next word starts
+    t1 = max(t1, last_t + 0.35)
+    d = t1 - t0
+    _run(['ffmpeg', '-y', '-loglevel', 'error', '-ss', f'{t0:.3f}', '-to', f'{t1:.3f}', '-i', src_mp3,
+          '-af', f'afade=t=in:d=0.04,afade=t=out:st={max(0, d - 0.12):.3f}:d=0.12,apad=pad_dur={tail}',
+          '-c:a', 'libmp3lame', '-b:a', '192k', out_mp3])
+    seg = [[w, round(t - t0, 3)] for w, t in c.words if t0 <= t < t1]
+    if out_words:
+        json.dump(seg, open(out_words, 'w'))
+    return duration(out_mp3), seg
 
 def sync_report(cues, out_json):
     json.dump(cues.used, open(out_json, 'w'), indent=1)
