@@ -178,6 +178,74 @@ def tts(text, out_mp3, key=None, voice_id=None, model_id=MODEL_ID, stability=0.5
         _run(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'concat', '-safe', '0', '-i', lst, '-c', 'copy', out_mp3])
     return out_mp3
 
+# ---- Free "Chartography voice" (Kokoro, open source, runs here; 0 credits) ----
+# Tuned on Nov 6, 2026 to sound close to the ElevenLabs Jarnathan narration (pitch, pace, pauses).
+# It is our own voice (a blend of two Kokoro voices), NOT a clone of Jarnathan.
+FREE_VOICE = {'blend': {'am_fenrir': 0.7, 'am_michael': 0.3}, 'speed': 0.94,
+              'sent_gap': 0.42, 'para_gap': 0.85, 'ellipsis_gap': 0.6}
+_KOKORO_URL = 'https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/'
+_KOKORO = {}
+
+def _kokoro():
+    if 'k' in _KOKORO:
+        return _KOKORO['k']
+    try:
+        from kokoro_onnx import Kokoro
+    except ImportError:
+        _run([sys.executable, '-m', 'pip', 'install', '-q', '--break-system-packages', 'kokoro-onnx', 'soundfile'])
+        from kokoro_onnx import Kokoro
+    d = os.path.expanduser('~/.cache/chartography/kokoro'); os.makedirs(d, exist_ok=True)
+    for f in ('kokoro-v1.0.onnx', 'voices-v1.0.bin'):
+        p = os.path.join(d, f)
+        if not os.path.exists(p) or os.path.getsize(p) < 1_000_000:
+            _run(['curl', '-sSL', '--retry', '3', '-o', p, _KOKORO_URL + f])
+    _KOKORO['k'] = Kokoro(os.path.join(d, 'kokoro-v1.0.onnx'), os.path.join(d, 'voices-v1.0.bin'))
+    return _KOKORO['k']
+
+def tts_free(text, out_mp3, voice=None):
+    """Narrate with the free Chartography voice (0 ElevenLabs credits). Same interface as tts()."""
+    import numpy as np, soundfile as sf
+    v = voice or FREE_VOICE
+    k = _kokoro()
+    style = sum(w * k.get_voice_style(n) for n, w in v['blend'].items())
+    sr, out = 24000, []
+    for p in [p.strip() for p in text.split('\n\n') if p.strip()]:
+        for s in re.split(r'(?<=[.?!])\s+', p):
+            bits = s.split('...')
+            for j, chunk in enumerate(bits):
+                if chunk.strip():
+                    a, sr = k.create(chunk.strip(), voice=style, speed=v['speed'], lang='en-us')
+                    out.append(a)
+                if j < len(bits) - 1:
+                    out.append(np.zeros(int(sr * v['ellipsis_gap'])))
+            out.append(np.zeros(int(sr * v['sent_gap'])))
+        out.append(np.zeros(int(sr * (v['para_gap'] - v['sent_gap']))))
+    wav = out_mp3 + '.wav'
+    sf.write(wav, np.concatenate(out), sr)
+    _run(['ffmpeg', '-y', '-loglevel', 'error', '-i', wav, '-af', 'highpass=f=70,loudnorm=I=-16:TP=-1.5',
+          '-ar', '44100', '-b:a', '192k', out_mp3])
+    os.remove(wav)
+    return out_mp3
+
+def credits_left(key=None):
+    key = key or os.environ.get('ELEVENLABS_API_KEY')
+    if not key:
+        return 0
+    s = _el('GET', '/v1/user/subscription', key)
+    return int(s.get('character_limit', 0)) - int(s.get('character_count', 0))
+
+def tts_auto(text, out_mp3, key=None, reserve=1000):
+    """ElevenLabs while credits last, otherwise the free Chartography voice. Returns 'elevenlabs' or 'free'.
+    One voice per video: never mix the two inside one video."""
+    try:
+        if credits_left(key) >= len(text) + reserve:
+            tts(text, out_mp3, key=key)
+            return 'elevenlabs'
+    except Exception as e:
+        print('ElevenLabs unavailable, using the free voice:', str(e)[:200])
+    tts_free(text, out_mp3)
+    return 'free'
+
 def duration(path):
     return float(subprocess.check_output(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', path]).decode().strip())
 

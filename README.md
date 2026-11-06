@@ -51,6 +51,15 @@ for the navy background; `assets/mascot.png` = no outline, `assets/logo_full.png
 - **Shorts:** on the hook card (first second) and the last scene, kept inside y=250-1500 and away from the right edge.
 - Do not redraw, recolor or distort the mascot; only resize or flip it.
 
+## Voices: ElevenLabs + the free Chartography voice
+- `ce.tts_auto(script, 'vo.mp3')` uses ElevenLabs (Jarnathan) while credits last and switches to the free
+  Chartography voice (`ce.tts_free`, Kokoro open-source model, 0 credits) when they don't. It returns
+  'elevenlabs' or 'free' - write that in the Calendar Notes. Use it instead of `ce.tts` for long-forms.
+- The free voice is our own blend (70% am_fenrir + 30% am_michael, speed 0.94, Jarnathan-style pauses), tuned to be
+  close in pitch and pace. It is NOT a clone of Jarnathan - never try to clone a real voice.
+- ONE VOICE PER VIDEO: never mix the two voices inside one video. Shorts cut from a long-form keep its voice.
+- First call downloads the model (~330 MB from GitHub releases) into ~/.cache/chartography/kokoro.
+
 ## Saving voice credits (ElevenLabs)
 Long-forms are the only thing that should spend credits (about 5,000-6,500 characters each). Shorts cost 0.
 - **Shorts are CUT from a long-form's existing voiceover**, never voiced fresh (unless the Calendar row says "fresh Short"
