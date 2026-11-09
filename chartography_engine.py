@@ -103,6 +103,7 @@ VOICE_ID = 'c6SfcYrb2t09NHXiT80T'  # 'Jarnathan - Confident and Versatile' (so a
 MODEL_ID = 'eleven_v4'
 
 def _el(method, path, key, body=None, raw=False):
+    key = (key or '').replace('\\', '').strip()  # Google Docs shows 'sk\_...' - drop the backslash
     req = urllib.request.Request(EL + path, method=method, headers={'xi-api-key': key, 'Content-Type': 'application/json', 'Accept': '*/*'})
     data = json.dumps(body).encode() if body is not None else None
     with urllib.request.urlopen(req, data=data, timeout=300) as r:
