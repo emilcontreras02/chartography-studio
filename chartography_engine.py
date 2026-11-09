@@ -377,6 +377,13 @@ class Cues:
                     first[k] = self.words[b0 + j][1]
         return [(s, first.get(k)) for k, s in enumerate(sents)]
 
+def _silences(path, noise='-38dB', min_d=0.18):
+    out = subprocess.run(['ffmpeg', '-hide_banner', '-i', path, '-af', f'silencedetect=noise={noise}:d={min_d}', '-f', 'null', '-'],
+                         capture_output=True, text=True).stderr
+    st = [float(x) for x in re.findall(r'silence_start: ([0-9.]+)', out)]
+    en = [float(x) for x in re.findall(r'silence_end: ([0-9.]+)', out)]
+    return list(zip(st, en))
+
 def cut_segment(src_mp3, words, start_phrase, end_phrase, out_mp3, out_words=None, lead=0.12, tail=0.45):
     """Cut a Short's voiceover out of a long-form voiceover - costs NO ElevenLabs credits.
     start_phrase / end_phrase: the first words of the first sentence and the LAST words of the last sentence you keep
@@ -394,6 +401,15 @@ def cut_segment(src_mp3, words, start_phrase, end_phrase, out_mp3, out_words=Non
     nxt = c.words[last + 1][1] if last + 1 < len(c.words) else c.end
     t1 = min(nxt - 0.05, last_t + 1.2)  # stop before the next word starts
     t1 = max(t1, last_t + 0.35)
+    # Snap both cut points into the silent gap between sentences (word timings from the transcriber can be
+    # a few tenths of a second late, which would leave the tail of the previous sentence or the start of the next).
+    gaps = _silences(src_mp3)
+    pre = [g for g in gaps if g[1] <= t0 + 0.45 and g[1] >= t0 - 1.5]
+    if pre:
+        t0 = max(0.0, pre[-1][1] - 0.06)
+    post = [g for g in gaps if g[0] >= last_t + 0.1 and g[0] <= last_t + 1.6]
+    if post:
+        t1 = post[0][0] + 0.06
     d = t1 - t0
     _run(['ffmpeg', '-y', '-loglevel', 'error', '-ss', f'{t0:.3f}', '-to', f'{t1:.3f}', '-i', src_mp3,
           '-af', f'afade=t=in:d=0.04,afade=t=out:st={max(0, d - 0.12):.3f}:d=0.12,apad=pad_dur={tail}',
