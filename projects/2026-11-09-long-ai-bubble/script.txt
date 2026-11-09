@@ -1,0 +1,41 @@
+This year, America's biggest tech companies are on track to spend about one trillion dollars on AI. That's roughly every dollar their cloud businesses bring in.
+
+And last Thursday, the market flinched. In a single day, about three trillion dollars of stock market value disappeared.
+
+So, is AI a bubble? And if it is, what happens when it pops?
+
+Let's run a pop test. Four checks, four gauges. The more gauges that fill up, the more this looks like a bubble.
+
+Gauge number one. Money going out, versus money coming back.
+
+According to estimates from the bank UBS, the giant cloud companies will spend about one trillion dollars on AI and data centers in 2026. For Amazon, Google and Microsoft, that's around 102 percent of what their cloud businesses earn in revenue.
+
+Think about that. They're spending more on building than the business brings in. That can work, if the customers show up later. But it's a bet on the future, not a sure thing. The first gauge fills up a lot.
+
+Gauge number two. The power wall.
+
+AI doesn't run on hype. It runs on electricity. Every new data center needs a huge amount of power, and the power plants and power lines have to exist first. After the recent election results raised fears of new limits on data centers, UBS estimated that nearly a third of the new US data center capacity expected in 2028 could be delayed or lost. If the buildings can't get power, the trillion dollars can't earn anything. Gauge two fills up halfway.
+
+Gauge number three. The mood swings.
+
+Bubbles are nervous. Watch what happened on Thursday, November fifth. The S&P 500 fell more than four percent, its worst day since April 2025. A key index of chip stocks dropped twelve percent, its worst day since March 2020. Nvidia fell nine percent. AMD fell seventeen. The Nasdaq slid into a correction, which means it was down more than ten percent from its peak.
+
+And then the very next day, many of those stocks bounced back. Calm markets don't do that. Nervous ones do. Gauge three fills up fast.
+
+Gauge number four. The mirror.
+
+We've seen this movie before. In March 2000, the Nasdaq hit 5,048. Everyone was sure the internet would change everything. By October 2002, the Nasdaq had fallen 78 percent. About five trillion dollars of market value was gone. Cisco, one of the stars of the boom, fell around 80 percent. Amazon dropped from 113 dollars a share to about 15.
+
+So, four gauges, and most of them are well into the red. Does that mean AI is about to crash?
+
+Here's the twist. Nobody knows when a bubble pops, not even the experts. And even more important: a bubble bursting does not mean the technology was fake.
+
+Look at the internet. The bubble burst. The internet didn't. Amazon lost almost ninety percent of its value, and then it went on to become one of the biggest companies on Earth. The companies that overbuilt went broke, but what they built didn't disappear.
+
+That's probably the most realistic way to think about AI too. The prices of these stocks can fall hard. Some companies will fail. But the useful tools are likely to stay, and they may even get cheaper.
+
+What would a pop mean for regular Americans? Many retirement accounts and index funds hold these same giant tech companies, so a crash would show up in a lot of 401(k) balances. Jobs tied to the data center boom could slow. And the AI tools you use every day could change prices, or change owners.
+
+This is not a buy or sell call. It's a reminder that big ideas and big prices are not the same thing.
+
+So, what do you think? Bubble, or the next internet? Tell us in the comments. And if you like the story behind the numbers, subscribe to Chartography.

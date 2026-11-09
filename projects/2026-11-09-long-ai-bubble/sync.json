@@ -1,0 +1,326 @@
+[
+ {
+  "phrase": "on track to spend about one trillion",
+  "time": 2.7,
+  "match": 0.86,
+  "heard": "on tracked to spend about one trillion"
+ },
+ {
+  "phrase": "that's roughly every dollar",
+  "time": 6.42,
+  "match": 1.0,
+  "heard": "that's roughly every dollar"
+ },
+ {
+  "phrase": "and last thursday the market flinched",
+  "time": 10.66,
+  "match": 1.0,
+  "heard": "and last thursday the market flinched"
+ },
+ {
+  "phrase": "about three trillion dollars of stock market value",
+  "time": 14.26,
+  "match": 1.0,
+  "heard": "about three trillion dollars of stock market value"
+ },
+ {
+  "phrase": "so is ai a bubble",
+  "time": 16.94,
+  "match": 0.6,
+  "heard": "value disappeared so is a"
+ },
+ {
+  "phrase": "what happens when it pops",
+  "time": 21.38,
+  "match": 1.0,
+  "heard": "what happens when it pops"
+ },
+ {
+  "phrase": "let's run a pop test",
+  "time": 23.58,
+  "match": 1.0,
+  "heard": "let's run a pop test"
+ },
+ {
+  "phrase": "the more gauges that fill up",
+  "time": 27.34,
+  "match": 1.0,
+  "heard": "the more gauges that fill up"
+ },
+ {
+  "phrase": "number one money going out",
+  "time": 32.3,
+  "match": 1.0,
+  "heard": "number one money going out"
+ },
+ {
+  "phrase": "according to estimates from the bank",
+  "time": 36.46,
+  "match": 1.0,
+  "heard": "according to estimates from the bank"
+ },
+ {
+  "phrase": "microsoft that's around 102",
+  "time": 49.54,
+  "match": 1.0,
+  "heard": "microsoft that's around one hundred two"
+ },
+ {
+  "phrase": "think about that",
+  "time": 55.89,
+  "match": 1.0,
+  "heard": "think about that"
+ },
+ {
+  "phrase": "but it's a bet on the future",
+  "time": 64.01,
+  "match": 1.0,
+  "heard": "but it's a bet on the future"
+ },
+ {
+  "phrase": "the first gauge fills up a lot",
+  "time": 66.97,
+  "match": 1.0,
+  "heard": "the first gauge fills up a lot"
+ },
+ {
+  "phrase": "two the power",
+  "time": 70.53,
+  "match": 1.0,
+  "heard": "two the power"
+ },
+ {
+  "phrase": "it runs on electricity",
+  "time": 74.93,
+  "match": 1.0,
+  "heard": "it runs on electricity"
+ },
+ {
+  "phrase": "nearly a third of the new",
+  "time": 91.34,
+  "match": 1.0,
+  "heard": "nearly a third of the new"
+ },
+ {
+  "phrase": "if the buildings can't get power",
+  "time": 99.14,
+  "match": 1.0,
+  "heard": "if the buildings can't get power"
+ },
+ {
+  "phrase": "gauge two fills up half way",
+  "time": 103.82,
+  "match": 1.0,
+  "heard": "gauge two fills up half way"
+ },
+ {
+  "phrase": "three the mood swings",
+  "time": 107.16,
+  "match": 1.0,
+  "heard": "three the mood swings"
+ },
+ {
+  "phrase": "watch what happened on thursday november fifth",
+  "time": 111.4,
+  "match": 0.86,
+  "heard": "watch what happen on thursday november fifth"
+ },
+ {
+  "phrase": "the s and p 500 fell more than four",
+  "time": 114.52,
+  "match": 1.0,
+  "heard": "the s and p five hundred fell more than four"
+ },
+ {
+  "phrase": "a key index of chip stocks dropped",
+  "time": 121.73,
+  "match": 1.0,
+  "heard": "a key index of chip stocks dropped"
+ },
+ {
+  "phrase": "fell nine percent",
+  "time": 128.37,
+  "match": 0.67,
+  "heard": "invidia fell nine"
+ },
+ {
+  "phrase": "amd fell seventeen",
+  "time": 130.77,
+  "match": 0.67,
+  "heard": "d fell seventeen"
+ },
+ {
+  "phrase": "slid into a correction",
+  "time": 133.17,
+  "match": 1.0,
+  "heard": "slid into a correction"
+ },
+ {
+  "phrase": "and then the very next day",
+  "time": 138.71,
+  "match": 1.0,
+  "heard": "and then the very next day"
+ },
+ {
+  "phrase": "gauge three fills up fast",
+  "time": 146.47,
+  "match": 1.0,
+  "heard": "gauge three fills up fast"
+ },
+ {
+  "phrase": "four the mirror",
+  "time": 149.71,
+  "match": 1.0,
+  "heard": "four the mirror"
+ },
+ {
+  "phrase": "in march 2000 the",
+  "time": 153.91,
+  "match": 0.6,
+  "heard": "in march two thousand the"
+ },
+ {
+  "phrase": "had fallen 78 percent",
+  "time": 163.78,
+  "match": 0.8,
+  "heard": "nastyk had fallen seventy eight"
+ },
+ {
+  "phrase": "about five trillion dollars of market value was gone",
+  "time": 166.58,
+  "match": 1.0,
+  "heard": "about five trillion dollars of market value was gone"
+ },
+ {
+  "phrase": "cisco one of the stars",
+  "time": 170.14,
+  "match": 1.0,
+  "heard": "cisco one of the stars"
+ },
+ {
+  "phrase": "amazon dropped from 113",
+  "time": 174.42,
+  "match": 1.0,
+  "heard": "amazon dropped from one hundred thirteen"
+ },
+ {
+  "phrase": "so four gauges",
+  "time": 179.94,
+  "match": 1.0,
+  "heard": "so four gauges"
+ },
+ {
+  "phrase": "does that mean ai is about to crash",
+  "time": 183.78,
+  "match": 0.75,
+  "heard": "does that mean a i is about to"
+ },
+ {
+  "phrase": "here's the twist",
+  "time": 186.62,
+  "match": 1.0,
+  "heard": "here's the twist"
+ },
+ {
+  "phrase": "a bubble bursting does not mean",
+  "time": 193.86,
+  "match": 1.0,
+  "heard": "a bubble bursting does not mean"
+ },
+ {
+  "phrase": "look at the internet",
+  "time": 196.98,
+  "match": 0.75,
+  "heard": "fake look at the"
+ },
+ {
+  "phrase": "the internet didn't",
+  "time": 201.02,
+  "match": 1.0,
+  "heard": "the internet didn't"
+ },
+ {
+  "phrase": "amazon lost almost ninety percent",
+  "time": 201.86,
+  "match": 0.8,
+  "heard": "didn't amazon lost almost ninety"
+ },
+ {
+  "phrase": "the companies that overbuilt went broke",
+  "time": 210.23,
+  "match": 0.67,
+  "heard": "the companies that over built went"
+ },
+ {
+  "phrase": "probably the most realistic way",
+  "time": 215.91,
+  "match": 1.0,
+  "heard": "probably the most realistic way"
+ },
+ {
+  "phrase": "the prices of these stocks can fall hard",
+  "time": 219.72,
+  "match": 1.0,
+  "heard": "the prices of these stocks can fall hard"
+ },
+ {
+  "phrase": "some companies will fail",
+  "time": 222.44,
+  "match": 1.0,
+  "heard": "some companies will fail"
+ },
+ {
+  "phrase": "but the useful tools are likely to stay",
+  "time": 224.28,
+  "match": 1.0,
+  "heard": "but the useful tools are likely to stay"
+ },
+ {
+  "phrase": "what would a pop mean for regular americans",
+  "time": 229.48,
+  "match": 1.0,
+  "heard": "what would a pop mean for regular americans"
+ },
+ {
+  "phrase": "many retirement accounts and index funds",
+  "time": 232.4,
+  "match": 1.0,
+  "heard": "many retirement accounts and index funds"
+ },
+ {
+  "phrase": "jobs tied to the data center boom",
+  "time": 243.15,
+  "match": 0.86,
+  "heard": "jobs tied to the data centre boom"
+ },
+ {
+  "phrase": "and the ai tools you use every day",
+  "time": 246.19,
+  "match": 0.75,
+  "heard": "and the a eye tools you use every"
+ },
+ {
+  "phrase": "this is not a buy or sell call",
+  "time": 251.91,
+  "match": 0.88,
+  "heard": "this is not a by or sell call"
+ },
+ {
+  "phrase": "big ideas and big prices",
+  "time": 255.35,
+  "match": 1.0,
+  "heard": "big ideas and big prices"
+ },
+ {
+  "phrase": "so what do you think",
+  "time": 259.19,
+  "match": 1.0,
+  "heard": "so what do you think"
+ },
+ {
+  "phrase": "subscribe to chartography",
+  "time": 267.11,
+  "match": 1.0,
+  "heard": "subscribe to chartography"
+ }
+]
