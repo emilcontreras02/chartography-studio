@@ -1,0 +1,104 @@
+[
+ {
+  "phrase": "okay what if he only gave it",
+  "time": 0.02,
+  "match": 1.0,
+  "heard": "o k what if he only gave it"
+ },
+ {
+  "phrase": "the us has about 342 million",
+  "time": 3.38,
+  "match": 0.78,
+  "heard": "the u s has about three hundred forty two"
+ },
+ {
+  "phrase": "split 869 billion dollars",
+  "time": 7.26,
+  "match": 1.0,
+  "heard": "split eight hundred sixty nine billion dollars"
+ },
+ {
+  "phrase": "gets about 2,540 dollars",
+  "time": 14.1,
+  "match": 1.0,
+  "heard": "gets about two thousand five hundred forty dollars"
+ },
+ {
+  "phrase": "and here's where it gets interesting",
+  "time": 17.54,
+  "match": 1.0,
+  "heard": "and here's where it gets interesting"
+ },
+ {
+  "phrase": "tried something like this before",
+  "time": 21.3,
+  "match": 1.0,
+  "heard": "tried something like this before"
+ },
+ {
+  "phrase": "three rounds of stimulus checks",
+  "time": 25.58,
+  "match": 1.0,
+  "heard": "three rounds of stimulus checks"
+ },
+ {
+  "phrase": "about 476 million payments",
+  "time": 28.56,
+  "match": 1.0,
+  "heard": "about four hundred seventy six million payments"
+ },
+ {
+  "phrase": "roughly 814 billion dollars",
+  "time": 31.92,
+  "match": 1.0,
+  "heard": "roughly eight hundred fourteen billion dollars"
+ },
+ {
+  "phrase": "that's almost exactly",
+  "time": 35.08,
+  "match": 1.0,
+  "heard": "that's almost exactly"
+ },
+ {
+  "phrase": "so we don't have to guess",
+  "time": 37.88,
+  "match": 1.0,
+  "heard": "so we don't have to guess"
+ },
+ {
+  "phrase": "people paid bills",
+  "time": 41.2,
+  "match": 1.0,
+  "heard": "people paid bills"
+ },
+ {
+  "phrase": "paid down debt",
+  "time": 42.48,
+  "match": 1.0,
+  "heard": "paid down debt"
+ },
+ {
+  "phrase": "and spent it",
+  "time": 43.62,
+  "match": 1.0,
+  "heard": "and spent it"
+ },
+ {
+  "phrase": "some economists argue",
+  "time": 44.5,
+  "match": 1.0,
+  "heard": "some economists argue"
+ },
+ {
+  "phrase": "others say broken supply chains",
+  "time": 53.5,
+  "match": 1.0,
+  "heard": "others say broken supply chains"
+ },
+ {
+  "phrase": "either way one burst of cash",
+  "time": 56.98,
+  "match": 1.0,
+  "heard": "either way one burst of cash"
+ }
+]
