@@ -99,6 +99,7 @@ def F(kind, size):
 # ---------------- ElevenLabs voice ----------------
 EL = 'https://api.elevenlabs.io'
 VOICE_NAME = 'Jarnathan'
+VOICE_ID = 'c6SfcYrb2t09NHXiT80T'  # 'Jarnathan - Confident and Versatile' (so a key without voices_read still works)
 MODEL_ID = 'eleven_v4'
 
 def _el(method, path, key, body=None, raw=False):
@@ -141,7 +142,7 @@ def tts(text, out_mp3, key=None, voice_id=None, model_id=MODEL_ID, stability=0.5
     key = key or os.environ.get('ELEVENLABS_API_KEY')
     if not key:
         raise RuntimeError('No ElevenLabs API key (set ELEVENLABS_API_KEY)')
-    voice_id = voice_id or find_voice(key)
+    voice_id = voice_id or VOICE_ID or find_voice(key)
     paras = [p.strip() for p in text.split('\n\n') if p.strip()]
     parts, cur = [], ''
     for p in paras:
@@ -231,14 +232,19 @@ def credits_left(key=None):
     key = key or os.environ.get('ELEVENLABS_API_KEY')
     if not key:
         return 0
-    s = _el('GET', '/v1/user/subscription', key)
+    try:
+        s = _el('GET', '/v1/user/subscription', key)
+    except urllib.error.HTTPError as e:
+        print('credits_left: cannot read subscription (key needs User: Read):', e.code)
+        return None
     return int(s.get('character_limit', 0)) - int(s.get('character_count', 0))
 
 def tts_auto(text, out_mp3, key=None, reserve=1000):
     """ElevenLabs while credits last, otherwise the free Chartography voice. Returns 'elevenlabs' or 'free'.
     One voice per video: never mix the two inside one video."""
     try:
-        if credits_left(key) >= len(text) + reserve:
+        left = credits_left(key)
+        if left is None or left >= len(text) + reserve:
             tts(text, out_mp3, key=key)
             return 'elevenlabs'
     except Exception as e:

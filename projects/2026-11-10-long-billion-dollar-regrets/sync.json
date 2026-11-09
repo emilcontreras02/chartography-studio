@@ -1,0 +1,416 @@
+[
+ {
+  "phrase": "in 1976 a man sold his ten percent",
+  "time": 0.0,
+  "match": 0.9,
+  "heard": "in nineteen hundred seventy six a man sold his ten"
+ },
+ {
+  "phrase": "today ten percent of apple",
+  "time": 5.86,
+  "match": 0.67,
+  "heard": "to day ten per cent of"
+ },
+ {
+  "phrase": "that's not a typo",
+  "time": 11.14,
+  "match": 1.0,
+  "heard": "that's not a typo"
+ },
+ {
+  "phrase": "history is full of tiny deals",
+  "time": 14.74,
+  "match": 1.0,
+  "heard": "history is full of tiny deals"
+ },
+ {
+  "phrase": "pulling five old receipts",
+  "time": 20.05,
+  "match": 1.0,
+  "heard": "pulling five old receipts"
+ },
+ {
+  "phrase": "running each one through a time machine",
+  "time": 22.93,
+  "match": 1.0,
+  "heard": "running each one through a time machine"
+ },
+ {
+  "phrase": "here's how the machine works",
+  "time": 27.69,
+  "match": 1.0,
+  "heard": "here's how the machine works"
+ },
+ {
+  "phrase": "compare it with what the same thing",
+  "time": 32.65,
+  "match": 1.0,
+  "heard": "compare it with what the same thing"
+ },
+ {
+  "phrase": "just two numbers and a lot of zeros",
+  "time": 36.71,
+  "match": 1.0,
+  "heard": "just two numbers and a lot of zeros"
+ },
+ {
+  "phrase": "stay to the end",
+  "time": 39.51,
+  "match": 1.0,
+  "heard": "stay to the end"
+ },
+ {
+  "phrase": "it shrinks",
+  "time": 43.51,
+  "match": 1.0,
+  "heard": "it shrinks"
+ },
+ {
+  "phrase": "receipt number one",
+  "time": 45.15,
+  "match": 0.67,
+  "heard": "receip number one"
+ },
+ {
+  "phrase": "a programmer wanted to prove",
+  "time": 50.76,
+  "match": 0.8,
+  "heard": "a programer wanted to prove"
+ },
+ {
+  "phrase": "he offered 10,000 bitcoin",
+  "time": 55.08,
+  "match": 0.8,
+  "heard": "so he offered ten thousand"
+ },
+ {
+  "phrase": "worth about 41 dollars",
+  "time": 64.0,
+  "match": 1.0,
+  "heard": "worth about forty one dollars"
+ },
+ {
+  "phrase": "now let's run that receipt",
+  "time": 66.33,
+  "match": 1.0,
+  "heard": "now let's run that receipt"
+ },
+ {
+  "phrase": "trading at around 74,200 dollars",
+  "time": 71.89,
+  "match": 0.78,
+  "heard": "trading at a round seventy four thousand two hundred"
+ },
+ {
+  "phrase": "cost about 742 million dollars",
+  "time": 77.25,
+  "match": 1.0,
+  "heard": "cost about seven hundred forty two million dollars"
+ },
+ {
+  "phrase": "that's roughly 18 million times",
+  "time": 80.77,
+  "match": 1.0,
+  "heard": "that's roughly eighteen million times"
+ },
+ {
+  "phrase": "crypto fans still celebrate",
+  "time": 88.43,
+  "match": 1.0,
+  "heard": "crypto fans still celebrate"
+ },
+ {
+  "phrase": "receipt number two",
+  "time": 93.79,
+  "match": 1.0,
+  "heard": "receipt number two"
+ },
+ {
+  "phrase": "founders they offered to sell",
+  "time": 103.61,
+  "match": 1.0,
+  "heard": "founders they offered to sell"
+ },
+ {
+  "phrase": "passed its former",
+  "time": 109.73,
+  "match": 1.0,
+  "heard": "passed its former"
+ },
+ {
+  "phrase": "its former boss later said",
+  "time": 110.41,
+  "match": 1.0,
+  "heard": "its former boss later said"
+ },
+ {
+  "phrase": "is now worth about 260 billion",
+  "time": 118.79,
+  "match": 1.0,
+  "heard": "is now worth about two hundred sixty billion"
+ },
+ {
+  "phrase": "more than 5,000 times",
+  "time": 122.87,
+  "match": 1.0,
+  "heard": "more than five thousand times"
+ },
+ {
+  "phrase": "it filed for bankruptcy in 2010",
+  "time": 126.03,
+  "match": 0.71,
+  "heard": "block buster it filed for bankruptcy in"
+ },
+ {
+  "phrase": "there is exactly one",
+  "time": 130.83,
+  "match": 1.0,
+  "heard": "there is exactly one"
+ },
+ {
+  "phrase": "receipt number three",
+  "time": 135.36,
+  "match": 0.67,
+  "heard": "receip number three"
+ },
+ {
+  "phrase": "google's founders offered their little search engine",
+  "time": 144.08,
+  "match": 0.86,
+  "heard": "googall's founders offered their little search engine"
+ },
+ {
+  "phrase": "the price started at one million",
+  "time": 150.53,
+  "match": 1.0,
+  "heard": "the price started at one million"
+ },
+ {
+  "phrase": "then it dropped to 750 thousand",
+  "time": 153.25,
+  "match": 1.0,
+  "heard": "then it dropped to seven hundred fifty thousand"
+ },
+ {
+  "phrase": "excite's boss said no",
+  "time": 156.33,
+  "match": 0.75,
+  "heard": "excites boss said no"
+ },
+ {
+  "phrase": "google's parent company alphabet",
+  "time": 160.05,
+  "match": 0.75,
+  "heard": "gogol's parent company alphabet"
+ },
+ {
+  "phrase": "that's about 4.7 million times",
+  "time": 166.01,
+  "match": 1.0,
+  "heard": "that's about four point seven million times"
+ },
+ {
+  "phrase": "receipt number four",
+  "time": 171.81,
+  "match": 1.0,
+  "heard": "receipt number four"
+ },
+ {
+  "phrase": "apple had three founders",
+  "time": 178.09,
+  "match": 1.0,
+  "heard": "apple had three founders"
+ },
+ {
+  "phrase": "the third ronald wayne",
+  "time": 180.81,
+  "match": 0.75,
+  "heard": "know the third ronald"
+ },
+ {
+  "phrase": "just twelve days later",
+  "time": 184.28,
+  "match": 1.0,
+  "heard": "just twelve days later"
+ },
+ {
+  "phrase": "he was worried about being",
+  "time": 188.44,
+  "match": 1.0,
+  "heard": "he was worried about being"
+ },
+ {
+  "phrase": "apple is worth about 4.98 trillion",
+  "time": 195.08,
+  "match": 1.0,
+  "heard": "apple is worth about four point nine eight trillion"
+ },
+ {
+  "phrase": "ten percent of that is about 498",
+  "time": 198.94,
+  "match": 0.8,
+  "heard": "ten per cent of that is about four hundred ninety"
+ },
+ {
+  "phrase": "now to be fair",
+  "time": 203.66,
+  "match": 1.0,
+  "heard": "now to be fair"
+ },
+ {
+  "phrase": "fortune estimates it would really",
+  "time": 210.46,
+  "match": 1.0,
+  "heard": "fortune estimates it would really"
+ },
+ {
+  "phrase": "still not bad for 800",
+  "time": 217.28,
+  "match": 1.0,
+  "heard": "still not bad for eight hundred"
+ },
+ {
+  "phrase": "receipt number five",
+  "time": 220.4,
+  "match": 1.0,
+  "heard": "receipt number five"
+ },
+ {
+  "phrase": "february 2008 microsoft offers",
+  "time": 224.52,
+  "match": 0.6,
+  "heard": "february two thousand eight microsoft"
+ },
+ {
+  "phrase": "yahoo says no",
+  "time": 232.04,
+  "match": 0.67,
+  "heard": "yahu says no"
+ },
+ {
+  "phrase": "eight years later yahoo agreed",
+  "time": 235.76,
+  "match": 0.8,
+  "heard": "eight years later yahu agreed"
+ },
+ {
+  "phrase": "roughly a tenth of the offer",
+  "time": 243.0,
+  "match": 1.0,
+  "heard": "roughly a tenth of the offer"
+ },
+ {
+  "phrase": "the time machine doesn't always",
+  "time": 245.56,
+  "match": 1.0,
+  "heard": "the time machine doesn't always"
+ },
+ {
+  "phrase": "let's line up the scoreboard",
+  "time": 247.96,
+  "match": 0.8,
+  "heard": "bigger let's line up the"
+ },
+ {
+  "phrase": "two pizzas about 18 million times",
+  "time": 251.08,
+  "match": 0.83,
+  "heard": "two pieces about eighteen million times"
+ },
+ {
+  "phrase": "blockbuster's chance at netflix",
+  "time": 254.48,
+  "match": 0.75,
+  "heard": "buster's chance at netflix"
+ },
+ {
+  "phrase": "chance at google about 4.7",
+  "time": 259.12,
+  "match": 0.86,
+  "heard": "chance at googall about four point seven"
+ },
+ {
+  "phrase": "ronald wayne's slice of apple",
+  "time": 262.92,
+  "match": 0.8,
+  "heard": "ronald wain's slice of apple"
+ },
+ {
+  "phrase": "and yahoo down to about a tenth",
+  "time": 268.26,
+  "match": 0.86,
+  "heard": "and yahu down to about a tenth"
+ },
+ {
+  "phrase": "so here's the twist",
+  "time": 270.82,
+  "match": 1.0,
+  "heard": "so here's the twist"
+ },
+ {
+  "phrase": "almost every choice made sense",
+  "time": 276.7,
+  "match": 1.0,
+  "heard": "almost every choice made sense"
+ },
+ {
+  "phrase": "in 2010 one bitcoin was worth less",
+  "time": 279.94,
+  "match": 0.62,
+  "heard": "thousand ten one bit coin was worth less"
+ },
+ {
+  "phrase": "in 2000 netflix was a small company",
+  "time": 283.55,
+  "match": 0.62,
+  "heard": "in two thousand nettlex was a small company"
+ },
+ {
+  "phrase": "in 1999 google was just one",
+  "time": 287.75,
+  "match": 0.75,
+  "heard": "in nineteen hundred ninety nine gugaul was just"
+ },
+ {
+  "phrase": "and in 1976 apple was a tiny",
+  "time": 292.63,
+  "match": 0.89,
+  "heard": "and in nineteen hundred seventy six apple was a"
+ },
+ {
+  "phrase": "nobody gets to read tomorrow's receipt",
+  "time": 296.75,
+  "match": 0.67,
+  "heard": "a garage nobody gets to read"
+ },
+ {
+  "phrase": "hindsight is the real time machine",
+  "time": 301.38,
+  "match": 0.83,
+  "heard": "sight is the real time machine"
+ },
+ {
+  "phrase": "and yahoo is the reminder",
+  "time": 303.38,
+  "match": 0.6,
+  "heard": "and yet who is the"
+ },
+ {
+  "phrase": "which of these deals would you",
+  "time": 308.54,
+  "match": 1.0,
+  "heard": "which of these deals would you"
+ },
+ {
+  "phrase": "what do you think is today's 41 dollar pizza",
+  "time": 311.34,
+  "match": 0.8,
+  "heard": "what do you think is to day's forty one dollar"
+ },
+ {
+  "phrase": "subscribe to chartography",
+  "time": 318.97,
+  "match": 1.0,
+  "heard": "subscribe to chartography"
+ }
+]
