@@ -1,0 +1,80 @@
+[
+ {
+  "phrase": "he said no",
+  "time": 4.14,
+  "match": 1.0,
+  "heard": "he said no"
+ },
+ {
+  "phrase": "back in 2022",
+  "time": 5.5,
+  "match": 1.0,
+  "heard": "back in twenty twenty two"
+ },
+ {
+  "phrase": "high nine digits",
+  "time": 10.46,
+  "match": 1.0,
+  "heard": "high nine digits"
+ },
+ {
+  "phrase": "reports later put it at",
+  "time": 12.14,
+  "match": 1.0,
+  "heard": "reports later put it at"
+ },
+ {
+  "phrase": "woods stayed with the",
+  "time": 16.54,
+  "match": 1.0,
+  "heard": "woods stayed with the"
+ },
+ {
+  "phrase": "to be fair the players who did sign",
+  "time": 19.34,
+  "match": 1.0,
+  "heard": "to be fair the players who did sign"
+ },
+ {
+  "phrase": "is in bankruptcy court",
+  "time": 26.78,
+  "match": 1.0,
+  "heard": "is in bankruptcy court"
+ },
+ {
+  "phrase": "at least one of its former stars",
+  "time": 28.46,
+  "match": 1.0,
+  "heard": "at least one of its former stars"
+ },
+ {
+  "phrase": "when brooks kepa returned",
+  "time": 31.96,
+  "match": 1.0,
+  "heard": "when brooks kepa returned"
+ },
+ {
+  "phrase": "five million dollar donation",
+  "time": 36.08,
+  "match": 1.0,
+  "heard": "five million dollar donation"
+ },
+ {
+  "phrase": "the price of coming back",
+  "time": 38.76,
+  "match": 1.0,
+  "heard": "the price of coming back"
+ },
+ {
+  "phrase": "in this story the man",
+  "time": 40.8,
+  "match": 1.0,
+  "heard": "in this story the man"
+ },
+ {
+  "phrase": "said no one",
+  "time": 42.52,
+  "match": 1.0,
+  "heard": "said no one"
+ }
+]
