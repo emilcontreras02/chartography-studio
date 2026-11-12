@@ -1,0 +1,602 @@
+[
+ {
+  "phrase": "by november it had lost",
+  "time": 4.94,
+  "match": 1.0,
+  "heard": "by november it had lost"
+ },
+ {
+  "phrase": "that's gold the thing",
+  "time": 9.5,
+  "match": 1.0,
+  "heard": "that's gold the thing"
+ },
+ {
+  "phrase": "it's supposed to be safe",
+  "time": 12.22,
+  "match": 1.0,
+  "heard": "it's supposed to be safe"
+ },
+ {
+  "phrase": "so what happened",
+  "time": 13.9,
+  "match": 1.0,
+  "heard": "so what happened"
+ },
+ {
+  "phrase": "is the safe haven still safe",
+  "time": 15.85,
+  "match": 1.0,
+  "heard": "is the safe haven still safe"
+ },
+ {
+  "phrase": "the answer is not what you'd expect",
+  "time": 18.21,
+  "match": 1.0,
+  "heard": "the answer is not what you'd expect"
+ },
+ {
+  "phrase": "first the climb",
+  "time": 21.13,
+  "match": 1.0,
+  "heard": "first the climb"
+ },
+ {
+  "phrase": "gold had its best year since 1979",
+  "time": 24.33,
+  "match": 1.0,
+  "heard": "gold had its best year since nineteen seventy nine"
+ },
+ {
+  "phrase": "then in january",
+  "time": 27.85,
+  "match": 1.0,
+  "heard": "then in january"
+ },
+ {
+  "phrase": "passed 5000 dollars an ounce",
+  "time": 31.69,
+  "match": 1.0,
+  "heard": "passed five thousand dollars an ounce"
+ },
+ {
+  "phrase": "past 5500",
+  "time": 34.13,
+  "match": 1.0,
+  "heard": "past five thousand five hundred"
+ },
+ {
+  "phrase": "all the way to a record",
+  "time": 36.17,
+  "match": 1.0,
+  "heard": "all the way to a record"
+ },
+ {
+  "phrase": "analysts pointed to a weaker",
+  "time": 40.13,
+  "match": 1.0,
+  "heard": "analysts pointed to a weaker"
+ },
+ {
+  "phrase": "tension in the middle least",
+  "time": 42.85,
+  "match": 1.0,
+  "heard": "tension in the middle least"
+ },
+ {
+  "phrase": "a fear that governments would keep printing",
+  "time": 44.49,
+  "match": 1.0,
+  "heard": "a fear that governments would keep printing"
+ },
+ {
+  "phrase": "then came the drop",
+  "time": 47.31,
+  "match": 1.0,
+  "heard": "then came the drop"
+ },
+ {
+  "phrase": "by late june gold had slipped",
+  "time": 49.39,
+  "match": 1.0,
+  "heard": "by late june gold had slipped"
+ },
+ {
+  "phrase": "then on october thirtieth",
+  "time": 53.47,
+  "match": 1.0,
+  "heard": "then on october thirtieth"
+ },
+ {
+  "phrase": "and this week it's back under",
+  "time": 61.71,
+  "match": 1.0,
+  "heard": "and this week it's back under"
+ },
+ {
+  "phrase": "that's more than 1500 dollars gone",
+  "time": 64.71,
+  "match": 1.0,
+  "heard": "that's more than one thousand five hundred dollars gone"
+ },
+ {
+  "phrase": "the safe haven lost more than a quarter",
+  "time": 69.35,
+  "match": 1.0,
+  "heard": "the safe haven lost more than a quarter"
+ },
+ {
+  "phrase": "and the strangest part",
+  "time": 72.55,
+  "match": 1.0,
+  "heard": "and the strangest part"
+ },
+ {
+  "phrase": "the people who know gold best",
+  "time": 74.07,
+  "match": 1.0,
+  "heard": "the people who know gold best"
+ },
+ {
+  "phrase": "let's make that real",
+  "time": 79.82,
+  "match": 1.0,
+  "heard": "let's make that real"
+ },
+ {
+  "phrase": "say you put 10000 dollars",
+  "time": 81.38,
+  "match": 1.0,
+  "heard": "say you put ten thousand dollars"
+ },
+ {
+  "phrase": "worth only a little over 7000 dollars",
+  "time": 86.98,
+  "match": 1.0,
+  "heard": "worth only a little over seven thousand dollars"
+ },
+ {
+  "phrase": "nearly 3000 dollars gone",
+  "time": 89.82,
+  "match": 1.0,
+  "heard": "nearly three thousand dollars gone"
+ },
+ {
+  "phrase": "from the asset that was supposed",
+  "time": 93.93,
+  "match": 1.0,
+  "heard": "from the asset that was supposed"
+ },
+ {
+  "phrase": "so who pulled the plug",
+  "time": 97.13,
+  "match": 1.0,
+  "heard": "so who pulled the plug"
+ },
+ {
+  "phrase": "let's line up the suspects",
+  "time": 99.01,
+  "match": 1.0,
+  "heard": "let's line up the suspects"
+ },
+ {
+  "phrase": "suspect number one interest rates",
+  "time": 100.97,
+  "match": 1.0,
+  "heard": "suspect number one interest rates"
+ },
+ {
+  "phrase": "the federal reserve held its rate steady",
+  "time": 104.65,
+  "match": 1.0,
+  "heard": "the federal reserve held its rate steady"
+ },
+ {
+  "phrase": "the october inflation report came in hot",
+  "time": 111.72,
+  "match": 1.0,
+  "heard": "the october inflation report came in hot"
+ },
+ {
+  "phrase": "zero point four per cent in a single month",
+  "time": 115.52,
+  "match": 1.0,
+  "heard": "zero point four per cent in a single month"
+ },
+ {
+  "phrase": "now traders are betting heavily",
+  "time": 118.64,
+  "match": 1.0,
+  "heard": "now traders are betting heavily"
+ },
+ {
+  "phrase": "is a rate hike not a cut",
+  "time": 122.44,
+  "match": 0.86,
+  "heard": "is a rate high not a cut"
+ },
+ {
+  "phrase": "higher rates for longer are bad news",
+  "time": 124.76,
+  "match": 1.0,
+  "heard": "higher rates for longer are bad news"
+ },
+ {
+  "phrase": "suspect number two the dollar",
+  "time": 130.76,
+  "match": 1.0,
+  "heard": "suspect number two the dollar"
+ },
+ {
+  "phrase": "gold is priced in dollars",
+  "time": 133.52,
+  "match": 1.0,
+  "heard": "gold is priced in dollars"
+ },
+ {
+  "phrase": "when the dollar gets stronger",
+  "time": 135.6,
+  "match": 1.0,
+  "heard": "when the dollar gets stronger"
+ },
+ {
+  "phrase": "analysts blamed a firmer dollar",
+  "time": 142.52,
+  "match": 1.0,
+  "heard": "analysts blamed a firmer dollar"
+ },
+ {
+  "phrase": "and suspect number three is the one",
+  "time": 147.28,
+  "match": 1.0,
+  "heard": "and suspect number three is the one"
+ },
+ {
+  "phrase": "this is where the story turns",
+  "time": 151.2,
+  "match": 1.0,
+  "heard": "this is where the story turns"
+ },
+ {
+  "phrase": "here's the twist",
+  "time": 153.52,
+  "match": 1.0,
+  "heard": "here's the twist"
+ },
+ {
+  "phrase": "gold pays you nothing",
+  "time": 155.12,
+  "match": 1.0,
+  "heard": "gold pays you nothing"
+ },
+ {
+  "phrase": "zero percent",
+  "time": 157.24,
+  "match": 1.0,
+  "heard": "zero percent"
+ },
+ {
+  "phrase": "no interest no dividend no rent",
+  "time": 158.56,
+  "match": 1.0,
+  "heard": "no interest no dividend no rent"
+ },
+ {
+  "phrase": "it just sits in a vault",
+  "time": 161.44,
+  "match": 1.0,
+  "heard": "it just sits in a vault"
+ },
+ {
+  "phrase": "for years that didn't matter much",
+  "time": 163.88,
+  "match": 1.0,
+  "heard": "for years that didn't matter much"
+ },
+ {
+  "phrase": "the yield on the ten year",
+  "time": 169.96,
+  "match": 1.0,
+  "heard": "the yield on the ten year"
+ },
+ {
+  "phrase": "so picture two safe places",
+  "time": 174.32,
+  "match": 1.0,
+  "heard": "so picture two safe places"
+ },
+ {
+  "phrase": "gold pays you zero",
+  "time": 178.52,
+  "match": 1.0,
+  "heard": "gold pays you zero"
+ },
+ {
+  "phrase": "the treasury pays you about 500 dollars",
+  "time": 180.28,
+  "match": 1.0,
+  "heard": "the treasury pays you about five hundred dollars"
+ },
+ {
+  "phrase": "the shiny option has to work",
+  "time": 188.52,
+  "match": 1.0,
+  "heard": "the shiny option has to work"
+ },
+ {
+  "phrase": "that's the case many analysts make",
+  "time": 192.08,
+  "match": 1.0,
+  "heard": "that's the case many analysts make"
+ },
+ {
+  "phrase": "rates went up and gold came down",
+  "time": 198.46,
+  "match": 1.0,
+  "heard": "rates went up and gold came down"
+ },
+ {
+  "phrase": "flip it around",
+  "time": 201.58,
+  "match": 1.0,
+  "heard": "flip it around"
+ },
+ {
+  "phrase": "you give up about 500 dollars",
+  "time": 206.94,
+  "match": 1.0,
+  "heard": "you give up about five hundred dollars"
+ },
+ {
+  "phrase": "over ten years",
+  "time": 209.98,
+  "match": 1.0,
+  "heard": "over ten years"
+ },
+ {
+  "phrase": "before any compounding",
+  "time": 214.34,
+  "match": 1.0,
+  "heard": "before any compounding"
+ },
+ {
+  "phrase": "gold has to climb just to keep up",
+  "time": 216.22,
+  "match": 1.0,
+  "heard": "gold has to climb just to keep up"
+ },
+ {
+  "phrase": "but here's the part that doesn't fit",
+  "time": 220.09,
+  "match": 1.0,
+  "heard": "but here's the part that doesn't fit"
+ },
+ {
+  "phrase": "the biggest gold buyers on the planet kept buying",
+  "time": 224.58,
+  "match": 1.0,
+  "heard": "the biggest gold buyers on the planet kept buying"
+ },
+ {
+  "phrase": "central banks the institutions",
+  "time": 228.26,
+  "match": 1.0,
+  "heard": "central banks the institutions"
+ },
+ {
+  "phrase": "added about 244 tons",
+  "time": 231.9,
+  "match": 1.0,
+  "heard": "added about two hundred forty four tons"
+ },
+ {
+  "phrase": "in the spring quarter",
+  "time": 237.58,
+  "match": 1.0,
+  "heard": "in the spring quarter"
+ },
+ {
+  "phrase": "their buying hit a record",
+  "time": 240.22,
+  "match": 1.0,
+  "heard": "their buying hit a record"
+ },
+ {
+  "phrase": "central bank buying jumped 42",
+  "time": 244.02,
+  "match": 1.0,
+  "heard": "central bank buying jumped forty two"
+ },
+ {
+  "phrase": "according to the world gold council",
+  "time": 247.82,
+  "match": 1.0,
+  "heard": "according to the world gold council"
+ },
+ {
+  "phrase": "regular investors didn't run",
+  "time": 249.8,
+  "match": 1.0,
+  "heard": "regular investors didn't run"
+ },
+ {
+  "phrase": "gold funds holdings",
+  "time": 252.32,
+  "match": 1.0,
+  "heard": "gold funds holdings"
+ },
+ {
+  "phrase": "and even in october",
+  "time": 255.44,
+  "match": 1.0,
+  "heard": "and even in october"
+ },
+ {
+  "phrase": "just less of it",
+  "time": 259.12,
+  "match": 1.0,
+  "heard": "just less of it"
+ },
+ {
+  "phrase": "so the slide didn't come",
+  "time": 260.52,
+  "match": 1.0,
+  "heard": "so the slide didn't come"
+ },
+ {
+  "phrase": "the price of money itself going up",
+  "time": 266.44,
+  "match": 1.0,
+  "heard": "the price of money itself going up"
+ },
+ {
+  "phrase": "treated the drop like a sale",
+  "time": 271.51,
+  "match": 1.0,
+  "heard": "treated the drop like a sale"
+ },
+ {
+  "phrase": "does that mean gold is about to bounce",
+  "time": 273.39,
+  "match": 1.0,
+  "heard": "does that mean gold is about to bounce"
+ },
+ {
+  "phrase": "history has a warning",
+  "time": 277.83,
+  "match": 1.0,
+  "heard": "history has a warning"
+ },
+ {
+  "phrase": "in january 1980",
+  "time": 279.51,
+  "match": 1.0,
+  "heard": "in january nineteen eighty"
+ },
+ {
+  "phrase": "gold hit 850 dollars an ounce",
+  "time": 283.15,
+  "match": 1.0,
+  "heard": "gold hit eight hundred fifty dollars an ounce"
+ },
+ {
+  "phrase": "again until two thousand eight",
+  "time": 287.49,
+  "match": 1.0,
+  "heard": "again until two thousand eight"
+ },
+ {
+  "phrase": "twenty eight years of waiting",
+  "time": 290.25,
+  "match": 1.0,
+  "heard": "twenty eight years of waiting"
+ },
+ {
+  "phrase": "and remember the year before",
+  "time": 292.37,
+  "match": 1.0,
+  "heard": "and remember the year before"
+ },
+ {
+  "phrase": "the last time gold had a better year",
+  "time": 296.61,
+  "match": 1.0,
+  "heard": "the last time gold had a better year"
+ },
+ {
+  "phrase": "this is history not a forecast",
+  "time": 300.41,
+  "match": 1.0,
+  "heard": "this is history not a forecast"
+ },
+ {
+  "phrase": "safe and fast are not the same",
+  "time": 304.44,
+  "match": 1.0,
+  "heard": "safe and fast are not the same"
+ },
+ {
+  "phrase": "if you own gold nothing about the metal",
+  "time": 307.56,
+  "match": 1.0,
+  "heard": "if you own gold nothing about the metal"
+ },
+ {
+  "phrase": "same weight same shine",
+  "time": 311.24,
+  "match": 1.0,
+  "heard": "same weight same shine"
+ },
+ {
+  "phrase": "what changed is what people will pay",
+  "time": 313.28,
+  "match": 1.0,
+  "heard": "what changed is what people will pay"
+ },
+ {
+  "phrase": "so is the safe haven still safe",
+  "time": 318.98,
+  "match": 1.0,
+  "heard": "so is the safe haven still safe"
+ },
+ {
+  "phrase": "it depends on what you mean by safe",
+  "time": 321.98,
+  "match": 1.0,
+  "heard": "it depends on what you mean by safe"
+ },
+ {
+  "phrase": "over decades gold has been good",
+  "time": 324.66,
+  "match": 1.0,
+  "heard": "over decades gold has been good"
+ },
+ {
+  "phrase": "over months it can fall",
+  "time": 329.62,
+  "match": 1.0,
+  "heard": "over months it can fall"
+ },
+ {
+  "phrase": "this year it lost more than a quarter",
+  "time": 333.54,
+  "match": 1.0,
+  "heard": "this year it lost more than a quarter"
+ },
+ {
+  "phrase": "gold is safe from a lot of things",
+  "time": 338.06,
+  "match": 1.0,
+  "heard": "gold is safe from a lot of things"
+ },
+ {
+  "phrase": "it is not safe from interest rates",
+  "time": 340.46,
+  "match": 1.0,
+  "heard": "it is not safe from interest rates"
+ },
+ {
+  "phrase": "just the numbers",
+  "time": 344.86,
+  "match": 1.0,
+  "heard": "just the numbers"
+ },
+ {
+  "phrase": "so here's my question for you",
+  "time": 345.94,
+  "match": 1.0,
+  "heard": "so here's my question for you"
+ },
+ {
+  "phrase": "tell me in the comments",
+  "time": 352.54,
+  "match": 1.0,
+  "heard": "tell me in the comments"
+ },
+ {
+  "phrase": "subscribe to",
+  "time": 356.27,
+  "match": 1.0,
+  "heard": "subscribe to"
+ }
+]
