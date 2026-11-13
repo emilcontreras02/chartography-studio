@@ -1,0 +1,608 @@
+[
+ {
+  "phrase": "today it costs about four and a half",
+  "time": 6.46,
+  "match": 1.0,
+  "heard": "to day it costs about four and a half"
+ },
+ {
+  "phrase": "so buying a house was easier back then",
+  "time": 8.74,
+  "match": 0.88,
+  "heard": "half so buying a house was easier back"
+ },
+ {
+  "phrase": "not so fast",
+  "time": 13.18,
+  "match": 1.0,
+  "heard": "not so fast"
+ },
+ {
+  "phrase": "we ran three tests",
+  "time": 14.66,
+  "match": 1.0,
+  "heard": "we ran three tests"
+ },
+ {
+  "phrase": "the answer is not what you'd expect",
+  "time": 19.67,
+  "match": 1.0,
+  "heard": "the answer is not what you'd expect"
+ },
+ {
+  "phrase": "let's build a time machine",
+  "time": 22.27,
+  "match": 1.0,
+  "heard": "let's build a time machine"
+ },
+ {
+  "phrase": "we take one family",
+  "time": 24.15,
+  "match": 1.0,
+  "heard": "we take one family"
+ },
+ {
+  "phrase": "we send them shopping",
+  "time": 29.63,
+  "match": 1.0,
+  "heard": "we send them shopping"
+ },
+ {
+  "phrase": "the sticker price the down payment",
+  "time": 39.37,
+  "match": 1.0,
+  "heard": "the sticker price the down payment"
+ },
+ {
+  "phrase": "the down payment and the monthly",
+  "time": 40.49,
+  "match": 1.0,
+  "heard": "the down payment and the monthly"
+ },
+ {
+  "phrase": "and the monthly payment",
+  "time": 41.53,
+  "match": 1.0,
+  "heard": "and the monthly payment"
+ },
+ {
+  "phrase": "whoever has the easier time",
+  "time": 42.93,
+  "match": 1.0,
+  "heard": "whoever has the easier time"
+ },
+ {
+  "phrase": "quick ground rules",
+  "time": 46.01,
+  "match": 1.0,
+  "heard": "quick ground rules"
+ },
+ {
+  "phrase": "the median price of new homes sold",
+  "time": 47.85,
+  "match": 0.86,
+  "heard": "the median price of new home sold"
+ },
+ {
+  "phrase": "and the medium household income",
+  "time": 51.41,
+  "match": 1.0,
+  "heard": "and the medium household income"
+ },
+ {
+  "phrase": "no inflation tricks",
+  "time": 55.05,
+  "match": 1.0,
+  "heard": "no inflation tricks"
+ },
+ {
+  "phrase": "round one the sticker price",
+  "time": 58.77,
+  "match": 1.0,
+  "heard": "round one the sticker price"
+ },
+ {
+  "phrase": "the median new home sold for about",
+  "time": 62.61,
+  "match": 1.0,
+  "heard": "the median new home sold for about"
+ },
+ {
+  "phrase": "the median household earned",
+  "time": 67.85,
+  "match": 1.0,
+  "heard": "the median household earned"
+ },
+ {
+  "phrase": "divide one by the other",
+  "time": 72.57,
+  "match": 1.0,
+  "heard": "divide one by the other"
+ },
+ {
+  "phrase": "now jump to 2026",
+  "time": 77.69,
+  "match": 1.0,
+  "heard": "now jump to twenty twenty six"
+ },
+ {
+  "phrase": "the median new home in the third quarter",
+  "time": 79.73,
+  "match": 1.0,
+  "heard": "the median new home in the third quarter"
+ },
+ {
+  "phrase": "the latest medium household income",
+  "time": 85.83,
+  "match": 1.0,
+  "heard": "the latest medium household income"
+ },
+ {
+  "phrase": "that house costs about four and a half",
+  "time": 92.47,
+  "match": 1.0,
+  "heard": "that house costs about four and a half"
+ },
+ {
+  "phrase": "pay checks grew about three",
+  "time": 96.11,
+  "match": 1.0,
+  "heard": "pay checks grew about three"
+ },
+ {
+  "phrase": "new home prices grew about",
+  "time": 99.59,
+  "match": 1.0,
+  "heard": "new home prices grew about"
+ },
+ {
+  "phrase": "so almost a full extra year",
+  "time": 102.93,
+  "match": 1.0,
+  "heard": "so almost a full extra year"
+ },
+ {
+  "phrase": "if the family could save every single dollar",
+  "time": 106.85,
+  "match": 1.0,
+  "heard": "if the family could save every single dollar"
+ },
+ {
+  "phrase": "round one goes to 1985",
+  "time": 114.49,
+  "match": 1.0,
+  "heard": "round one goes to nineteen eighty five"
+ },
+ {
+  "phrase": "to put twenty per cent down on a new home",
+  "time": 117.25,
+  "match": 1.0,
+  "heard": "to put twenty per cent down on a new home"
+ },
+ {
+  "phrase": "it takes almost eleven",
+  "time": 124.58,
+  "match": 1.0,
+  "heard": "it takes almost eleven"
+ },
+ {
+  "phrase": "here's the math twenty per cent",
+  "time": 126.98,
+  "match": 1.0,
+  "heard": "here's the math twenty per cent"
+ },
+ {
+  "phrase": "twenty per cent of 84275",
+  "time": 128.3,
+  "match": 1.0,
+  "heard": "twenty per cent of eighty four thousand two hundred seventy five"
+ },
+ {
+  "phrase": "on 23620 dollars a year",
+  "time": 135.46,
+  "match": 1.0,
+  "heard": "on twenty three thousand six hundred twenty dollars a year"
+ },
+ {
+  "phrase": "now take today's new home",
+  "time": 142.37,
+  "match": 1.0,
+  "heard": "now take today's new home"
+ },
+ {
+  "phrase": "twenty per cent is 78660",
+  "time": 147.37,
+  "match": 1.0,
+  "heard": "twenty per cent is seventy eight thousand six hundred sixty"
+ },
+ {
+  "phrase": "on 87460 dollars a year",
+  "time": 151.21,
+  "match": 1.0,
+  "heard": "on eighty seven thousand four hundred sixty dollars a year"
+ },
+ {
+  "phrase": "before food before rent",
+  "time": 156.95,
+  "match": 1.0,
+  "heard": "before food before rent"
+ },
+ {
+  "phrase": "round two goes to 1985",
+  "time": 160.87,
+  "match": 1.0,
+  "heard": "round two goes to nineteen eighty five"
+ },
+ {
+  "phrase": "two rounds down",
+  "time": 163.75,
+  "match": 1.0,
+  "heard": "two rounds down"
+ },
+ {
+  "phrase": "looks like a blow",
+  "time": 165.11,
+  "match": 1.0,
+  "heard": "looks like a blow"
+ },
+ {
+  "phrase": "here's where the time machine breaks down",
+  "time": 167.03,
+  "match": 1.0,
+  "heard": "here's where the time machine breaks down"
+ },
+ {
+  "phrase": "in 1985 mortgage rates were about 13 percent",
+  "time": 169.07,
+  "match": 0.9,
+  "heard": "down in nineteen eighty five mortgage rates were about thirteen"
+ },
+ {
+  "phrase": "were about thirteen per cent",
+  "time": 171.99,
+  "match": 1.0,
+  "heard": "were about thirteen per cent"
+ },
+ {
+  "phrase": "ate about thirty eight per cent",
+  "time": 175.84,
+  "match": 1.0,
+  "heard": "ate about thirty eight per cent"
+ },
+ {
+  "phrase": "picture a 30 year fixed loan",
+  "time": 179.77,
+  "match": 1.0,
+  "heard": "picture a thirty year fixed loan"
+ },
+ {
+  "phrase": "in january 1985 the average rate",
+  "time": 184.25,
+  "match": 1.0,
+  "heard": "in january nineteen eighty five the average rate"
+ },
+ {
+  "phrase": "that's about 751 dollars a month",
+  "time": 189.44,
+  "match": 1.0,
+  "heard": "that's about seven hundred fifty one dollars a month"
+ },
+ {
+  "phrase": "about thirty eight per cent of every pay check",
+  "time": 197.92,
+  "match": 1.0,
+  "heard": "about thirty eight per cent of every pay check"
+ },
+ {
+  "phrase": "now twenty twenty six",
+  "time": 201.16,
+  "match": 1.0,
+  "heard": "now twenty twenty six"
+ },
+ {
+  "phrase": "this week's average rate is",
+  "time": 203.12,
+  "match": 1.0,
+  "heard": "this week's average rate is"
+ },
+ {
+  "phrase": "that's about 2117 dollars a month",
+  "time": 206.68,
+  "match": 1.0,
+  "heard": "that's about two thousand one hundred seventeen dollars a month"
+ },
+ {
+  "phrase": "about twenty nine per cent",
+  "time": 214.08,
+  "match": 1.0,
+  "heard": "about twenty nine per cent"
+ },
+ {
+  "phrase": "day's bill is the bigger number",
+  "time": 215.99,
+  "match": 1.0,
+  "heard": "day's bill is the bigger number"
+ },
+ {
+  "phrase": "but 1985's bill took the bigger bite",
+  "time": 218.28,
+  "match": 0.89,
+  "heard": "but nineteen eighty fives bill took the bigger bite"
+ },
+ {
+  "phrase": "in this round your parents lost",
+  "time": 221.4,
+  "match": 1.0,
+  "heard": "in this round your parents lost"
+ },
+ {
+  "phrase": "so here's the twist",
+  "time": 224.0,
+  "match": 1.0,
+  "heard": "so here's the twist"
+ },
+ {
+  "phrase": "the thing that made 1985 hard wasn't the house",
+  "time": 225.6,
+  "match": 1.0,
+  "heard": "the thing that made nineteen eighty five hard wasn't the house"
+ },
+ {
+  "phrase": "it was the money you borrowed",
+  "time": 229.24,
+  "match": 1.0,
+  "heard": "it was the money you borrowed"
+ },
+ {
+  "phrase": "and that shows up again over the whole loan",
+  "time": 231.52,
+  "match": 1.0,
+  "heard": "and that shows up again over the whole loan"
+ },
+ {
+  "phrase": "the 1985 family would pay about",
+  "time": 235.72,
+  "match": 1.0,
+  "heard": "the nineteen eighty five family would pay about"
+ },
+ {
+  "phrase": "that's about 2.4 times the price",
+  "time": 241.49,
+  "match": 1.0,
+  "heard": "that's about two point four times the price"
+ },
+ {
+  "phrase": "today's family would pay about 447",
+  "time": 245.29,
+  "match": 0.89,
+  "heard": "day's family would pay about four hundred forty seven"
+ },
+ {
+  "phrase": "a bigger pile of money but only",
+  "time": 249.85,
+  "match": 1.0,
+  "heard": "a bigger pile of money but only"
+ },
+ {
+  "phrase": "but high rates have one weakness",
+  "time": 255.01,
+  "match": 1.0,
+  "heard": "but high rates have one weakness"
+ },
+ {
+  "phrase": "they can come down",
+  "time": 257.44,
+  "match": 1.0,
+  "heard": "they can come down"
+ },
+ {
+  "phrase": "by the last week of 1985",
+  "time": 258.88,
+  "match": 1.0,
+  "heard": "by the last week of nineteen eighty five"
+ },
+ {
+  "phrase": "a family that bought in january could later refinance",
+  "time": 265.4,
+  "match": 1.0,
+  "heard": "a family that bought in january could later refinance"
+ },
+ {
+  "phrase": "a high price is different",
+  "time": 270.04,
+  "match": 1.0,
+  "heard": "a high price is different"
+ },
+ {
+  "phrase": "you can't refinance the price of a house",
+  "time": 272.0,
+  "match": 1.0,
+  "heard": "you can't refinance the price of a house"
+ },
+ {
+  "phrase": "once you've paid it it's paid",
+  "time": 274.47,
+  "match": 1.0,
+  "heard": "once you've paid it it's paid"
+ },
+ {
+  "phrase": "so who really had it harder",
+  "time": 276.59,
+  "match": 1.0,
+  "heard": "so who really had it harder"
+ },
+ {
+  "phrase": "this is where people disagree",
+  "time": 278.87,
+  "match": 1.0,
+  "heard": "this is where people disagree"
+ },
+ {
+  "phrase": "one side says 1985 was easier",
+  "time": 282.67,
+  "match": 1.0,
+  "heard": "one side says nineteen eighty five was easier"
+ },
+ {
+  "phrase": "the house cost less the down payment",
+  "time": 285.59,
+  "match": 1.0,
+  "heard": "the house cost less the down payment"
+ },
+ {
+  "phrase": "once they were in falling rates",
+  "time": 290.92,
+  "match": 1.0,
+  "heard": "once they were in falling rates"
+ },
+ {
+  "phrase": "the other side says 1985 was harder",
+  "time": 293.88,
+  "match": 1.0,
+  "heard": "the other side says nineteen eighty five was harder"
+ },
+ {
+  "phrase": "every single month more than a third",
+  "time": 297.76,
+  "match": 1.0,
+  "heard": "every single month more than a third"
+ },
+ {
+  "phrase": "a thirteen per cent mortgage looked like",
+  "time": 306.46,
+  "match": 1.0,
+  "heard": "a thirteen per cent mortgage looked like"
+ },
+ {
+  "phrase": "here's what the numbers say",
+  "time": 310.38,
+  "match": 1.0,
+  "heard": "here's what the numbers say"
+ },
+ {
+  "phrase": "the 1985 buyer had a harder month",
+  "time": 312.34,
+  "match": 1.0,
+  "heard": "the nineteen eighty five buyer had a harder month"
+ },
+ {
+  "phrase": "the 2026 buyer has a harder start",
+  "time": 315.7,
+  "match": 1.0,
+  "heard": "the twenty twenty six buyer has a harder start"
+ },
+ {
+  "phrase": "getting into the house is the hard part now",
+  "time": 319.18,
+  "match": 1.0,
+  "heard": "getting into the house is the hard part now"
+ },
+ {
+  "phrase": "and right now the story is moving",
+  "time": 324.43,
+  "match": 1.0,
+  "heard": "and right now the story is moving"
+ },
+ {
+  "phrase": "mortgage rates just fell for a fourth straight week",
+  "time": 327.75,
+  "match": 1.0,
+  "heard": "mortgage rates just fell for a fourth straight week"
+ },
+ {
+  "phrase": "a year ago there were",
+  "time": 334.07,
+  "match": 1.0,
+  "heard": "a year ago there were"
+ },
+ {
+  "phrase": "still higher than last year",
+  "time": 337.54,
+  "match": 1.0,
+  "heard": "still higher than last year"
+ },
+ {
+  "phrase": "if rates keep falling",
+  "time": 342.58,
+  "match": 1.0,
+  "heard": "if rates keep falling"
+ },
+ {
+  "phrase": "if prices keep climbing",
+  "time": 347.86,
+  "match": 1.0,
+  "heard": "if prices keep climbing"
+ },
+ {
+  "phrase": "one honest footnote",
+  "time": 352.7,
+  "match": 1.0,
+  "heard": "one honest footnote"
+ },
+ {
+  "phrase": "our payment math is an illustration",
+  "time": 354.55,
+  "match": 1.0,
+  "heard": "our payment math is an illustration"
+ },
+ {
+  "phrase": "real bills are higher in both years",
+  "time": 362.39,
+  "match": 1.0,
+  "heard": "real bills are higher in both years"
+ },
+ {
+  "phrase": "this is an advice just the numbers",
+  "time": 365.11,
+  "match": 1.0,
+  "heard": "this is an advice just the numbers"
+ },
+ {
+  "phrase": "so the final score",
+  "time": 367.99,
+  "match": 1.0,
+  "heard": "so the final score"
+ },
+ {
+  "phrase": "two rounds to 1985 one round to 2026",
+  "time": 369.91,
+  "match": 1.0,
+  "heard": "two rounds to nineteen eighty five one round to twenty twenty six"
+ },
+ {
+  "phrase": "but the round that hits you every single month",
+  "time": 374.35,
+  "match": 1.0,
+  "heard": "but the round that hits you every single month"
+ },
+ {
+  "phrase": "so here's my question for you",
+  "time": 378.47,
+  "match": 1.0,
+  "heard": "so here's my question for you"
+ },
+ {
+  "phrase": "would you rather have a cheaper house",
+  "time": 380.71,
+  "match": 1.0,
+  "heard": "would you rather have a cheaper house"
+ },
+ {
+  "phrase": "tell me in the comments",
+  "time": 387.38,
+  "match": 1.0,
+  "heard": "tell me in the comments"
+ },
+ {
+  "phrase": "subscribe to chartography",
+  "time": 391.62,
+  "match": 1.0,
+  "heard": "subscribe to chartography"
+ },
+ {
+  "phrase": "and if you like seeing the story",
+  "time": 388.86,
+  "match": 1.0,
+  "heard": "and if you like seeing the story"
+ }
+]
