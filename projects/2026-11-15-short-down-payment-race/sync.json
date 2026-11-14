@@ -1,0 +1,92 @@
+[
+ {
+  "phrase": "a typical family needed about eight and a half months",
+  "time": 3.32,
+  "match": 1.0,
+  "heard": "a typical family needed about eight and a half months"
+ },
+ {
+  "phrase": "here's the math",
+  "time": 9.4,
+  "match": 1.0,
+  "heard": "here's the math"
+ },
+ {
+  "phrase": "twenty per cent of eighty four thousand",
+  "time": 10.72,
+  "match": 1.0,
+  "heard": "twenty per cent of eighty four thousand"
+ },
+ {
+  "phrase": "is sixteen thousand eight hundred fifty five",
+  "time": 14.6,
+  "match": 1.0,
+  "heard": "is sixteen thousand eight hundred fifty five"
+ },
+ {
+  "phrase": "on twenty three thousand six hundred twenty",
+  "time": 17.88,
+  "match": 1.0,
+  "heard": "on twenty three thousand six hundred twenty"
+ },
+ {
+  "phrase": "that's about eight and a half months",
+  "time": 20.95,
+  "match": 1.0,
+  "heard": "that's about eight and a half months"
+ },
+ {
+  "phrase": "now take today's new home",
+  "time": 24.79,
+  "match": 1.0,
+  "heard": "now take today's new home"
+ },
+ {
+  "phrase": "three hundred ninety three thousand",
+  "time": 26.71,
+  "match": 1.0,
+  "heard": "three hundred ninety three thousand"
+ },
+ {
+  "phrase": "twenty per cent is seventy eight",
+  "time": 29.79,
+  "match": 1.0,
+  "heard": "twenty per cent is seventy eight"
+ },
+ {
+  "phrase": "on eighty seven thousand four hundred sixty",
+  "time": 33.63,
+  "match": 1.0,
+  "heard": "on eighty seven thousand four hundred sixty"
+ },
+ {
+  "phrase": "that's almost eleven months",
+  "time": 37.19,
+  "match": 1.0,
+  "heard": "that's almost eleven months"
+ },
+ {
+  "phrase": "before food",
+  "time": 39.37,
+  "match": 1.0,
+  "heard": "before food"
+ },
+ {
+  "phrase": "before rent",
+  "time": 40.53,
+  "match": 1.0,
+  "heard": "before rent"
+ },
+ {
+  "phrase": "before anything else",
+  "time": 41.53,
+  "match": 1.0,
+  "heard": "before anything else"
+ },
+ {
+  "phrase": "round two goes to nineteen eighty five",
+  "time": 43.29,
+  "match": 1.0,
+  "heard": "round two goes to nineteen eighty five"
+ }
+]
