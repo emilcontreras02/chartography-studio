@@ -1,0 +1,104 @@
+[
+ {
+  "phrase": "hit 5,048",
+  "time": 1.98,
+  "match": 1.0,
+  "heard": "hit five thousand forty eight"
+ },
+ {
+  "phrase": "everyone was sure the internet",
+  "time": 4.06,
+  "match": 1.0,
+  "heard": "every one was sure the internet"
+ },
+ {
+  "phrase": "by october two thousand two the",
+  "time": 7.26,
+  "match": 1.0,
+  "heard": "by october two thousand two the"
+ },
+ {
+  "phrase": "had fallen seventy eight per cent",
+  "time": 10.18,
+  "match": 1.0,
+  "heard": "had fallen seventy eight per cent"
+ },
+ {
+  "phrase": "about five trillion dollars",
+  "time": 12.38,
+  "match": 1.0,
+  "heard": "about five trillion dollars"
+ },
+ {
+  "phrase": "Cisco, one of the stars",
+  "time": 15.92,
+  "match": 1.0,
+  "heard": "cisco one of the stars"
+ },
+ {
+  "phrase": "fell around eighty per cent",
+  "time": 18.32,
+  "match": 1.0,
+  "heard": "fell around eighty per cent"
+ },
+ {
+  "phrase": "Amazon dropped from 113",
+  "time": 20.2,
+  "match": 1.0,
+  "heard": "amazon dropped from one hundred thirteen"
+ },
+ {
+  "phrase": "to about 15",
+  "time": 23.76,
+  "match": 1.0,
+  "heard": "to about fifteen"
+ },
+ {
+  "phrase": "does that mean a i is about to crash",
+  "time": 25.2,
+  "match": 1.0,
+  "heard": "does that mean a i is about to crash"
+ },
+ {
+  "phrase": "here's the twist",
+  "time": 28.12,
+  "match": 1.0,
+  "heard": "here's the twist"
+ },
+ {
+  "phrase": "nobody knows when a bubble pops",
+  "time": 29.76,
+  "match": 1.0,
+  "heard": "nobody knows when a bubble pops"
+ },
+ {
+  "phrase": "not even the experts",
+  "time": 31.8,
+  "match": 1.0,
+  "heard": "not even the experts"
+ },
+ {
+  "phrase": "a bubble bursting does not mean",
+  "time": 35.29,
+  "match": 1.0,
+  "heard": "a bubble bursting does not mean"
+ },
+ {
+  "phrase": "look at the internette",
+  "time": 39.53,
+  "match": 1.0,
+  "heard": "look at the internette"
+ },
+ {
+  "phrase": "the bubble burst",
+  "time": 40.97,
+  "match": 1.0,
+  "heard": "the bubble burst"
+ },
+ {
+  "phrase": "the internet didn't",
+  "time": 42.41,
+  "match": 1.0,
+  "heard": "the internet didn't"
+ }
+]
