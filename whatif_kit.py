@@ -298,3 +298,34 @@ def captions(d, T, chunks, y=1430, keywords=(), speaker_colors=None, size=78):
 def host(img, T, x=None, y=None, h=230, start=0.0):
     """The mascot as a persistent on-screen host (bottom-right), gently bobbing."""
     ce.mascot(img, (x if x is not None else W - 270, y if y is not None else 1110), h, T=T, start=start)
+
+
+def actor(img, d, T, x, yfoot, h=330, mood=None, mood_t=0.0, flip=False):
+    """The mascot as the MAIN CHARACTER standing in a scene (center x, feet at yfoot).
+    Never redrawn: only moved/resized/flipped; emotion comes from motion + effects.
+    mood: None | 'shock' (shake, '!!', sweat drops) | 'think' (floating '?') | 'happy' (hop)."""
+    ce.mascot(img, (0, -9999), h)  # warm the cache
+    m = ce._MASCOT[(h, False)]
+    w = m.width
+    bx = x - w / 2
+    by = yfoot - h + math.sin(T * 2.4) * 5
+    since = T - mood_t
+    if mood == 'shock' and 0 <= since < 1.4:
+        bx += math.sin(T * 70) * 10 * (1 - since / 1.4)
+    if mood == 'happy' and since >= 0:
+        by -= abs(math.sin(since * 6)) * 24 * max(0, 1 - since / 2)
+    ce.mascot(img, (bx, by), h, flip=flip)
+    if mood == 'shock' and since >= 0:
+        a = min(1, since / 0.15)
+        text(d, (bx + w * 0.78, by - 10), '!!', F('sansb', int(h * 0.32)), CORAL, a, anchor='mm', rise=0)
+        for i, (sx, sy) in enumerate([(0.12, 0.2), (0.05, 0.38)]):
+            yy = by + h * sy + ((since * 120 + i * 40) % 60)
+            xx = bx + w * sx
+            d.polygon([(xx, yy - 22), (xx - 12, yy), (xx + 12, yy)], fill=(150, 210, 255))
+            d.ellipse([xx - 12, yy - 10, xx + 12, yy + 14], fill=(150, 210, 255))
+    if mood == 'think' and since >= 0:
+        for i in range(3):
+            a = min(1, max(0, (since - i * 0.35) / 0.3))
+            yy = by - 30 - i * 55 - math.sin(T * 3 + i) * 8
+            text(d, (bx + w * (0.75 + i * 0.12), yy), '?', F('serifb', 70 + i * 16), AMBER, a, anchor='mm', rise=0)
+    return bx, by, w
