@@ -1,0 +1,28 @@
+Which jobs can AI already do the most of? Microsoft Research scored US jobs using about 200,000 real Copilot chats, and the top 10 are not the factory jobs you'd expect.
+
+We count down the 10 jobs with the highest "AI applicability" score, from mathematicians (0.386) to the #1 job at 0.492, plus the 2.86 million customer service workers who make one rank bigger than the other nine combined, and the hands-on jobs that score zero. A high score means AI can help with many tasks; the researchers warn it is not a prediction of job loss.
+
+Which one surprised you? Tell me in the comments.
+Subscribe to Chartography for the next Top 10.
+
+Chapters:
+0:00 The 0.49 question
+0:20 #10-#9: Mathematicians and political scientists
+1:35 #8-#7: Telemarketers and customer service
+2:31 #6-#5: Radio DJs and CNC programmers
+3:13 #4-#3: Sales reps and writers
+3:51 #2: Historians
+4:11 #1 revealed
+4:44 The twist: jobs that score zero
+5:18 The researchers' warning
+5:54 Recap of all 10
+6:32 Your turn
+
+Sources:
+- Microsoft Research, Tomlinson et al., "Working with AI: Measuring the Applicability of Generative AI to Occupations", Table L.4 (top 40) and Table L.5 (bottom 40); US Bing Copilot conversations Jan 1 - Sep 30, 2024; employment = BLS OEWS 2023 (as of v7, Oct 23, 2026): https://arxiv.org/html/2507.07935v7
+- Same paper, Dec 22, 2025 version (authors' caution on reading scores as job loss): https://arxiv.org/html/2507.07935
+- Version history: https://arxiv.org/abs/2507.07935
+
+Chartography: the story behind the numbers.
+
+#AI #FutureOfWork #Jobs #Top10 #Microsoft
