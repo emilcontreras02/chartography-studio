@@ -1,0 +1,602 @@
+[
+ {
+  "phrase": "about 200,000 real conversations",
+  "time": 0.94,
+  "match": 1.0,
+  "heard": "about two hundred thousand real conversations"
+ },
+ {
+  "phrase": "gave hundreds of jobs a score",
+  "time": 6.3,
+  "match": 1.0,
+  "heard": "gave hundreds of jobs a score"
+ },
+ {
+  "phrase": "topscore is point four nine",
+  "time": 11.7,
+  "match": 1.0,
+  "heard": "topscore is point four nine"
+ },
+ {
+  "phrase": "it doesn't belong to a factory worker",
+  "time": 14.94,
+  "match": 1.0,
+  "heard": "it doesn't belong to a factory worker"
+ },
+ {
+  "phrase": "here are the ten highest",
+  "time": 17.3,
+  "match": 1.0,
+  "heard": "here are the ten highest"
+ },
+ {
+  "phrase": "number ten mathematicians",
+  "time": 20.5,
+  "match": 1.0,
+  "heard": "number ten mathematicians"
+ },
+ {
+  "phrase": "score point three nine",
+  "time": 23.1,
+  "match": 1.0,
+  "heard": "score point three nine"
+ },
+ {
+  "phrase": "only 2,220 americans",
+  "time": 25.38,
+  "match": 1.0,
+  "heard": "only two thousand two hundred twenty americans"
+ },
+ {
+  "phrase": "this list isn't about muscles",
+  "time": 32.86,
+  "match": 1.0,
+  "heard": "this list isn't about muscles"
+ },
+ {
+  "phrase": "it's about words numbers and information",
+  "time": 35.18,
+  "match": 1.0,
+  "heard": "it's about words numbers and information"
+ },
+ {
+  "phrase": "quick note on the score",
+  "time": 38.3,
+  "match": 1.0,
+  "heard": "quick note on the score"
+ },
+ {
+  "phrase": "looked at u s copylot chats",
+  "time": 41.22,
+  "match": 1.0,
+  "heard": "looked at u s copylot chats"
+ },
+ {
+  "phrase": "a score of one would mean",
+  "time": 50.96,
+  "match": 1.0,
+  "heard": "a score of one would mean"
+ },
+ {
+  "phrase": "zero means nothing",
+  "time": 55.6,
+  "match": 1.0,
+  "heard": "zero means nothing"
+ },
+ {
+  "phrase": "it measures tasks not lay offs",
+  "time": 57.2,
+  "match": 1.0,
+  "heard": "it measures tasks not lay offs"
+ },
+ {
+  "phrase": "and just missing the cut",
+  "time": 59.96,
+  "match": 1.0,
+  "heard": "and just missing the cut"
+ },
+ {
+  "phrase": "all of them score between",
+  "time": 69.75,
+  "match": 1.0,
+  "heard": "all of them score between"
+ },
+ {
+  "phrase": "keep that in mind",
+  "time": 73.47,
+  "match": 1.0,
+  "heard": "keep that in mind"
+ },
+ {
+  "phrase": "number nine political scientists",
+  "time": 78.67,
+  "match": 1.0,
+  "heard": "number nine political scientists"
+ },
+ {
+  "phrase": "there are 5,580 of them",
+  "time": 83.38,
+  "match": 1.0,
+  "heard": "there are five thousand five hundred eighty of them"
+ },
+ {
+  "phrase": "much of the job is reading",
+  "time": 86.9,
+  "match": 1.0,
+  "heard": "much of the job is reading"
+ },
+ {
+  "phrase": "exactly the kind of work people bring",
+  "time": 91.42,
+  "match": 1.0,
+  "heard": "exactly the kind of work people bring"
+ },
+ {
+  "phrase": "number eight telemarkeers",
+  "time": 95.94,
+  "match": 1.0,
+  "heard": "number eight telemarkeers"
+ },
+ {
+  "phrase": "that's 81,580 americans",
+  "time": 100.4,
+  "match": 1.0,
+  "heard": "that's eighty one thousand five hundred eighty americans"
+ },
+ {
+  "phrase": "scripted calls the same questions",
+  "time": 104.08,
+  "match": 1.0,
+  "heard": "scripted calls the same questions"
+ },
+ {
+  "phrase": "sounds like a chat bot's job description",
+  "time": 110.8,
+  "match": 1.0,
+  "heard": "sounds like a chat bot's job description"
+ },
+ {
+  "phrase": "number seven is the biggest one",
+  "time": 114.13,
+  "match": 1.0,
+  "heard": "number seven is the biggest one"
+ },
+ {
+  "phrase": "2.86 million americans work as customer service",
+  "time": 117.49,
+  "match": 0.9,
+  "heard": "two point eight six million americans work as customers service"
+ },
+ {
+  "phrase": "more than twice as many workers",
+  "time": 123.89,
+  "match": 1.0,
+  "heard": "more than twice as many workers"
+ },
+ {
+  "phrase": "the other nine add up to about",
+  "time": 128.26,
+  "match": 1.0,
+  "heard": "the other nine add up to about"
+ },
+ {
+  "phrase": "the score here is point for one",
+  "time": 131.78,
+  "match": 1.0,
+  "heard": "the score here is point for one"
+ },
+ {
+  "phrase": "answering questions looking up an account",
+  "time": 134.46,
+  "match": 1.0,
+  "heard": "answering questions looking up an account"
+ },
+ {
+  "phrase": "so here's the thing about number seven",
+  "time": 144.31,
+  "match": 1.0,
+  "heard": "so here's the thing about number seven"
+ },
+ {
+  "phrase": "it's just the biggest crowd",
+  "time": 148.95,
+  "match": 1.0,
+  "heard": "it's just the biggest crowd"
+ },
+ {
+  "phrase": "number six broadcast announcers",
+  "time": 151.19,
+  "match": 1.0,
+  "heard": "number six broadcast announcers"
+ },
+ {
+  "phrase": "that's 25,070 people",
+  "time": 156.79,
+  "match": 1.0,
+  "heard": "that's twenty five thousand seventy people"
+ },
+ {
+  "phrase": "writing what to say between songs",
+  "time": 159.48,
+  "match": 1.0,
+  "heard": "writing what to say between songs"
+ },
+ {
+  "phrase": "a lot of that job is words on a page",
+  "time": 164.6,
+  "match": 1.0,
+  "heard": "a lot of that job is words on a page"
+ },
+ {
+  "phrase": "number five is the odd one out",
+  "time": 169.24,
+  "match": 1.0,
+  "heard": "number five is the odd one out"
+ },
+ {
+  "phrase": "see and see tool programers at point four two",
+  "time": 171.72,
+  "match": 1.0,
+  "heard": "see and see tool programers at point four two"
+ },
+ {
+  "phrase": "they write the code that tells",
+  "time": 175.17,
+  "match": 1.0,
+  "heard": "they write the code that tells"
+ },
+ {
+  "phrase": "one job connected to the factory floor",
+  "time": 181.21,
+  "match": 1.0,
+  "heard": "one job connected to the factory floor"
+ },
+ {
+  "phrase": "but look closer",
+  "time": 184.85,
+  "match": 1.0,
+  "heard": "but look closer"
+ },
+ {
+  "phrase": "it's the programing part",
+  "time": 186.29,
+  "match": 1.0,
+  "heard": "it's the programing part"
+ },
+ {
+  "phrase": "28,030 americans do it",
+  "time": 190.7,
+  "match": 1.0,
+  "heard": "twenty eight thousand thirty americans do it"
+ },
+ {
+  "phrase": "number four sales representatives",
+  "time": 193.78,
+  "match": 1.0,
+  "heard": "number four sales representatives"
+ },
+ {
+  "phrase": "this one is huge",
+  "time": 198.9,
+  "match": 1.0,
+  "heard": "this one is huge"
+ },
+ {
+  "phrase": "emiles pitches follow ups",
+  "time": 203.74,
+  "match": 1.0,
+  "heard": "emiles pitches follow ups"
+ },
+ {
+  "phrase": "that's a big share of a sales person's day",
+  "time": 208.47,
+  "match": 1.0,
+  "heard": "that's a big share of a sales person's day"
+ },
+ {
+  "phrase": "number three writers and authors",
+  "time": 214.23,
+  "match": 1.0,
+  "heard": "number three writers and authors"
+ },
+ {
+  "phrase": "49,450 americans",
+  "time": 218.95,
+  "match": 1.0,
+  "heard": "forty nine thousand four hundred fifty americans"
+ },
+ {
+  "phrase": "no big surprise that a machine",
+  "time": 222.23,
+  "match": 1.0,
+  "heard": "no big surprise that a machine"
+ },
+ {
+  "phrase": "but wait",
+  "time": 227.59,
+  "match": 1.0,
+  "heard": "but wait"
+ },
+ {
+  "phrase": "number two historians",
+  "time": 231.55,
+  "match": 1.0,
+  "heard": "number two historians"
+ },
+ {
+  "phrase": "score point four six",
+  "time": 233.83,
+  "match": 1.0,
+  "heard": "score point four six"
+ },
+ {
+  "phrase": "there are only 3,040 historians",
+  "time": 235.75,
+  "match": 1.0,
+  "heard": "there are only three thousand forty historians"
+ },
+ {
+  "phrase": "their work is research",
+  "time": 240.07,
+  "match": 1.0,
+  "heard": "their work is research"
+ },
+ {
+  "phrase": "it turns out that's exactly the kind of work",
+  "time": 247.16,
+  "match": 1.0,
+  "heard": "it turns out that's exactly the kind of work"
+ },
+ {
+  "phrase": "and number one",
+  "time": 251.44,
+  "match": 1.0,
+  "heard": "and number one"
+ },
+ {
+  "phrase": "the job a i can already do the most of",
+  "time": 252.76,
+  "match": 1.0,
+  "heard": "the job a i can already do the most of"
+ },
+ {
+  "phrase": "that's 51,560 americans",
+  "time": 259.8,
+  "match": 1.0,
+  "heard": "that's fifty one thousand five hundred sixty americans"
+ },
+ {
+  "phrase": "pretty much what a language model",
+  "time": 266.96,
+  "match": 1.0,
+  "heard": "pretty much what a language model"
+ },
+ {
+  "phrase": "nobody wears a hard hat",
+  "time": 269.48,
+  "match": 1.0,
+  "heard": "nobody wears a hard hat"
+ },
+ {
+  "phrase": "remember number two",
+  "time": 274.28,
+  "match": 1.0,
+  "heard": "remember number two"
+ },
+ {
+  "phrase": "all 3,040 of them",
+  "time": 276.84,
+  "match": 1.0,
+  "heard": "all three thousand forty of them"
+ },
+ {
+  "phrase": "so the top of the list isn't a factory",
+  "time": 279.0,
+  "match": 1.0,
+  "heard": "so the top of the list isn't a factory"
+ },
+ {
+  "phrase": "two of the oldest desk jobs",
+  "time": 282.01,
+  "match": 1.0,
+  "heard": "two of the oldest desk jobs"
+ },
+ {
+  "phrase": "now here's the twist",
+  "time": 284.53,
+  "match": 1.0,
+  "heard": "now here's the twist"
+ },
+ {
+  "phrase": "look at the other end",
+  "time": 286.29,
+  "match": 1.0,
+  "heard": "look at the other end"
+ },
+ {
+  "phrase": "the jobs with a score of zero",
+  "time": 288.85,
+  "match": 1.0,
+  "heard": "the jobs with a score of zero"
+ },
+ {
+  "phrase": "bridge and lock tenders",
+  "time": 292.85,
+  "match": 1.0,
+  "heard": "bridge and lock tenders"
+ },
+ {
+  "phrase": "orderlies",
+  "time": 294.65,
+  "match": 1.0,
+  "heard": "orderlies"
+ },
+ {
+  "phrase": "pile driver operators",
+  "time": 295.61,
+  "match": 1.0,
+  "heard": "pile driver operators"
+ },
+ {
+  "phrase": "floor sanders and finishers",
+  "time": 297.25,
+  "match": 1.0,
+  "heard": "floor sanders and finishers"
+ },
+ {
+  "phrase": "people who run water treatment plants",
+  "time": 302.25,
+  "match": 1.0,
+  "heard": "people who run water treatment plants"
+ },
+ {
+  "phrase": "every single one is hands on work",
+  "time": 304.85,
+  "match": 1.0,
+  "heard": "every single one is hands on work"
+ },
+ {
+  "phrase": "we pictured robots coming",
+  "time": 308.93,
+  "match": 1.0,
+  "heard": "we pictured robots coming"
+ },
+ {
+  "phrase": "the jobs a i chatts touch the most are done at a desk",
+  "time": 314.51,
+  "match": 1.0,
+  "heard": "the jobs a i chatts touch the most are done at a desk"
+ },
+ {
+  "phrase": "desk but before",
+  "time": 318.72,
+  "match": 1.0,
+  "heard": "desk but before"
+ },
+ {
+  "phrase": "they say it would be a mistake",
+  "time": 325.71,
+  "match": 1.0,
+  "heard": "they say it would be a mistake"
+ },
+ {
+  "phrase": "a high score means a i can help",
+  "time": 339.29,
+  "match": 1.0,
+  "heard": "a high score means a i can help"
+ },
+ {
+  "phrase": "it is not a pink slip",
+  "time": 342.93,
+  "match": 1.0,
+  "heard": "it is not a pink slip"
+ },
+ {
+  "phrase": "and remember where the data comes from",
+  "time": 344.73,
+  "match": 1.0,
+  "heard": "and remember where the data comes from"
+ },
+ {
+  "phrase": "so here's the full top ten",
+  "time": 354.8,
+  "match": 1.0,
+  "heard": "so here's the full top ten"
+ },
+ {
+  "phrase": "ten mathematicians",
+  "time": 357.32,
+  "match": 1.0,
+  "heard": "ten mathematicians"
+ },
+ {
+  "phrase": "nine political scientists",
+  "time": 359.36,
+  "match": 1.0,
+  "heard": "nine political scientists"
+ },
+ {
+  "phrase": "eight telemarkeers",
+  "time": 361.72,
+  "match": 1.0,
+  "heard": "eight telemarkeers"
+ },
+ {
+  "phrase": "seven customers service",
+  "time": 363.69,
+  "match": 1.0,
+  "heard": "seven customers service"
+ },
+ {
+  "phrase": "six announcers and radio de jas",
+  "time": 365.97,
+  "match": 1.0,
+  "heard": "six announcers and radio de jas"
+ },
+ {
+  "phrase": "five c and c programers",
+  "time": 369.05,
+  "match": 1.0,
+  "heard": "five c and c programers"
+ },
+ {
+  "phrase": "four sales reps",
+  "time": 371.73,
+  "match": 1.0,
+  "heard": "four sales reps"
+ },
+ {
+  "phrase": "three writers",
+  "time": 373.73,
+  "match": 1.0,
+  "heard": "three writers"
+ },
+ {
+  "phrase": "two historians",
+  "time": 375.49,
+  "match": 1.0,
+  "heard": "two historians"
+ },
+ {
+  "phrase": "and number one interpreters and translators",
+  "time": 377.13,
+  "match": 1.0,
+  "heard": "and number one interpreters and translators"
+ },
+ {
+  "phrase": "almost every one of them is about words",
+  "time": 380.36,
+  "match": 1.0,
+  "heard": "almost every one of them is about words"
+ },
+ {
+  "phrase": "the biggest number on the whole board isn't",
+  "time": 384.84,
+  "match": 1.0,
+  "heard": "the biggest number on the whole board isn't"
+ },
+ {
+  "phrase": "it's the 2.86 million people in customer service",
+  "time": 388.27,
+  "match": 1.0,
+  "heard": "it's the two point eight six million people in customer service"
+ },
+ {
+  "phrase": "which one surprised you the most",
+  "time": 392.63,
+  "match": 1.0,
+  "heard": "which one surprised you the most"
+ },
+ {
+  "phrase": "subscribe to tchertography",
+  "time": 395.9,
+  "match": 1.0,
+  "heard": "subscribe to tchertography"
+ },
+ {
+  "phrase": "on friday the 10 highest paid jobs",
+  "time": 398.86,
+  "match": 1.0,
+  "heard": "on friday the ten highest paid jobs"
+ }
+]

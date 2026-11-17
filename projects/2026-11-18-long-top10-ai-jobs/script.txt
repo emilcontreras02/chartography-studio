@@ -1,0 +1,35 @@
+Microsoft studied about 200,000 real conversations Americans had with its AI assistant, and gave hundreds of jobs a score for how much of the work AI can already help with. The top score is point four nine out of one. And it doesn't belong to a factory worker.
+
+Here are the ten highest, counted down.
+
+Number ten: mathematicians. Score: point three nine. Only 2,220 Americans have that job title, so this one is small. But it tells you something right away. This list isn't about muscles. It's about words, numbers and information.
+
+Quick note on the score. Microsoft Research looked at US Copilot chats from January to September 2024, and checked which work activities people asked for help with, and how well the AI did. A score of one would mean AI touches almost everything a job does. Zero means nothing. It measures tasks, not layoffs.
+
+And just missing the cut, at eleven to fifteen: news reporters and journalists, passenger attendants, technical writers, concierges and proofreaders. All of them score between point three seven and point three eight. Keep that in mind, because almost every job you're about to see works with words.
+
+Number nine: political scientists, also at point three nine. There are 5,580 of them in the country. Much of the job is reading, researching and writing up findings. And that is exactly the kind of work people bring to an AI chat all day long.
+
+Number eight: telemarketers. Score: point four zero. That's 81,580 Americans. Scripted calls, the same questions, the same answers, over and over. If any job on this list sounds like a chatbot's job description, it's this one.
+
+Number seven is the biggest one on the whole list. 2.86 million Americans work as customer service representatives, and that one job has more than twice as many workers as the other nine on this list combined. The other nine add up to about 1.39 million. The score here is point four one. Answering questions, looking up an account, explaining a bill, writing a polite reply. Those are exactly the tasks people bring to AI chats every day. So here's the thing about number seven. It's not the highest score on the list. It's just the biggest crowd.
+
+Number six: broadcast announcers and radio DJs, also at point four one. That's 25,070 people. Writing what to say between songs, reading the news, preparing interviews. A lot of that job is words on a page before it ever goes on the air.
+
+Number five is the odd one out. CNC tool programmers, at point four two. They write the code that tells factory machines how to cut metal and other materials. So yes, one job connected to the factory floor made the top ten. But look closer. It's the programming part, the desk part, that AI can help with. 28,030 Americans do it.
+
+Number four: sales representatives of services, at point four five. This one is huge: 1.14 million Americans. Emails, pitches, follow-ups, research on the customer before the call. That's a big share of a salesperson's day, and it's the kind of writing AI chats help with.
+
+Number three: writers and authors, also at point four five. 49,450 Americans. No big surprise that a machine built to write scores high against people who write for a living. But wait. The two jobs above them are stranger.
+
+Number two: historians. Score: point four six. There are only 3,040 historians in the whole country. Their work is research. Digging through records, reading, summarizing, explaining what happened and why. It turns out that's exactly the kind of work people hand to AI.
+
+And number one. The job AI can already do the most of is interpreters and translators, at point four nine out of one. That's 51,560 Americans whose whole job is turning one language into another. Which is pretty much what a language model does best. Nobody wears a hard hat for this one. It's done at a desk, with words. Remember number two? Historians. All 3,040 of them. So the top of the list isn't a factory at all. It's two of the oldest desk jobs there are.
+
+Now here's the twist. Look at the other end of the same study. The jobs with a score of zero: dredge operators. Bridge and lock tenders. Orderlies. Pile driver operators. Floor sanders and finishers. And 120,710 people who run water treatment plants. Every single one is hands-on work. For years, we pictured robots coming for factory jobs first. This data points the other way. The jobs AI chats touch the most are done at a desk.
+
+But before anyone panics, the researchers themselves warn against reading this as a list of jobs that will disappear. They say it would be a mistake to conclude that a high score means a job will be automated, or that people will lose jobs or wages, because the effects of new technology are very hard to predict, and often counterintuitive. A high score means AI can help with a lot of the tasks. It is not a pink slip. And remember where the data comes from: what people asked one AI assistant during 2024. The tools change fast, and so do the jobs around them.
+
+So here's the full top ten. Ten, mathematicians. Nine, political scientists. Eight, telemarketers. Seven, customer service. Six, announcers and radio DJs. Five, CNC programmers. Four, sales reps. Three, writers. Two, historians. And number one, interpreters and translators. Almost every one of them is about words, talk or research. And the biggest number on the whole board isn't a score at all. It's the 2.86 million people in customer service.
+
+Which one surprised you the most? Tell me in the comments. And subscribe to Chartography for the next Top 10. On Friday: the 10 highest-paid jobs in the US government, and who quietly makes more than the President.
