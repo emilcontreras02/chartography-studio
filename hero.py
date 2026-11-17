@@ -141,6 +141,12 @@ def _render(h, pose, face, flip, talk_open):
         d.rounded_rectangle([bx * s, (150 - bh) * s, (bx + 16) * s, 150 * s], radius=3 * s, fill=WHITE)
     if flip:
         im = im.transpose(Image.FLIP_LEFT_RIGHT)
+        d = ImageDraw.Draw(im)
+        # keep the cap logo reading correctly (rising bars, left to right) when he faces the other way
+        d.rectangle([(UW - 244) * s, 90 * s, (UW - 172) * s, 152 * s], fill=CAP)
+        for bx, bh in [(128, 26), (150, 40), (172, 56)]:
+            x = UW - 236 + (bx - 128)
+            d.rounded_rectangle([x * s, (150 - bh) * s, (x + 16) * s, 150 * s], radius=3 * s, fill=WHITE)
     w = int(UW * h / UH)
     return im.resize((w, h), Image.LANCZOS)
 

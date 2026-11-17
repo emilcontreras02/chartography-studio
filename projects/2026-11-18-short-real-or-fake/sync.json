@@ -1,0 +1,68 @@
+[
+ {
+  "phrase": "a cocacola's first glasses",
+  "time": 3.82,
+  "match": 1.0,
+  "heard": "a cocacola's first glasses"
+ },
+ {
+  "phrase": "b gugall was offered",
+  "time": 8.34,
+  "match": 1.0,
+  "heard": "b gugall was offered"
+ },
+ {
+  "phrase": "c some one paid ten thousand",
+  "time": 13.7,
+  "match": 1.0,
+  "heard": "c some one paid ten thousand"
+ },
+ {
+  "phrase": "d walmart's first store opened in new york",
+  "time": 17.9,
+  "match": 1.0,
+  "heard": "d walmart's first store opened in new york"
+ },
+ {
+  "phrase": "atlanta in eighteen",
+  "time": 35.52,
+  "match": 1.0,
+  "heard": "atlanta in eighteen"
+ },
+ {
+  "phrase": "excite said no",
+  "time": 37.76,
+  "match": 1.0,
+  "heard": "excite said no"
+ },
+ {
+  "phrase": "and the pizzes were bought",
+  "time": 40.64,
+  "match": 1.0,
+  "heard": "and the pizzes were bought"
+ },
+ {
+  "phrase": "the fake one is d",
+  "time": 26.78,
+  "match": 1.0,
+  "heard": "the fake one is d"
+ },
+ {
+  "phrase": "three",
+  "time": 24.26,
+  "match": 1.0,
+  "heard": "three"
+ },
+ {
+  "phrase": "two",
+  "time": 25.22,
+  "match": 1.0,
+  "heard": "two"
+ },
+ {
+  "phrase": "one",
+  "time": 26.14,
+  "match": 1.0,
+  "heard": "one"
+ }
+]
