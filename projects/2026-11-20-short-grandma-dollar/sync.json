@@ -1,0 +1,38 @@
+[
+ {
+  "phrase": "gave me one dollar",
+  "time": 0.5,
+  "match": 1.0,
+  "heard": "gave me one dollar"
+ },
+ {
+  "phrase": "she said",
+  "time": 2.1,
+  "match": 1.0,
+  "heard": "she said"
+ },
+ {
+  "phrase": "to match one",
+  "time": 12.86,
+  "match": 1.0,
+  "heard": "to match one"
+ },
+ {
+  "phrase": "eleven dollars and forty",
+  "time": 16.1,
+  "match": 1.0,
+  "heard": "eleven dollars and forty"
+ },
+ {
+  "phrase": "nine cents in",
+  "time": 26.96,
+  "match": 1.0,
+  "heard": "nine cents in"
+ },
+ {
+  "phrase": "love you",
+  "time": 32.44,
+  "match": 1.0,
+  "heard": "love you"
+ }
+]
