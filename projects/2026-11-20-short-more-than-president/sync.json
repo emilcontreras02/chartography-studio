@@ -1,0 +1,68 @@
+[
+ {
+  "phrase": "that's what the president",
+  "time": 3.66,
+  "match": 1.0,
+  "heard": "that's what the president"
+ },
+ {
+  "phrase": "more than the president",
+  "time": 7.98,
+  "match": 1.0,
+  "heard": "more than the president"
+ },
+ {
+  "phrase": "and it gets bigger",
+  "time": 10.98,
+  "match": 1.0,
+  "heard": "and it gets bigger"
+ },
+ {
+  "phrase": "in kentucky",
+  "time": 15.7,
+  "match": 1.0,
+  "heard": "in kentucky"
+ },
+ {
+  "phrase": "nine point three million",
+  "time": 19.74,
+  "match": 1.0,
+  "heard": "nine point three million"
+ },
+ {
+  "phrase": "in alabama",
+  "time": 22.3,
+  "match": 1.0,
+  "heard": "in alabama"
+ },
+ {
+  "phrase": "eight point three million",
+  "time": 25.1,
+  "match": 1.0,
+  "heard": "eight point three million"
+ },
+ {
+  "phrase": "about twenty three times",
+  "time": 28.24,
+  "match": 1.0,
+  "heard": "about twenty three times"
+ },
+ {
+  "phrase": "twenty three times the coach",
+  "time": 31.12,
+  "match": 1.0,
+  "heard": "twenty three times the coach"
+ },
+ {
+  "phrase": "the most powerful job",
+  "time": 34.76,
+  "match": 1.0,
+  "heard": "the most powerful job"
+ },
+ {
+  "phrase": "isn't the best paid",
+  "time": 37.0,
+  "match": 1.0,
+  "heard": "isn't the best paid"
+ }
+]
