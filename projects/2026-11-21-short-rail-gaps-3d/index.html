@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=1080, height=1920" />
+<script src="lib/gsap.min.js"></script>
+<style>
+:root { --navy:#0b1f3a; --amber:#f2b84b; --mint:#4fd1a5; --coral:#ef6f61; --cream:#fbf4e6; }
+* { margin:0; padding:0; box-sizing:border-box; }
+html, body { width:1080px; height:1920px; overflow:hidden; background:#000; }
+#root { position:relative; width:100%; height:100%; font-family:'Montserrat', sans-serif; }
+#world { position:absolute; inset:0; width:1080px; height:1920px; z-index:0; }
+.badge { position:absolute; left:80px; top:250px; padding:18px 40px; border-radius:26px; font-weight:900; font-size:64px; letter-spacing:2px; color:var(--navy); z-index:5; box-shadow:0 10px 30px rgba(0,0,0,.35); }
+.hook { position:absolute; left:0; right:0; top:230px; text-align:center; z-index:5; font-family:'Archivo Black', sans-serif; font-size:104px; line-height:1.0; color:#fff; text-shadow:0 6px 0 var(--navy), 0 10px 40px rgba(0,0,0,.5); }
+.hook b { color:var(--amber); font-weight:400; }
+.card { position:absolute; left:70px; right:70px; top:300px; padding:40px 44px; border-radius:36px; background:rgba(11,31,58,.92); color:var(--cream); z-index:5; text-align:center; box-shadow:0 16px 50px rgba(0,0,0,.45); }
+.card h2 { font-weight:900; font-size:62px; color:var(--amber); }
+.card .big { font-family:'Archivo Black', sans-serif; font-size:116px; color:var(--mint); margin:10px 0; }
+.card p { font-weight:700; font-size:40px; }
+.card small { display:block; font-weight:400; font-size:30px; color:#9fb0c8; margin-top:12px; }
+.tag { position:absolute; left:0; right:0; margin:0 auto; width:fit-content; top:330px; padding:20px 50px; border-radius:24px; background:var(--coral); color:#fff; font-family:'Archivo Black', sans-serif; font-size:78px; z-index:5; white-space:nowrap; }
+.cta { position:absolute; left:80px; right:80px; top:300px; padding:46px 40px; border-radius:40px; background:var(--amber); color:var(--navy); text-align:center; z-index:6; box-shadow:0 18px 60px rgba(0,0,0,.45); }
+.cta p { font-weight:900; font-size:60px; line-height:1.15; }
+.cta .q { font-family:'Archivo Black', sans-serif; font-size:84px; margin:8px 0 14px; }
+.cta small { font-weight:700; font-size:44px; }
+.cap { position:absolute; left:60px; right:60px; top:1130px; text-align:center; z-index:8; font-weight:900; font-size:86px; line-height:1.1; color:#fff; -webkit-text-stroke:10px var(--navy); paint-order:stroke fill; }
+.cap span { display:inline-block; padding:0 10px; border-radius:16px; }
+.cap span.key { color:var(--mint); }
+.cap span.on { background:var(--amber); color:var(--navy); -webkit-text-stroke:0; }
+.src { position:absolute; left:0; right:0; margin:0 auto; width:fit-content; max-width:1000px; bottom:70px; padding:8px 18px; border-radius:12px; background:rgba(11,31,58,.78); text-align:center; z-index:7; font-weight:400; font-size:28px; color:#fff; }
+.logo { position:absolute; right:56px; top:96px; z-index:7; font-weight:900; font-size:30px; color:#fff; text-shadow:0 2px 8px rgba(0,0,0,.6); letter-spacing:1px; }
+.note { position:absolute; left:0; right:0; top:860px; text-align:center; z-index:5; font-weight:700; font-size:30px; color:#fff; text-shadow:0 2px 8px rgba(0,0,0,.8); }
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="52.6" data-width="1080" data-height="1920">
+  <canvas id="world" class="clip" width="1080" height="1920" data-start="0" data-duration="52.6" data-track-index="0"></canvas>
+  <audio id="vo" src="assets/vo.mp3" data-start="0" data-duration="50.70" data-track-index="10"></audio>
+
+  <div id="hook" class="clip hook" data-start="0" data-duration="2.0" data-track-index="1"><div id="hook-in">WHY DO RAILS<br><b>HAVE GAPS?</b></div></div>
+  <div id="jan" class="clip badge" style="background:#9cc8f0" data-start="5.05" data-duration="9.95" data-track-index="2">JANUARY</div>
+  <div id="jul" class="clip badge" style="background:var(--coral);color:#fff" data-start="15.0" data-duration="4.0" data-track-index="2">JULY</div>
+  <div id="num" class="clip card" data-start="19.1" data-duration="4.9" data-track-index="3"><div id="num-in">
+    <h2>ONE 39-FOOT RAIL</h2><p>+100°F of warming</p><div class="big">+0.3 inch</div>
+    <small>468 in × 0.0000065 per °F × 100°F ≈ 0.30 in</small></div></div>
+  <div id="exag" class="clip note" data-start="20.4" data-duration="3.6" data-track-index="4">growth exaggerated so you can see it</div>
+  <div id="kink" class="clip tag" data-start="29.9" data-duration="2.1" data-track-index="3">SUN KINK</div>
+  <div id="today" class="clip badge" style="background:var(--mint)" data-start="37.6" data-duration="3.4" data-track-index="2">TODAY: WELDED RAIL</div>
+  <div id="sft" class="clip card" data-start="43.0" data-duration="3.3" data-track-index="3"><div id="sft-in">
+    <p>heated or stretched, then clamped</p><div class="big" style="color:var(--amber)">~95–109°F</div><p>stress-free temperature (US)</p></div></div>
+  <div id="cta" class="clip cta" data-start="46.5" data-duration="6.1" data-track-index="5"><div id="cta-in">
+    <p>Did you know that's why old trains went</p><div class="q">clickety-clack?</div><small>Tell me in the comments ↓</small></div></div>
+
+    <div id="cap0" class="clip cap hero" data-start="0.00" data-duration="0.16" data-track-index="9"><span class="on">My</span> <span class="">boss</span> <span class="">says</span></div>
+  <div id="cap1" class="clip cap hero" data-start="0.16" data-duration="0.28" data-track-index="9"><span class="">My</span> <span class="on">boss</span> <span class="">says</span></div>
+  <div id="cap2" class="clip cap hero" data-start="0.44" data-duration="0.24" data-track-index="9"><span class="">My</span> <span class="">boss</span> <span class="on">says</span></div>
+  <div id="cap3" class="clip cap hero" data-start="0.68" data-duration="0.20" data-track-index="9"><span class="on">leave</span> <span class="">a</span> <span class="key">gap</span></div>
+  <div id="cap4" class="clip cap hero" data-start="0.88" data-duration="0.12" data-track-index="9"><span class="">leave</span> <span class="on">a</span> <span class="key">gap</span></div>
+  <div id="cap5" class="clip cap hero" data-start="1.00" data-duration="0.32" data-track-index="9"><span class="">leave</span> <span class="">a</span> <span class="on">gap</span></div>
+  <div id="cap6" class="clip cap hero" data-start="1.32" data-duration="0.36" data-track-index="9"><span class="on">between</span> <span class="">every</span> <span class="">rail.</span></div>
+  <div id="cap7" class="clip cap hero" data-start="1.68" data-duration="0.36" data-track-index="9"><span class="">between</span> <span class="on">every</span> <span class="">rail.</span></div>
+  <div id="cap8" class="clip cap hero" data-start="2.04" data-duration="0.68" data-track-index="9"><span class="">between</span> <span class="">every</span> <span class="on">rail.</span></div>
+  <div id="cap9" class="clip cap hero" data-start="2.72" data-duration="0.28" data-track-index="9"><span class="on">A</span> <span class="key">gap?</span></div>
+  <div id="cap10" class="clip cap hero" data-start="3.00" data-duration="0.68" data-track-index="9"><span class="">A</span> <span class="on">gap?</span></div>
+  <div id="cap11" class="clip cap hero" data-start="3.68" data-duration="0.40" data-track-index="9"><span class="on">That&#x27;s</span> <span class="">sloppy</span> <span class="">work.</span></div>
+  <div id="cap12" class="clip cap hero" data-start="4.08" data-duration="0.52" data-track-index="9"><span class="">That&#x27;s</span> <span class="on">sloppy</span> <span class="">work.</span></div>
+  <div id="cap13" class="clip cap hero" data-start="4.60" data-duration="0.52" data-track-index="9"><span class="">That&#x27;s</span> <span class="">sloppy</span> <span class="on">work.</span></div>
+  <div id="cap14" class="clip cap narr" data-start="5.12" data-duration="0.40" data-track-index="9"><span class="on">So</span> <span class="">he</span> <span class="">lays</span></div>
+  <div id="cap15" class="clip cap narr" data-start="5.52" data-duration="0.20" data-track-index="9"><span class="">So</span> <span class="on">he</span> <span class="">lays</span></div>
+  <div id="cap16" class="clip cap narr" data-start="5.72" data-duration="0.36" data-track-index="9"><span class="">So</span> <span class="">he</span> <span class="on">lays</span></div>
+  <div id="cap17" class="clip cap narr" data-start="6.08" data-duration="0.24" data-track-index="9"><span class="on">his</span> <span class="">own</span> <span class="">perfect</span></div>
+  <div id="cap18" class="clip cap narr" data-start="6.32" data-duration="0.32" data-track-index="9"><span class="">his</span> <span class="on">own</span> <span class="">perfect</span></div>
+  <div id="cap19" class="clip cap narr" data-start="6.64" data-duration="0.52" data-track-index="9"><span class="">his</span> <span class="">own</span> <span class="on">perfect</span></div>
+  <div id="cap20" class="clip cap narr" data-start="7.16" data-duration="0.36" data-track-index="9"><span class="on">track</span> <span class="">in</span> <span class="key">January.</span></div>
+  <div id="cap21" class="clip cap narr" data-start="7.52" data-duration="0.20" data-track-index="9"><span class="">track</span> <span class="on">in</span> <span class="key">January.</span></div>
+  <div id="cap22" class="clip cap narr" data-start="7.72" data-duration="1.00" data-track-index="9"><span class="">track</span> <span class="">in</span> <span class="on">January.</span></div>
+  <div id="cap23" class="clip cap narr" data-start="8.72" data-duration="0.32" data-track-index="9"><span class="on">No</span> <span class="key">gaps.</span></div>
+  <div id="cap24" class="clip cap narr" data-start="9.04" data-duration="0.76" data-track-index="9"><span class="">No</span> <span class="on">gaps.</span></div>
+  <div id="cap25" class="clip cap narr" data-start="9.80" data-duration="0.44" data-track-index="9"><span class="on">Rail</span> <span class="">touching</span> <span class="">rail.</span></div>
+  <div id="cap26" class="clip cap narr" data-start="10.24" data-duration="0.52" data-track-index="9"><span class="">Rail</span> <span class="on">touching</span> <span class="">rail.</span></div>
+  <div id="cap27" class="clip cap narr" data-start="10.76" data-duration="0.52" data-track-index="9"><span class="">Rail</span> <span class="">touching</span> <span class="on">rail.</span></div>
+  <div id="cap28" class="clip cap hero" data-start="11.28" data-duration="1.04" data-track-index="9"><span class="on">Smooth.</span></div>
+  <div id="cap29" class="clip cap hero" data-start="12.32" data-duration="0.96" data-track-index="9"><span class="on">Quiet.</span></div>
+  <div id="cap30" class="clip cap hero" data-start="13.28" data-duration="0.88" data-track-index="9"><span class="on">Perfect.</span></div>
+  <div id="cap31" class="clip cap hero" data-start="14.16" data-duration="0.28" data-track-index="9"><span class="on">You&#x27;re</span> <span class="">welcome.</span></div>
+  <div id="cap32" class="clip cap hero" data-start="14.44" data-duration="0.58" data-track-index="9"><span class="">You&#x27;re</span> <span class="on">welcome.</span></div>
+  <div id="cap33" class="clip cap narr" data-start="15.02" data-duration="0.48" data-track-index="9"><span class="on">Then</span> <span class="key">July</span> <span class="">hits.</span></div>
+  <div id="cap34" class="clip cap narr" data-start="15.50" data-duration="0.56" data-track-index="9"><span class="">Then</span> <span class="on">July</span> <span class="">hits.</span></div>
+  <div id="cap35" class="clip cap narr" data-start="16.06" data-duration="0.76" data-track-index="9"><span class="">Then</span> <span class="key">July</span> <span class="on">hits.</span></div>
+  <div id="cap36" class="clip cap narr" data-start="16.82" data-duration="0.48" data-track-index="9"><span class="on">Steel</span> <span class="">grows</span> <span class="">when</span></div>
+  <div id="cap37" class="clip cap narr" data-start="17.30" data-duration="0.48" data-track-index="9"><span class="">Steel</span> <span class="on">grows</span> <span class="">when</span></div>
+  <div id="cap38" class="clip cap narr" data-start="17.78" data-duration="0.16" data-track-index="9"><span class="">Steel</span> <span class="">grows</span> <span class="on">when</span></div>
+  <div id="cap39" class="clip cap narr" data-start="17.94" data-duration="0.16" data-track-index="9"><span class="on">it</span> <span class="">heats</span> <span class="">up.</span></div>
+  <div id="cap40" class="clip cap narr" data-start="18.10" data-duration="0.40" data-track-index="9"><span class="">it</span> <span class="on">heats</span> <span class="">up.</span></div>
+  <div id="cap41" class="clip cap narr" data-start="18.50" data-duration="0.60" data-track-index="9"><span class="">it</span> <span class="">heats</span> <span class="on">up.</span></div>
+  <div id="cap42" class="clip cap narr" data-start="19.10" data-duration="0.32" data-track-index="9"><span class="on">Warm</span> <span class="">a</span> <span class="">thirty</span></div>
+  <div id="cap43" class="clip cap narr" data-start="19.42" data-duration="0.16" data-track-index="9"><span class="">Warm</span> <span class="on">a</span> <span class="">thirty</span></div>
+  <div id="cap44" class="clip cap narr" data-start="19.58" data-duration="0.32" data-track-index="9"><span class="">Warm</span> <span class="">a</span> <span class="on">thirty</span></div>
+  <div id="cap45" class="clip cap narr" data-start="19.90" data-duration="0.24" data-track-index="9"><span class="on">nine</span> <span class="">foot</span> <span class="">rail</span></div>
+  <div id="cap46" class="clip cap narr" data-start="20.14" data-duration="0.24" data-track-index="9"><span class="">nine</span> <span class="on">foot</span> <span class="">rail</span></div>
+  <div id="cap47" class="clip cap narr" data-start="20.38" data-duration="0.32" data-track-index="9"><span class="">nine</span> <span class="">foot</span> <span class="on">rail</span></div>
+  <div id="cap48" class="clip cap narr" data-start="20.70" data-duration="0.20" data-track-index="9"><span class="on">by</span> <span class="">a</span> <span class="key">hundred</span></div>
+  <div id="cap49" class="clip cap narr" data-start="20.90" data-duration="0.16" data-track-index="9"><span class="">by</span> <span class="on">a</span> <span class="key">hundred</span></div>
+  <div id="cap50" class="clip cap narr" data-start="21.06" data-duration="0.32" data-track-index="9"><span class="">by</span> <span class="">a</span> <span class="on">hundred</span></div>
+  <div id="cap51" class="clip cap narr" data-start="21.38" data-duration="0.60" data-track-index="9"><span class="on">degrees,</span></div>
+  <div id="cap52" class="clip cap narr" data-start="21.98" data-duration="0.20" data-track-index="9"><span class="on">and</span> <span class="">it</span> <span class="">gets</span></div>
+  <div id="cap53" class="clip cap narr" data-start="22.18" data-duration="0.12" data-track-index="9"><span class="">and</span> <span class="on">it</span> <span class="">gets</span></div>
+  <div id="cap54" class="clip cap narr" data-start="22.30" data-duration="0.28" data-track-index="9"><span class="">and</span> <span class="">it</span> <span class="on">gets</span></div>
+  <div id="cap55" class="clip cap narr" data-start="22.58" data-duration="0.20" data-track-index="9"><span class="on">about</span> <span class="">a</span> <span class="key">third</span></div>
+  <div id="cap56" class="clip cap narr" data-start="22.78" data-duration="0.16" data-track-index="9"><span class="">about</span> <span class="on">a</span> <span class="key">third</span></div>
+  <div id="cap57" class="clip cap narr" data-start="22.94" data-duration="0.24" data-track-index="9"><span class="">about</span> <span class="">a</span> <span class="on">third</span></div>
+  <div id="cap58" class="clip cap narr" data-start="23.18" data-duration="0.08" data-track-index="9"><span class="on">of</span> <span class="">an</span> <span class="key">inch</span></div>
+  <div id="cap59" class="clip cap narr" data-start="23.26" data-duration="0.16" data-track-index="9"><span class="">of</span> <span class="on">an</span> <span class="key">inch</span></div>
+  <div id="cap60" class="clip cap narr" data-start="23.42" data-duration="0.28" data-track-index="9"><span class="">of</span> <span class="">an</span> <span class="on">inch</span></div>
+  <div id="cap61" class="clip cap narr" data-start="23.70" data-duration="0.60" data-track-index="9"><span class="on">longer.</span></div>
+  <div id="cap62" class="clip cap narr" data-start="24.30" data-duration="0.20" data-track-index="9"><span class="on">With</span> <span class="">no</span> <span class="key">gaps,</span></div>
+  <div id="cap63" class="clip cap narr" data-start="24.50" data-duration="0.28" data-track-index="9"><span class="">With</span> <span class="on">no</span> <span class="key">gaps,</span></div>
+  <div id="cap64" class="clip cap narr" data-start="24.78" data-duration="0.60" data-track-index="9"><span class="">With</span> <span class="">no</span> <span class="on">gaps,</span></div>
+  <div id="cap65" class="clip cap narr" data-start="25.38" data-duration="0.28" data-track-index="9"><span class="on">that</span> <span class="">growth</span> <span class="">has</span></div>
+  <div id="cap66" class="clip cap narr" data-start="25.66" data-duration="0.40" data-track-index="9"><span class="">that</span> <span class="on">growth</span> <span class="">has</span></div>
+  <div id="cap67" class="clip cap narr" data-start="26.06" data-duration="0.20" data-track-index="9"><span class="">that</span> <span class="">growth</span> <span class="on">has</span></div>
+  <div id="cap68" class="clip cap narr" data-start="26.26" data-duration="0.44" data-track-index="9"><span class="on">nowhere</span> <span class="">to</span> <span class="">go,</span></div>
+  <div id="cap69" class="clip cap narr" data-start="26.70" data-duration="0.20" data-track-index="9"><span class="">nowhere</span> <span class="on">to</span> <span class="">go,</span></div>
+  <div id="cap70" class="clip cap narr" data-start="26.90" data-duration="0.44" data-track-index="9"><span class="">nowhere</span> <span class="">to</span> <span class="on">go,</span></div>
+  <div id="cap71" class="clip cap narr" data-start="27.34" data-duration="0.36" data-track-index="9"><span class="on">so</span> <span class="">the</span> <span class="">track</span></div>
+  <div id="cap72" class="clip cap narr" data-start="27.70" data-duration="0.20" data-track-index="9"><span class="">so</span> <span class="on">the</span> <span class="">track</span></div>
+  <div id="cap73" class="clip cap narr" data-start="27.90" data-duration="0.40" data-track-index="9"><span class="">so</span> <span class="">the</span> <span class="on">track</span></div>
+  <div id="cap74" class="clip cap narr" data-start="28.30" data-duration="0.44" data-track-index="9"><span class="on">shoves</span> <span class="key">sideways.</span></div>
+  <div id="cap75" class="clip cap narr" data-start="28.74" data-duration="1.00" data-track-index="9"><span class="">shoves</span> <span class="on">sideways.</span></div>
+  <div id="cap76" class="clip cap narr" data-start="29.74" data-duration="0.80" data-track-index="9"><span class="on">Railroaders</span> <span class="">call</span> <span class="">it</span></div>
+  <div id="cap77" class="clip cap narr" data-start="30.54" data-duration="0.24" data-track-index="9"><span class="">Railroaders</span> <span class="on">call</span> <span class="">it</span></div>
+  <div id="cap78" class="clip cap narr" data-start="30.78" data-duration="0.20" data-track-index="9"><span class="">Railroaders</span> <span class="">call</span> <span class="on">it</span></div>
+  <div id="cap79" class="clip cap narr" data-start="30.98" data-duration="0.43" data-track-index="9"><span class="on">a</span> <span class="key">sun</span> <span class="key">kink.</span></div>
+  <div id="cap80" class="clip cap narr" data-start="31.41" data-duration="0.43" data-track-index="9"><span class="">a</span> <span class="on">sun</span> <span class="key">kink.</span></div>
+  <div id="cap81" class="clip cap narr" data-start="31.84" data-duration="0.43" data-track-index="9"><span class="">a</span> <span class="key">sun</span> <span class="on">kink.</span></div>
+  <div id="cap82" class="clip cap hero" data-start="32.26" data-duration="0.43" data-track-index="9"><span class="on">Okay.</span></div>
+  <div id="cap83" class="clip cap hero" data-start="32.69" data-duration="0.40" data-track-index="9"><span class="on">So</span> <span class="">the</span> <span class="key">gaps</span></div>
+  <div id="cap84" class="clip cap hero" data-start="33.09" data-duration="0.32" data-track-index="9"><span class="">So</span> <span class="on">the</span> <span class="key">gaps</span></div>
+  <div id="cap85" class="clip cap hero" data-start="33.41" data-duration="0.56" data-track-index="9"><span class="">So</span> <span class="">the</span> <span class="on">gaps</span></div>
+  <div id="cap86" class="clip cap hero" data-start="33.97" data-duration="0.16" data-track-index="9"><span class="on">were</span> <span class="">the</span> <span class="">plan.</span></div>
+  <div id="cap87" class="clip cap hero" data-start="34.13" data-duration="0.20" data-track-index="9"><span class="">were</span> <span class="on">the</span> <span class="">plan.</span></div>
+  <div id="cap88" class="clip cap hero" data-start="34.33" data-duration="0.60" data-track-index="9"><span class="">were</span> <span class="">the</span> <span class="on">plan.</span></div>
+  <div id="cap89" class="clip cap narr" data-start="34.93" data-duration="0.40" data-track-index="9"><span class="on">Those</span> <span class="key">gaps</span> <span class="">made</span></div>
+  <div id="cap90" class="clip cap narr" data-start="35.33" data-duration="0.48" data-track-index="9"><span class="">Those</span> <span class="on">gaps</span> <span class="">made</span></div>
+  <div id="cap91" class="clip cap narr" data-start="35.81" data-duration="0.16" data-track-index="9"><span class="">Those</span> <span class="key">gaps</span> <span class="on">made</span></div>
+  <div id="cap92" class="clip cap narr" data-start="35.97" data-duration="0.16" data-track-index="9"><span class="on">the</span> <span class="">old</span> <span class="">clickety</span></div>
+  <div id="cap93" class="clip cap narr" data-start="36.13" data-duration="0.28" data-track-index="9"><span class="">the</span> <span class="on">old</span> <span class="">clickety</span></div>
+  <div id="cap94" class="clip cap narr" data-start="36.41" data-duration="0.48" data-track-index="9"><span class="">the</span> <span class="">old</span> <span class="on">clickety</span></div>
+  <div id="cap95" class="clip cap narr" data-start="36.89" data-duration="0.68" data-track-index="9"><span class="on">clack.</span></div>
+  <div id="cap96" class="clip cap narr" data-start="37.57" data-duration="0.52" data-track-index="9"><span class="on">Modern</span> <span class="">rails</span> <span class="">are</span></div>
+  <div id="cap97" class="clip cap narr" data-start="38.09" data-duration="0.40" data-track-index="9"><span class="">Modern</span> <span class="on">rails</span> <span class="">are</span></div>
+  <div id="cap98" class="clip cap narr" data-start="38.49" data-duration="0.20" data-track-index="9"><span class="">Modern</span> <span class="">rails</span> <span class="on">are</span></div>
+  <div id="cap99" class="clip cap narr" data-start="38.69" data-duration="0.48" data-track-index="9"><span class="on">welded</span> <span class="">with</span> <span class="">no</span></div>
+  <div id="cap100" class="clip cap narr" data-start="39.17" data-duration="0.46" data-track-index="9"><span class="key">welded</span> <span class="on">with</span> <span class="">no</span></div>
+  <div id="cap101" class="clip cap narr" data-start="39.63" data-duration="0.46" data-track-index="9"><span class="key">welded</span> <span class="">with</span> <span class="on">no</span></div>
+  <div id="cap102" class="clip cap narr" data-start="40.09" data-duration="0.46" data-track-index="9"><span class="on">gaps.</span></div>
+  <div id="cap103" class="clip cap narr" data-start="40.55" data-duration="0.46" data-track-index="9"><span class="on">Crews</span> <span class="">heat</span> <span class="">or</span></div>
+  <div id="cap104" class="clip cap narr" data-start="41.01" data-duration="0.40" data-track-index="9"><span class="">Crews</span> <span class="on">heat</span> <span class="">or</span></div>
+  <div id="cap105" class="clip cap narr" data-start="41.41" data-duration="0.16" data-track-index="9"><span class="">Crews</span> <span class="">heat</span> <span class="on">or</span></div>
+  <div id="cap106" class="clip cap narr" data-start="41.57" data-duration="0.44" data-track-index="9"><span class="on">stretch</span> <span class="">the</span> <span class="">steel</span></div>
+  <div id="cap107" class="clip cap narr" data-start="42.01" data-duration="0.16" data-track-index="9"><span class="">stretch</span> <span class="on">the</span> <span class="">steel</span></div>
+  <div id="cap108" class="clip cap narr" data-start="42.17" data-duration="0.36" data-track-index="9"><span class="">stretch</span> <span class="">the</span> <span class="on">steel</span></div>
+  <div id="cap109" class="clip cap narr" data-start="42.53" data-duration="0.40" data-track-index="9"><span class="on">before</span> <span class="">clamping</span> <span class="">it,</span></div>
+  <div id="cap110" class="clip cap narr" data-start="42.93" data-duration="0.44" data-track-index="9"><span class="">before</span> <span class="on">clamping</span> <span class="">it,</span></div>
+  <div id="cap111" class="clip cap narr" data-start="43.37" data-duration="0.24" data-track-index="9"><span class="">before</span> <span class="">clamping</span> <span class="on">it,</span></div>
+  <div id="cap112" class="clip cap narr" data-start="43.61" data-duration="0.26" data-track-index="9"><span class="on">so</span> <span class="">it&#x27;s</span> <span class="">stress</span></div>
+  <div id="cap113" class="clip cap narr" data-start="43.87" data-duration="0.26" data-track-index="9"><span class="">so</span> <span class="on">it&#x27;s</span> <span class="">stress</span></div>
+  <div id="cap114" class="clip cap narr" data-start="44.13" data-duration="0.36" data-track-index="9"><span class="">so</span> <span class="">it&#x27;s</span> <span class="on">stress</span></div>
+  <div id="cap115" class="clip cap narr" data-start="44.49" data-duration="0.36" data-track-index="9"><span class="on">free</span> <span class="">at</span> <span class="">about</span></div>
+  <div id="cap116" class="clip cap narr" data-start="44.85" data-duration="0.16" data-track-index="9"><span class="">free</span> <span class="on">at</span> <span class="">about</span></div>
+  <div id="cap117" class="clip cap narr" data-start="45.01" data-duration="0.24" data-track-index="9"><span class="">free</span> <span class="">at</span> <span class="on">about</span></div>
+  <div id="cap118" class="clip cap narr" data-start="45.25" data-duration="0.16" data-track-index="9"><span class="on">a</span> <span class="key">hundred</span> <span class="key">degrees.</span></div>
+  <div id="cap119" class="clip cap narr" data-start="45.41" data-duration="0.32" data-track-index="9"><span class="">a</span> <span class="on">hundred</span> <span class="key">degrees.</span></div>
+  <div id="cap120" class="clip cap narr" data-start="45.73" data-duration="0.68" data-track-index="9"><span class="">a</span> <span class="key">hundred</span> <span class="on">degrees.</span></div>
+  <div id="cap121" class="clip cap hero" data-start="46.41" data-duration="0.20" data-track-index="9"><span class="on">Did</span> <span class="">you</span> <span class="">know</span></div>
+  <div id="cap122" class="clip cap hero" data-start="46.61" data-duration="0.16" data-track-index="9"><span class="">Did</span> <span class="on">you</span> <span class="">know</span></div>
+  <div id="cap123" class="clip cap hero" data-start="46.77" data-duration="0.20" data-track-index="9"><span class="">Did</span> <span class="">you</span> <span class="on">know</span></div>
+  <div id="cap124" class="clip cap hero" data-start="46.97" data-duration="0.36" data-track-index="9"><span class="on">that&#x27;s</span> <span class="">why</span> <span class="">old</span></div>
+  <div id="cap125" class="clip cap hero" data-start="47.33" data-duration="0.24" data-track-index="9"><span class="">that&#x27;s</span> <span class="on">why</span> <span class="">old</span></div>
+  <div id="cap126" class="clip cap hero" data-start="47.57" data-duration="0.28" data-track-index="9"><span class="">that&#x27;s</span> <span class="">why</span> <span class="on">old</span></div>
+  <div id="cap127" class="clip cap hero" data-start="47.85" data-duration="0.44" data-track-index="9"><span class="on">trains</span> <span class="">went</span> <span class="">clickety</span></div>
+  <div id="cap128" class="clip cap hero" data-start="48.29" data-duration="0.42" data-track-index="9"><span class="">trains</span> <span class="on">went</span> <span class="">clickety</span></div>
+  <div id="cap129" class="clip cap hero" data-start="48.71" data-duration="0.42" data-track-index="9"><span class="">trains</span> <span class="">went</span> <span class="on">clickety</span></div>
+  <div id="cap130" class="clip cap hero" data-start="49.13" data-duration="0.42" data-track-index="9"><span class="on">clack?</span></div>
+  <div id="cap131" class="clip cap hero" data-start="49.55" data-duration="0.28" data-track-index="9"><span class="on">Tell</span> <span class="">me</span> <span class="">in</span></div>
+  <div id="cap132" class="clip cap hero" data-start="49.83" data-duration="0.16" data-track-index="9"><span class="">Tell</span> <span class="on">me</span> <span class="">in</span></div>
+  <div id="cap133" class="clip cap hero" data-start="49.99" data-duration="0.08" data-track-index="9"><span class="">Tell</span> <span class="">me</span> <span class="on">in</span></div>
+  <div id="cap134" class="clip cap hero" data-start="50.07" data-duration="0.31" data-track-index="9"><span class="on">the</span> <span class="key">comments.</span></div>
+  <div id="cap135" class="clip cap hero" data-start="50.39" data-duration="0.51" data-track-index="9"><span class="">the</span> <span class="on">comments.</span></div>
+
+  <div id="src" class="clip src" data-start="0" data-duration="52.6" data-track-index="11">Sources: FRA CWR plan (0.0000065/°F) · Wikipedia, Rail stressing · Practical Engineering, Dec 5 2023</div>
+  <div id="logo" class="clip logo" data-start="0" data-duration="52.6" data-track-index="12">CHARTOGRAPHY</div>
+</div>
+<script type="module" src="scene3d.js"></script>
+<script>
+  const tl = gsap.timeline({ paused: true });
+  const pop = (sel, t) => tl.fromTo(sel, { scale: 0.6, opacity: 0, y: 40 }, { scale: 1, opacity: 1, y: 0, duration: 0.35, ease: 'back.out(2)' }, t);
+  pop('#hook-in', 0.05); pop('#num-in', 19.1); pop('#sft-in', 43.0); pop('#cta-in', 46.5);
+  tl.fromTo('#jan', { x: -400 }, { x: 0, duration: 0.3, ease: 'power3.out' }, 5.05);
+  tl.fromTo('#jul', { x: -400 }, { x: 0, duration: 0.3, ease: 'power3.out' }, 15.0);
+  tl.fromTo('#today', { x: -600 }, { x: 0, duration: 0.3, ease: 'power3.out' }, 37.6);
+  tl.fromTo('#kink', { scale: 2.2, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.25, ease: 'power4.out' }, 29.9);
+  window.__timelines = window.__timelines || {};
+  window.__timelines["main"] = tl;
+  tl.seek(0);
+</script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "name": "2026-11-21-short-rail-gaps-3d",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "../../hf/run.sh check",
+    "render": "../../hf/run.sh render"
+  }
+}

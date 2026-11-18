@@ -4,6 +4,9 @@
 # - usage stats off, no HeyGen account or keys, no cloud/share
 set -euo pipefail
 export HYPERFRAMES_NO_TELEMETRY=1 DO_NOT_TRACK=1
+# use the container's pre-installed headless Chrome (no browser download)
+HS=/opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell
+[ -x "$HS" ] && export PRODUCER_HEADLESS_SHELL_PATH="${PRODUCER_HEADLESS_SHELL_PATH:-$HS}"
 unset HEYGEN_API_KEY HEYGEN_ACCESS_TOKEN HYPERFRAMES_API_KEY HEYGEN_API_URL HEYGEN_API_BASE ELEVENLABS_API_KEY OPENROUTER_API_KEY GEMINI_API_KEY GOOGLE_API_KEY || true
 case "${1:-}" in
   auth|share|cloud|login|publish) echo "blocked: '$1' is disabled for Chartography (no HeyGen account/uploads)" >&2; exit 1;;
