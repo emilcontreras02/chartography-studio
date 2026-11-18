@@ -1,0 +1,38 @@
+[
+ {
+  "phrase": "warm a thirty",
+  "time": 19.0,
+  "match": 1.0,
+  "heard": "warm a thirty"
+ },
+ {
+  "phrase": "about a third",
+  "time": 22.48,
+  "match": 1.0,
+  "heard": "about a third"
+ },
+ {
+  "phrase": "shoves sideways",
+  "time": 28.2,
+  "match": 1.0,
+  "heard": "shoves sideways"
+ },
+ {
+  "phrase": "call it a",
+  "time": 30.44,
+  "match": 1.0,
+  "heard": "call it a"
+ },
+ {
+  "phrase": "modern rails",
+  "time": 37.47,
+  "match": 1.0,
+  "heard": "modern rails"
+ },
+ {
+  "phrase": "stress free",
+  "time": 44.03,
+  "match": 1.0,
+  "heard": "stress free"
+ }
+]
