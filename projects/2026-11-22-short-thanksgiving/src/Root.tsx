@@ -3,14 +3,17 @@ import {
   AbsoluteFill, Audio, Composition, Img, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig, Easing,
 } from 'remotion';
 import T from './timing.json';
+import '@fontsource/archivo-black/latin-400.css';
+import '@fontsource/fira-sans/latin-400.css';
+import '@fontsource/fira-sans/latin-700.css';
 
 // Chartography brand palette (chartography_engine.py)
 const C = {
   bg: '#0e1b2e', panel: '#16283f', cream: '#f6f1e7', muted: '#afb8c6', slate: '#5c7392',
   mint: '#3fd6a0', amber: '#f2b544', coral: '#ff8a65', red: '#ff5d5d',
 };
-const HEAD = "'Archivo Black', 'Anton', sans-serif";
-const BODY = "'Fira Sans', 'DejaVu Sans', sans-serif";
+const HEAD = "'Archivo Black', sans-serif";
+const BODY = "'Fira Sans', sans-serif";
 const FPS = 30;
 const fr = (s: number) => Math.round(s * FPS);
 const S = T.seg.map(fr);
@@ -142,7 +145,7 @@ const Chart: React.FC<{dur: number; off: number}> = ({dur, off}) => {
   const brokeP = spring({frame: f - at('up6'), fps, config: {damping: 10, stiffness: 180}});
   return (
     <Fade dur={dur}>
-      <div style={{position: 'absolute', top: 210, width: '100%', textAlign: 'center'}}>
+      <div style={{position: 'absolute', top: 210, width: '100%', textAlign: 'center', opacity: 1 - brokeP}}>
         <Pop><div style={{fontFamily: HEAD, fontSize: 64, color: C.cream}}>THANKSGIVING FOR 10</div></Pop>
         <Pop delay={4}><div style={{fontFamily: BODY, fontSize: 38, color: C.muted, marginTop: 6}}>classic meal, US average</div></Pop>
       </div>
@@ -173,7 +176,7 @@ const Chart: React.FC<{dur: number; off: number}> = ({dur, off}) => {
           );
         })()}
       </svg>
-      <div style={{position: 'absolute', left: 0, right: 0, top: 390, display: 'flex', justifyContent: 'center', opacity: brokeP}}>
+      <div style={{position: 'absolute', left: 0, right: 0, top: 215, display: 'flex', justifyContent: 'center', opacity: brokeP}}>
         <div style={{transform: `scale(${1.8 - 0.8 * brokeP}) rotate(-4deg)`, background: C.red, color: '#fff', fontFamily: HEAD, fontSize: 62, padding: '12px 34px', borderRadius: 20, boxShadow: '0 14px 40px rgba(0,0,0,.4)'}}>
           +6% · STREAK BROKEN
         </div>
@@ -201,7 +204,7 @@ const ITEMS = [
 const Items: React.FC<{dur: number; off: number}> = ({dur, off}) => {
   const f = useCurrentFrame();
   const {fps} = useVideoConfig();
-  const mid = 400, unit = 46;
+  const mid = 400, unit = 40;
   return (
     <Fade dur={dur}>
       <div style={{position: 'absolute', top: 210, width: '100%', textAlign: 'center'}}>
@@ -219,9 +222,9 @@ const Items: React.FC<{dur: number; off: number}> = ({dur, off}) => {
           const col = up ? C.red : C.mint;
           return (
             <g key={it.name} opacity={f >= d ? Math.min(1, p * 2) : 0}>
-              <text x={up ? 60 : mid + 16} y={y + 30} fontFamily={BODY} fontWeight={700} fontSize={36} fill={C.cream} textAnchor="start">{it.name} <tspan fill={C.muted} fontWeight={400}>{it.sub}</tspan></text>
+              <text x={up ? 60 : mid + 16} y={y + 30} fontFamily={BODY} fontWeight={700} fontSize={44} fill={C.cream} textAnchor="start">{it.name} <tspan fill={C.muted} fontWeight={400}>{it.sub}</tspan></text>
               <rect x={up ? mid : mid - w} y={y + 50} width={w} height={54} rx={8} fill={col} />
-              <text x={up ? mid + w + 14 : mid - w - 14} y={y + 92} fontFamily={HEAD} fontSize={40} fill={col} textAnchor={up ? 'start' : 'end'}>{up ? '+' : ''}{it.pct}%</text>
+              <text x={up ? mid + w + 14 : mid - w - 14} y={y + 92} fontFamily={HEAD} fontSize={46} fill={col} textAnchor={up ? 'start' : 'end'}>{up ? '+' : ''}{it.pct}%</text>
             </g>
           );
         })}
@@ -275,7 +278,7 @@ const HeroTrack: React.FC = () => {
   if (f >= S[3] && f < S[4]) return null; // the Question scene draws its own big mascot
   const pose = f < Q.broke ? 'stand_talk' : f < S[1] ? 'shock_shock' : f < Q.up6 ? 'point_smile' : f < S[3] ? 'shock_shock'
     : f < S[5] ? 'think_worry' : f < S[6] ? 'shrug_talk' : 'point_talk';
-  return <Hero pose={pose} flip={pose.startsWith('point')} x={160} y={1530} h={340} />;
+  return <Hero pose={pose} flip={pose.startsWith('point')} x={165} y={1560} h={420} />;
 };
 
 export const ThanksgivingShort: React.FC = () => {
