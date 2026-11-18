@@ -1,0 +1,131 @@
+{
+ "title": [
+  "10 SIMPLE IDEAS",
+  "ranked by what they're worth today"
+ ],
+ "hook": {
+  "big": "$100,000",
+  "big2": "\u2192 $3.5 TRILLION?",
+  "small": "one check, one simple idea"
+ },
+ "valueLabel": "market value, Nov 16, 2026 close",
+ "items": [
+  {
+   "rank": 10,
+   "name": "Uber",
+   "line": "A ride at the tap of a button",
+   "fact": "2009 \u00b7 the idea \"UberCab\"",
+   "value": 142.91,
+   "label": "$143B",
+   "seg": 2
+  },
+  {
+   "rank": 9,
+   "name": "McDonald's",
+   "line": "A kitchen like an assembly line",
+   "fact": "1948 \u00b7 \"Speedee Service System\"",
+   "value": 193.85,
+   "label": "$194B",
+   "seg": 3
+  },
+  {
+   "rank": 8,
+   "name": "Netflix",
+   "line": "Movies by mail",
+   "fact": "Aug 1997 \u00b7 DVD rentals",
+   "value": 249.45,
+   "label": "$249B",
+   "seg": 4
+  },
+  {
+   "rank": 7,
+   "name": "Coca-Cola",
+   "line": "A drink for 5 cents a glass",
+   "fact": "May 8, 1886 \u00b7 an Atlanta pharmacy",
+   "value": 427.95,
+   "label": "$428B",
+   "seg": 5
+  },
+  {
+   "rank": 6,
+   "name": "Costco",
+   "line": "A warehouse you pay to shop in",
+   "fact": "Sept 1983 \u00b7 Seattle",
+   "value": 493.53,
+   "label": "$494B",
+   "seg": 6
+  },
+  {
+   "rank": 5,
+   "name": "Visa",
+   "line": "A card to pay later",
+   "fact": "Sept 1958 \u00b7 BankAmericard, Fresno",
+   "value": 795.68,
+   "label": "$796B",
+   "seg": 7
+  },
+  {
+   "rank": 4,
+   "name": "Walmart",
+   "line": "Low prices in a small town",
+   "fact": "July 2, 1962 \u00b7 Rogers, Arkansas",
+   "value": 1018.0,
+   "label": "$1.02T",
+   "seg": 8
+  },
+  {
+   "rank": 3,
+   "name": "Meta (Facebook)",
+   "line": "A website for college students",
+   "fact": "Feb 4, 2004 \u00b7 Cambridge, MA",
+   "value": 1601.0,
+   "label": "$1.60T",
+   "seg": 10
+  },
+  {
+   "rank": 2,
+   "name": "Amazon",
+   "line": "A bookstore on the internet",
+   "fact": "July 1994 \u00b7 first called \"Cadabra\"",
+   "value": 2787.0,
+   "label": "$2.79T",
+   "seg": 11
+  },
+  {
+   "rank": 1,
+   "name": "Alphabet (Google)",
+   "line": "A research project",
+   "fact": "Jan 1996 \u00b7 1998 office: a garage",
+   "value": 3457.0,
+   "label": "$3.46T",
+   "seg": 12
+  }
+ ],
+ "twist": {
+  "seg": 14,
+  "title": "THE TWIST",
+  "lines": [
+   "None of them started as a giant company.",
+   "A button. A kitchen. A DVD in an envelope.",
+   "Together: about $11.2 trillion today."
+  ]
+ },
+ "cta": {
+  "seg": 15,
+  "question": "Which simple idea would you have bet on?",
+  "next": "Drop the next Top 10 you want to see"
+ },
+ "heroPoses": {
+  "0": "shock_shock",
+  "9": "cheer_happy",
+  "13": "shock_shock",
+  "15": "point_talk"
+ },
+ "source": "Sources: CompaniesMarketCap (Nov 16, 2026 close); company histories: Wikipedia",
+ "thumb": {
+  "top": "10 SIMPLE IDEAS",
+  "big": "$11 TRILLION",
+  "bottom": "#1 began with a $100K check?",
+  "pose": "shock_shock"
+ }
+}
