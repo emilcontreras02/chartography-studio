@@ -25,17 +25,37 @@ def _key():
     return k
 
 
+def _credits(key, wait=20):
+    """Characters left, or None when the subscription endpoint is slow/unreadable (then we just try ElevenLabs)."""
+    import threading
+    box = {}
+    th = threading.Thread(target=lambda: box.setdefault('v', ce.credits_left(key)), daemon=True)
+    th.start(); th.join(wait)
+    return box.get('v')
+
+
 def build(proj):
     segs = json.load(open(os.path.join(proj, 'segments.json')))
     key = _key()
+    left = _credits(key) if key else 0
+    need = sum(len(t) for _, t in segs)
+    use_el = bool(key) and (left is None or left > need + 1000)
+    print('ElevenLabs credits left:', left, '| needed:', need, '| using', 'ElevenLabs' if use_el else 'free voice')
     tmp = tempfile.mkdtemp()
     wavs, spk, t = [], [], 0.0
     for i, (who, txt) in enumerate(segs):
         mp3 = f'{tmp}/s{i}.mp3'
         v = VOICES[who]
-        if key and ce.credits_left(key) > len(txt) + 1000:
-            ce.tts(txt, mp3, key=key, voice_id=v['voice_id'], stability=v['stability'], style=v['style'])
-        else:
+        done = False
+        if use_el:
+            for attempt in range(2):
+                try:
+                    ce.tts(txt, mp3, key=key, voice_id=v['voice_id'], stability=v['stability'], style=v['style'])
+                    done = True
+                    break
+                except Exception as e:
+                    print('ElevenLabs error (retrying once):', type(e).__name__)
+        if not done:
             ce.tts_free(txt, mp3)
         wav = f'{tmp}/s{i}.wav'
         subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', mp3, '-af',
