@@ -56,6 +56,9 @@ A83 = c.at('eight point three million'); X23 = c.at('twenty three times the')
 TWH = seg[15]; PUNCH = seg[16]
 REC = seg[17]; GAP = c.at('one hundred ninety thousand four hundred')
 CTA = seg[18]; SUB = c.at('subscribe to')
+# Nov 19 fill-ins for empty panels (Reviewer cosmetic note)
+C6 = [c.at('the secretary of state', after=T6 - 0.5), c.at('the secretary of the treasury', after=T6 - 0.5), c.at('the secretary of defence', after=T6 - 0.5), c.at('the attorney general', after=T6 - 0.5)]
+C8 = [c.at('deputy secretary of defense', after=T8 - 0.5), c.at('governors of the federal reserve board', after=T8 - 0.5)]
 
 # rank, ladder name, value label, value, reveal cue, frozen-paid label or None
 LADDER = [
@@ -101,7 +104,7 @@ def world(d, T):
     k.ground(d, GROUND, T, road=False)
 
 
-def head(d, T, title='TOP 10 GOVERNMENT PAYCHECKS'):
+def head(d, T, title='TOP 10 OFFICIAL PAYCHECKS'):
     pill(d, 930, 62, title, 1.0, color=BG, fill=AMBER, font=F('sansb', 30))
 
 
@@ -204,8 +207,8 @@ def s_hook(T, img, d):
     at = prog(T, t_tenbest, 0.3)
     if at > 0:
         d.rounded_rectangle([520, 700, 1340, 830], radius=22, fill=mix(PANEL, at))
-        text(d, (930, 745), 'The 10 best-paid federal jobs', F('serifb', 46), CREAM, at, anchor='mm', base=PANEL)
-        text(d, (930, 800), 'ranked by official 2026 pay  ·  jobs, not people', F('sansm', 28), MUTED, at, anchor='mm', base=PANEL)
+        text(d, (930, 745), 'The 10 best-paid jobs set by federal law', F('serifb', 46), CREAM, at, anchor='mm', base=PANEL)
+        text(d, (930, 800), 'Executive Schedule · Congress · federal judges · official 2026 pay', F('sansm', 28), MUTED, at, anchor='mm', base=PANEL)
     finish(T, img, d, S_PRES)
 
 
@@ -243,6 +246,14 @@ def s8(T, img, d):
     world(d, T); head(d, T); ladder(d, T)
     host(img, d, T, pose='think', face='smile', mood='think', mt=P8)
     card_head(d, T, 8, 'Deputy secretaries', 'e.g. Deputy Secretary of Defense  ·  same pay line: Fed Board governors', T8)
+    out8 = 1 - prog(T, LV8 - 0.4, 0.3)
+    if out8 > 0:
+        for i, (nm, tc) in enumerate(zip(['Deputy Secretary of Defense', 'Fed Board governors'], C8)):
+            a = prog(T, tc, 0.3) * out8
+            if a > 0:
+                y0 = 340 + i * 200
+                d.rounded_rectangle([470, y0, 1360, y0 + 160], radius=22, fill=mix((34, 54, 86), a, CARD))
+                text(d, (915, y0 + 80), nm, F('serifb', 52), CREAM, a, anchor='mm', base=(34, 54, 86), rise=0)
     columns(d, 640, 540, 1.1, prog(T, LV8, 0.4))
     text(d, (640, 720), 'Executive Schedule Level II', F('sansb', 28), MUTED, prog(T, LV8, 0.3), anchor='mm', base=CARD)
     if T >= V8 - 0.1:
@@ -275,6 +286,15 @@ def s6(T, img, d):
     hero_on = T >= T6H - 0.1
     host(img, d, T, pose='shock' if hero_on else 'point', face='shock' if hero_on and T > end[7] else 'smile', mood='shock' if hero_on else None, mt=T6H)
     card_head(d, T, 6, 'Cabinet secretaries', 'State, Treasury, Defense, the Attorney General ... (Level I)', T6)
+    out6 = 1 - prog(T, V6 - 0.5, 0.3)
+    if out6 > 0:
+        for i, (nm, tc) in enumerate(zip(['Secretary of State', 'Secretary of the Treasury', 'Secretary of Defense', 'Attorney General'], C6)):
+            a = prog(T, tc, 0.3) * out6
+            if a > 0:
+                x0, y0 = 470 + (i % 2) * 510, 330 + (i // 2) * 190
+                d.rounded_rectangle([x0, y0, x0 + 480, y0 + 160], radius=22, fill=mix((34, 54, 86), a, CARD))
+                text(d, (x0 + 240, y0 + 62), nm, F('serifb', 36), CREAM, a, anchor='mm', base=(34, 54, 86), rise=0)
+                text(d, (x0 + 240, y0 + 115), 'Executive Schedule Level I', F('sansm', 24), MUTED, a, anchor='mm', base=(34, 54, 86), rise=0)
     # left card: cabinet
     a1 = prog(T, V6, 0.3)
     if a1 > 0:
@@ -405,6 +425,10 @@ def s_twist(T, img, d):
     a = prog(T, TW, 0.3)
     d.rounded_rectangle([100, 120, 1480, 830], radius=30, fill=mix(CARD, a))
     # bars: President (2026), NY Fed president (2015), Kentucky coach (2018)
+    aq = prog(T, TW + 0.6, 0.4) * (1 - prog(T, F1 - 2.9, 0.3))
+    if aq > 0:
+        text(d, (790, 400), "Who's paid MORE", F('serifb', 96), CREAM, aq, anchor='mm', base=CARD, rise=0)
+        text(d, (790, 520), 'than $400,000?', F('serifb', 96), MINT, aq, anchor='mm', base=CARD, rise=0)
     rows = [('President', '(2026)', 400000, MINT, F1 - 2.5), ('NY Fed president', '(2015)', 466500, AMBER, F1), ('Kentucky public', 'employee #1 (2018)', 9276643, CORAL, K93)]
     zoom = ease(prog(T, K93 - 0.2, 1.2))
     vmax = 520000 + (11500000 - 520000) * zoom
