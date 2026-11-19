@@ -1,0 +1,177 @@
+{
+ "title": [
+  "THE 10 BIGGEST IPOs EVER",
+  "ranked by cash raised at pricing (no extra shares)"
+ ],
+ "hook": {
+  "big": "$81.3 BILLION",
+  "big2": "in ONE evening",
+  "small": "the record it broke was 5 months old"
+ },
+ "valueLabel": "raised in the IPO (deal size, no greenshoe)",
+ "items": [
+  {
+   "rank": 10,
+   "name": "Enel",
+   "line": "Italy's big power company",
+   "fact": "Nov 1999",
+   "value": 16.452,
+   "label": "$16.5B",
+   "seg": 2,
+   "viz": "fifth"
+  },
+  {
+   "rank": 9,
+   "name": "AIA",
+   "line": "Asian life insurer, listed in Hong Kong",
+   "fact": "Oct 2010",
+   "value": 17.816,
+   "label": "$17.8B",
+   "seg": 3,
+   "viz": "timeline",
+   "year": 2010,
+   "tl": "16 years in the top 10"
+  },
+  {
+   "rank": 8,
+   "name": "Visa",
+   "line": "The card network, New York",
+   "fact": "Mar 2008",
+   "value": 17.864,
+   "label": "$17.9B",
+   "seg": 4,
+   "viz": "duel",
+   "vs": "AIA",
+   "vsValue": 17.816,
+   "vsLabel": "$17.8B",
+   "gap": "a $48 MILLION gap",
+   "gapCue": "e8_gap"
+  },
+  {
+   "rank": 7,
+   "name": "NTT Mobile",
+   "line": "Japan's big mobile phone company, Tokyo",
+   "fact": "Oct 1998",
+   "value": 18.089,
+   "label": "$18.1B",
+   "seg": 5,
+   "viz": "timeline",
+   "year": 1998,
+   "tl": "28 years in the top 10"
+  },
+  {
+   "rank": 6,
+   "name": "SoftBank Corp",
+   "line": "Another Japanese phone company, Tokyo",
+   "fact": "Dec 2018",
+   "value": 21.345,
+   "label": "$21.3B",
+   "seg": 6,
+   "viz": "pair"
+  },
+  {
+   "rank": 5,
+   "name": "Alibaba",
+   "line": "China's online shopping giant, New York",
+   "fact": "Sept 2014",
+   "value": 21.767,
+   "label": "$21.8B",
+   "seg": 7,
+   "viz": "duel",
+   "vs": "SoftBank Corp",
+   "vsValue": 21.345,
+   "vsLabel": "$21.3B",
+   "gap": "+$420 million",
+   "gapCue": "e5_gap",
+   "badge": "RECORD 2014-2019",
+   "badgeCue": "e5_rec"
+  },
+  {
+   "rank": 4,
+   "name": "Saudi Aramco",
+   "line": "Saudi state oil company, Saudi exchange",
+   "fact": "Dec 2019",
+   "value": 25.599,
+   "label": "$25.6B",
+   "seg": 8,
+   "viz": "reign",
+   "badge": "RECORD for 6 1/2 years",
+   "badgeCue": "e4_65"
+  },
+  {
+   "rank": 3,
+   "name": "SK hynix",
+   "line": "South Korean memory-chip maker, Nasdaq",
+   "fact": "July 2026",
+   "value": 26.507,
+   "label": "$26.5B",
+   "seg": 10,
+   "viz": "duel",
+   "vs": "Saudi Aramco (old record)",
+   "vsValue": 25.599,
+   "vsLabel": "$25.6B",
+   "gap": "+$900 million",
+   "gapCue": "e3_gap",
+   "badge": "#3, #2 and #1: ALL 2026",
+   "badgeCue": "e3_year"
+  },
+  {
+   "rank": 2,
+   "name": "SpaceX",
+   "line": "June 11, 2026 \u00b7 Nasdaq",
+   "fact": "",
+   "value": 75.0,
+   "label": "$75.0B",
+   "seg": 11,
+   "viz": "equation",
+   "shares": "555.6M shares",
+   "price": "$135",
+   "sharesCue": "e2_shares",
+   "priceCue": "e2_price",
+   "valCue": "e2_val",
+   "note": "first day: closed $160.95 (+19%)",
+   "noteCue": "e2_day"
+  },
+  {
+   "rank": 1,
+   "name": "Anthropic",
+   "line": "AI company \u00b7 Nov 18, 2026 \u00b7 Nasdaq: ANT",
+   "fact": "",
+   "value": 81.3,
+   "label": "$81.3B",
+   "seg": 12,
+   "viz": "equation",
+   "shares": "980M shares",
+   "price": "$83",
+   "sharesCue": "e1_shares",
+   "priceCue": "e1_price",
+   "valCue": "e1_val",
+   "note": "priced above its $70-$78 range",
+   "noteCue": "e1_range"
+  }
+ ],
+ "twist": {
+  "seg": 14,
+  "title": "THE TWIST: BIGGER IS NOT BETTER"
+ },
+ "recapSeg": 15,
+ "cta": {
+  "seg": 16,
+  "question": "Which one surprised you the most?",
+  "next": "Next Top 10: the Thanksgiving dinner prices that moved the most"
+ },
+ "heroPoses": {
+  "0": "shock_shock",
+  "9": "think_worry",
+  "13": "shock_shock",
+  "16": "point_talk",
+  "17": "wave_happy"
+ },
+ "source": "Sources: Renaissance Capital, largest global IPOs (deal size, no greenshoe); Anthropic pricing, Yahoo Finance (Nov 18, 2026); The Motley Fool (updated Nov 16, 2026)",
+ "thumb": {
+  "top": "#1 JUST CHANGED",
+  "big": "$81.3B",
+  "bottom": "in ONE night?",
+  "pose": "point_smile"
+ }
+}
