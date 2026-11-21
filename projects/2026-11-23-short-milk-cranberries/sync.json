@@ -1,0 +1,74 @@
+[
+ {
+  "phrase": "whole milk",
+  "time": 1.01,
+  "match": 1.0,
+  "heard": "whole milk"
+ },
+ {
+  "phrase": "four dollars and five",
+  "time": 3.09,
+  "match": 1.0,
+  "heard": "four dollars and five"
+ },
+ {
+  "phrase": "up eight point six",
+  "time": 4.93,
+  "match": 1.0,
+  "heard": "up eight point six"
+ },
+ {
+  "phrase": "powdered protein",
+  "time": 9.57,
+  "match": 1.0,
+  "heard": "powdered protein"
+ },
+ {
+  "phrase": "number two fresh",
+  "time": 11.89,
+  "match": 1.0,
+  "heard": "number two fresh"
+ },
+ {
+  "phrase": "two dollars and forty eight",
+  "time": 16.13,
+  "match": 1.0,
+  "heard": "two dollars and forty eight"
+ },
+ {
+  "phrase": "up eight point eight",
+  "time": 18.13,
+  "match": 1.0,
+  "heard": "up eight point eight"
+ },
+ {
+  "phrase": "high fuel costs",
+  "time": 21.45,
+  "match": 1.0,
+  "heard": "high fuel costs"
+ },
+ {
+  "phrase": "milk and cranberries almost",
+  "time": 24.37,
+  "match": 1.0,
+  "heard": "milk and cranberries almost"
+ },
+ {
+  "phrase": "two tenths of a point",
+  "time": 26.93,
+  "match": 1.0,
+  "heard": "two tenths of a point"
+ },
+ {
+  "phrase": "the turkey isn't",
+  "time": 29.7,
+  "match": 1.0,
+  "heard": "the turkey isn't"
+ },
+ {
+  "phrase": "costing you more",
+  "time": 31.46,
+  "match": 1.0,
+  "heard": "costing you more"
+ }
+]
