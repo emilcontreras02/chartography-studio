@@ -1,0 +1,530 @@
+[
+ {
+  "phrase": "here are the ten thanksgiving prices",
+  "time": 23.88,
+  "match": 1.0,
+  "heard": "here are the ten thanksgiving prices"
+ },
+ {
+  "phrase": "number ten a thirty",
+  "time": 28.24,
+  "match": 1.0,
+  "heard": "number ten a thirty"
+ },
+ {
+  "phrase": "four dollars and twenty four cents",
+  "time": 32.04,
+  "match": 1.0,
+  "heard": "four dollars and twenty four cents"
+ },
+ {
+  "phrase": "up one point nine",
+  "time": 34.2,
+  "match": 1.0,
+  "heard": "up one point nine"
+ },
+ {
+  "phrase": "here's the rule",
+  "time": 38.0,
+  "match": 1.0,
+  "heard": "here's the rule"
+ },
+ {
+  "phrase": "price jumps glow red",
+  "time": 45.6,
+  "match": 1.0,
+  "heard": "price jumps glow red"
+ },
+ {
+  "phrase": "price drops glow green",
+  "time": 47.4,
+  "match": 1.0,
+  "heard": "price drops glow green"
+ },
+ {
+  "phrase": "at number eleven",
+  "time": 50.88,
+  "match": 1.0,
+  "heard": "at number eleven"
+ },
+ {
+  "phrase": "number nine a one pound",
+  "time": 59.92,
+  "match": 1.0,
+  "heard": "number nine a one pound"
+ },
+ {
+  "phrase": "one dollar and ninety nine",
+  "time": 63.64,
+  "match": 1.0,
+  "heard": "one dollar and ninety nine"
+ },
+ {
+  "phrase": "down two per cent",
+  "time": 65.8,
+  "match": 1.0,
+  "heard": "down two per cent"
+ },
+ {
+  "phrase": "under two dollars",
+  "time": 75.43,
+  "match": 1.0,
+  "heard": "under two dollars"
+ },
+ {
+  "phrase": "only four items",
+  "time": 77.43,
+  "match": 1.0,
+  "heard": "only four items"
+ },
+ {
+  "phrase": "number eight two frozen",
+  "time": 80.55,
+  "match": 1.0,
+  "heard": "number eight two frozen"
+ },
+ {
+  "phrase": "three dollars and twenty eight",
+  "time": 83.65,
+  "match": 1.0,
+  "heard": "three dollars and twenty eight"
+ },
+ {
+  "phrase": "down two point seven",
+  "time": 85.69,
+  "match": 1.0,
+  "heard": "down two point seven"
+ },
+ {
+  "phrase": "here's the pie again",
+  "time": 87.97,
+  "match": 1.0,
+  "heard": "here's the pie again"
+ },
+ {
+  "phrase": "the filling went up",
+  "time": 89.33,
+  "match": 1.0,
+  "heard": "the filling went up"
+ },
+ {
+  "phrase": "the crust went down",
+  "time": 90.85,
+  "match": 1.0,
+  "heard": "the crust went down"
+ },
+ {
+  "phrase": "number seven the vegetray",
+  "time": 97.69,
+  "match": 1.0,
+  "heard": "number seven the vegetray"
+ },
+ {
+  "phrase": "one dollar and thirty one",
+  "time": 102.01,
+  "match": 1.0,
+  "heard": "one dollar and thirty one"
+ },
+ {
+  "phrase": "down three point seven",
+  "time": 104.21,
+  "match": 1.0,
+  "heard": "down three point seven"
+ },
+ {
+  "phrase": "cheapest thing on the whole table",
+  "time": 106.89,
+  "match": 1.0,
+  "heard": "cheapest thing on the whole table"
+ },
+ {
+  "phrase": "biggest price drop",
+  "time": 109.21,
+  "match": 1.0,
+  "heard": "biggest price drop"
+ },
+ {
+  "phrase": "no more drops",
+  "time": 121.61,
+  "match": 1.0,
+  "heard": "no more drops"
+ },
+ {
+  "phrase": "number six three pounds",
+  "time": 126.01,
+  "match": 1.0,
+  "heard": "number six three pounds"
+ },
+ {
+  "phrase": "four dollars and twenty cents",
+  "time": 129.41,
+  "match": 1.0,
+  "heard": "four dollars and twenty cents"
+ },
+ {
+  "phrase": "up five per cent",
+  "time": 131.33,
+  "match": 1.0,
+  "heard": "up five per cent"
+ },
+ {
+  "phrase": "six price jumps in a row",
+  "time": 134.06,
+  "match": 1.0,
+  "heard": "six price jumps in a row"
+ },
+ {
+  "phrase": "bigger than the last",
+  "time": 138.69,
+  "match": 1.0,
+  "heard": "bigger than the last"
+ },
+ {
+  "phrase": "number five a fourteen",
+  "time": 139.93,
+  "match": 1.0,
+  "heard": "number five a fourteen"
+ },
+ {
+  "phrase": "three dollars and ninety one",
+  "time": 144.13,
+  "match": 1.0,
+  "heard": "three dollars and ninety one"
+ },
+ {
+  "phrase": "up five point four",
+  "time": 146.29,
+  "match": 1.0,
+  "heard": "up five point four"
+ },
+ {
+  "phrase": "almost tied less than half",
+  "time": 150.13,
+  "match": 1.0,
+  "heard": "almost tied less than half"
+ },
+ {
+  "phrase": "one bag of stuffing now costs",
+  "time": 156.45,
+  "match": 1.0,
+  "heard": "one bag of stuffing now costs"
+ },
+ {
+  "phrase": "the cranberries and the vegey tray",
+  "time": 159.01,
+  "match": 1.0,
+  "heard": "the cranberries and the vegey tray"
+ },
+ {
+  "phrase": "number four a dozen",
+  "time": 166.56,
+  "match": 1.0,
+  "heard": "number four a dozen"
+ },
+ {
+  "phrase": "three dollars and eighty one",
+  "time": 169.52,
+  "match": 1.0,
+  "heard": "three dollars and eighty one"
+ },
+ {
+  "phrase": "up seven per cent",
+  "time": 171.6,
+  "match": 1.0,
+  "heard": "up seven per cent"
+ },
+ {
+  "phrase": "points to higher costs",
+  "time": 174.8,
+  "match": 1.0,
+  "heard": "points to higher costs"
+ },
+ {
+  "phrase": "fuel processing",
+  "time": 176.2,
+  "match": 1.0,
+  "heard": "fuel processing"
+ },
+ {
+  "phrase": "packaging and transport",
+  "time": 177.56,
+  "match": 1.0,
+  "heard": "packaging and transport"
+ },
+ {
+  "phrase": "bread shows up twice",
+  "time": 179.44,
+  "match": 1.0,
+  "heard": "bread shows up twice"
+ },
+ {
+  "phrase": "number three whole milk",
+  "time": 190.38,
+  "match": 1.0,
+  "heard": "number three whole milk"
+ },
+ {
+  "phrase": "four dollars and five cents",
+  "time": 193.58,
+  "match": 1.0,
+  "heard": "four dollars and five cents"
+ },
+ {
+  "phrase": "up eight point six",
+  "time": 195.42,
+  "match": 1.0,
+  "heard": "up eight point six"
+ },
+ {
+  "phrase": "powdered protein",
+  "time": 200.06,
+  "match": 1.0,
+  "heard": "powdered protein"
+ },
+ {
+  "phrase": "number two fresh cranberries",
+  "time": 202.38,
+  "match": 1.0,
+  "heard": "number two fresh cranberries"
+ },
+ {
+  "phrase": "two dollars and forty eight",
+  "time": 206.62,
+  "match": 1.0,
+  "heard": "two dollars and forty eight"
+ },
+ {
+  "phrase": "up eight point eight",
+  "time": 208.62,
+  "match": 1.0,
+  "heard": "up eight point eight"
+ },
+ {
+  "phrase": "high fuel costs",
+  "time": 211.94,
+  "match": 1.0,
+  "heard": "high fuel costs"
+ },
+ {
+  "phrase": "milk and cranberries almost tied",
+  "time": 214.86,
+  "match": 1.0,
+  "heard": "milk and cranberries almost tied"
+ },
+ {
+  "phrase": "the turkey isn't the only",
+  "time": 220.19,
+  "match": 1.0,
+  "heard": "the turkey isn't the only"
+ },
+ {
+  "phrase": "and number one of course",
+  "time": 223.39,
+  "match": 1.0,
+  "heard": "and number one of course"
+ },
+ {
+  "phrase": "twenty three dollars and sixty eight",
+  "time": 229.35,
+  "match": 1.0,
+  "heard": "twenty three dollars and sixty eight"
+ },
+ {
+  "phrase": "forty eight cents a pound",
+  "time": 233.07,
+  "match": 1.0,
+  "heard": "forty eight cents a pound"
+ },
+ {
+  "phrase": "up ten point one",
+  "time": 234.63,
+  "match": 1.0,
+  "heard": "up ten point one"
+ },
+ {
+  "phrase": "higher production costs",
+  "time": 238.15,
+  "match": 1.0,
+  "heard": "higher production costs"
+ },
+ {
+  "phrase": "the turkey alone is",
+  "time": 242.27,
+  "match": 1.0,
+  "heard": "the turkey alone is"
+ },
+ {
+  "phrase": "not quite half",
+  "time": 251.03,
+  "match": 1.0,
+  "heard": "not quite half"
+ },
+ {
+  "phrase": "expanded menu comes to",
+  "time": 260.56,
+  "match": 1.0,
+  "heard": "expanded menu comes to"
+ },
+ {
+  "phrase": "the northeast pays",
+  "time": 266.44,
+  "match": 1.0,
+  "heard": "the northeast pays"
+ },
+ {
+  "phrase": "the south pays",
+  "time": 270.23,
+  "match": 1.0,
+  "heard": "the south pays"
+ },
+ {
+  "phrase": "here's the twist split",
+  "time": 272.79,
+  "match": 1.0,
+  "heard": "here's the twist split"
+ },
+ {
+  "phrase": "five dollars and eighty six",
+  "time": 277.55,
+  "match": 1.0,
+  "heard": "five dollars and eighty six"
+ },
+ {
+  "phrase": "five dollars and forty two",
+  "time": 280.99,
+  "match": 1.0,
+  "heard": "five dollars and forty two"
+ },
+ {
+  "phrase": "sixty four o five",
+  "time": 284.95,
+  "match": 1.0,
+  "heard": "sixty four o five"
+ },
+ {
+  "phrase": "the u s department",
+  "time": 289.11,
+  "match": 1.0,
+  "heard": "the u s department"
+ },
+ {
+  "phrase": "less than six cents",
+  "time": 291.83,
+  "match": 1.0,
+  "heard": "less than six cents"
+ },
+ {
+  "phrase": "most of the rest pays",
+  "time": 296.63,
+  "match": 1.0,
+  "heard": "most of the rest pays"
+ },
+ {
+  "phrase": "not the one getting rich",
+  "time": 306.5,
+  "match": 1.0,
+  "heard": "not the one getting rich"
+ },
+ {
+  "phrase": "quick recap",
+  "time": 308.02,
+  "match": 1.0,
+  "heard": "quick recap"
+ },
+ {
+  "phrase": "seven went up three went down",
+  "time": 310.58,
+  "match": 1.0,
+  "heard": "seven went up three went down"
+ },
+ {
+  "phrase": "pumpkin pie mix frozen",
+  "time": 313.46,
+  "match": 1.0,
+  "heard": "pumpkin pie mix frozen"
+ },
+ {
+  "phrase": "frozen peas pie",
+  "time": 315.02,
+  "match": 1.0,
+  "heard": "frozen peas pie"
+ },
+ {
+  "phrase": "pie crusts the",
+  "time": 316.42,
+  "match": 1.0,
+  "heard": "pie crusts the"
+ },
+ {
+  "phrase": "the vegetray sweet",
+  "time": 317.5,
+  "match": 1.0,
+  "heard": "the vegetray sweet"
+ },
+ {
+  "phrase": "sweet potatoes stuffing",
+  "time": 318.74,
+  "match": 1.0,
+  "heard": "sweet potatoes stuffing"
+ },
+ {
+  "phrase": "stuffing dinner",
+  "time": 320.26,
+  "match": 1.0,
+  "heard": "stuffing dinner"
+ },
+ {
+  "phrase": "dinner rolls whole",
+  "time": 321.18,
+  "match": 1.0,
+  "heard": "dinner rolls whole"
+ },
+ {
+  "phrase": "whole milk cranberries",
+  "time": 322.34,
+  "match": 1.0,
+  "heard": "whole milk cranberries"
+ },
+ {
+  "phrase": "cranberries and at the top",
+  "time": 323.38,
+  "match": 1.0,
+  "heard": "cranberries and at the top"
+ },
+ {
+  "phrase": "the turkey up ten",
+  "time": 325.38,
+  "match": 1.0,
+  "heard": "the turkey up ten"
+ },
+ {
+  "phrase": "which price surprised you",
+  "time": 329.78,
+  "match": 1.0,
+  "heard": "which price surprised you"
+ },
+ {
+  "phrase": "tell us in the comments",
+  "time": 332.18,
+  "match": 1.0,
+  "heard": "tell us in the comments"
+ },
+ {
+  "phrase": "follow the money",
+  "time": 334.57,
+  "match": 1.0,
+  "heard": "follow the money"
+ },
+ {
+  "phrase": "subscribe to",
+  "time": 335.93,
+  "match": 1.0,
+  "heard": "subscribe to"
+ },
+ {
+  "phrase": "on wednesday the ten",
+  "time": 337.85,
+  "match": 1.0,
+  "heard": "on wednesday the ten"
+ }
+]
