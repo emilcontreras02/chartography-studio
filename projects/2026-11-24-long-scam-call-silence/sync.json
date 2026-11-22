@@ -1,0 +1,806 @@
+[
+ {
+  "phrase": "your phone rings",
+  "time": 0.0,
+  "match": 1.0,
+  "heard": "your phone rings"
+ },
+ {
+  "phrase": "a number you don't know",
+  "time": 1.26,
+  "match": 1.0,
+  "heard": "a number you don't know"
+ },
+ {
+  "phrase": "you pick up",
+  "time": 4.7,
+  "match": 1.0,
+  "heard": "you pick up"
+ },
+ {
+  "phrase": "you say hello",
+  "time": 5.74,
+  "match": 1.0,
+  "heard": "you say hello"
+ },
+ {
+  "phrase": "one second",
+  "time": 8.74,
+  "match": 1.0,
+  "heard": "one second"
+ },
+ {
+  "phrase": "second two",
+  "time": 9.02,
+  "match": 1.0,
+  "heard": "second two"
+ },
+ {
+  "phrase": "two three",
+  "time": 9.86,
+  "match": 1.0,
+  "heard": "two three"
+ },
+ {
+  "phrase": "then a click",
+  "time": 11.58,
+  "match": 1.0,
+  "heard": "then a click"
+ },
+ {
+  "phrase": "line goes dead",
+  "time": 12.9,
+  "match": 1.0,
+  "heard": "line goes dead"
+ },
+ {
+  "phrase": "wait who was that",
+  "time": 14.02,
+  "match": 1.0,
+  "heard": "wait who was that"
+ },
+ {
+  "phrase": "maybe nobody",
+  "time": 16.0,
+  "match": 1.0,
+  "heard": "maybe nobody"
+ },
+ {
+  "phrase": "it's the filter",
+  "time": 21.28,
+  "match": 1.0,
+  "heard": "it's the filter"
+ },
+ {
+  "phrase": "sits a record",
+  "time": 23.56,
+  "match": 1.0,
+  "heard": "sits a record"
+ },
+ {
+  "phrase": "fifteen point nine billion",
+  "time": 27.52,
+  "match": 1.0,
+  "heard": "fifteen point nine billion"
+ },
+ {
+  "phrase": "forty three point six",
+  "time": 32.34,
+  "match": 1.0,
+  "heard": "forty three point six"
+ },
+ {
+  "phrase": "we follow one call",
+  "time": 36.38,
+  "match": 1.0,
+  "heard": "we follow one call"
+ },
+ {
+  "phrase": "the empty bank account",
+  "time": 39.34,
+  "match": 1.0,
+  "heard": "the empty bank account"
+ },
+ {
+  "phrase": "far too small",
+  "time": 45.66,
+  "match": 1.0,
+  "heard": "far too small"
+ },
+ {
+  "phrase": "chapter one the silent",
+  "time": 46.81,
+  "match": 1.0,
+  "heard": "chapter one the silent"
+ },
+ {
+  "phrase": "meet ruth",
+  "time": 50.21,
+  "match": 1.0,
+  "heard": "meet ruth"
+ },
+ {
+  "phrase": "she's made up",
+  "time": 51.37,
+  "match": 1.0,
+  "heard": "she's made up"
+ },
+ {
+  "phrase": "holiday package",
+  "time": 56.49,
+  "match": 1.0,
+  "heard": "holiday package"
+ },
+ {
+  "phrase": "phone keeps ringing",
+  "time": 58.09,
+  "match": 1.0,
+  "heard": "phone keeps ringing"
+ },
+ {
+  "phrase": "same thing hello",
+  "time": 61.21,
+  "match": 1.0,
+  "heard": "same thing hello"
+ },
+ {
+  "phrase": "hello silence",
+  "time": 62.23,
+  "match": 1.0,
+  "heard": "hello silence"
+ },
+ {
+  "phrase": "silence click",
+  "time": 63.35,
+  "match": 1.0,
+  "heard": "silence click"
+ },
+ {
+  "phrase": "come at dinner",
+  "time": 66.23,
+  "match": 1.0,
+  "heard": "come at dinner"
+ },
+ {
+  "phrase": "favorite show",
+  "time": 68.07,
+  "match": 1.0,
+  "heard": "favorite show"
+ },
+ {
+  "phrase": "own area code",
+  "time": 71.39,
+  "match": 1.0,
+  "heard": "own area code"
+ },
+ {
+  "phrase": "delivery driver",
+  "time": 76.67,
+  "match": 1.0,
+  "heard": "delivery driver"
+ },
+ {
+  "phrase": "her grandson",
+  "time": 78.36,
+  "match": 1.0,
+  "heard": "her grandson"
+ },
+ {
+  "phrase": "here's what that silence",
+  "time": 79.24,
+  "match": 1.0,
+  "heard": "here's what that silence"
+ },
+ {
+  "phrase": "predictive daler",
+  "time": 84.2,
+  "match": 1.0,
+  "heard": "predictive daler"
+ },
+ {
+  "phrase": "calls several people",
+  "time": 88.64,
+  "match": 1.0,
+  "heard": "calls several people"
+ },
+ {
+  "phrase": "who is free whoever",
+  "time": 91.52,
+  "match": 1.0,
+  "heard": "who is free whoever"
+ },
+ {
+  "phrase": "picks up first",
+  "time": 92.84,
+  "match": 1.0,
+  "heard": "picks up first"
+ },
+ {
+  "phrase": "hung up on",
+  "time": 96.37,
+  "match": 1.0,
+  "heard": "hung up on"
+ },
+ {
+  "phrase": "left waiting in silence",
+  "time": 97.49,
+  "match": 1.0,
+  "heard": "left waiting in silence"
+ },
+ {
+  "phrase": "chapter two the machine",
+  "time": 99.01,
+  "match": 1.0,
+  "heard": "chapter two the machine"
+ },
+ {
+  "phrase": "there are rules",
+  "time": 104.49,
+  "match": 1.0,
+  "heard": "there are rules"
+ },
+ {
+  "phrase": "telemarketing sales rule",
+  "time": 107.37,
+  "match": 1.0,
+  "heard": "telemarketing sales rule"
+ },
+ {
+  "phrase": "counts as abandoned",
+  "time": 109.53,
+  "match": 1.0,
+  "heard": "counts as abandoned"
+ },
+ {
+  "phrase": "within two seconds",
+  "time": 113.29,
+  "match": 1.0,
+  "heard": "within two seconds"
+ },
+ {
+  "phrase": "three per cent",
+  "time": 119.68,
+  "match": 1.0,
+  "heard": "three per cent"
+ },
+ {
+  "phrase": "fifteen seconds or four",
+  "time": 123.72,
+  "match": 1.0,
+  "heard": "fifteen seconds or four"
+ },
+ {
+  "phrase": "play a message",
+  "time": 128.44,
+  "match": 1.0,
+  "heard": "play a message"
+ },
+ {
+  "phrase": "breaks the rules",
+  "time": 133.75,
+  "match": 1.0,
+  "heard": "breaks the rules"
+ },
+ {
+  "phrase": "for a real business",
+  "time": 135.08,
+  "match": 1.0,
+  "heard": "for a real business"
+ },
+ {
+  "phrase": "scammers don't follow",
+  "time": 139.75,
+  "match": 1.0,
+  "heard": "scammers don't follow"
+ },
+ {
+  "phrase": "a sorting machine",
+  "time": 143.47,
+  "match": 1.0,
+  "heard": "a sorting machine"
+ },
+ {
+  "phrase": "some security experts",
+  "time": 144.91,
+  "match": 1.0,
+  "heard": "some security experts"
+ },
+ {
+  "phrase": "number is alive",
+  "time": 148.59,
+  "match": 1.0,
+  "heard": "number is alive"
+ },
+ {
+  "phrase": "nobody can prove",
+  "time": 151.9,
+  "match": 1.0,
+  "heard": "nobody can prove"
+ },
+ {
+  "phrase": "what happens next to a lot",
+  "time": 155.5,
+  "match": 1.0,
+  "heard": "what happens next to a lot"
+ },
+ {
+  "phrase": "chapter three the second",
+  "time": 159.78,
+  "match": 1.0,
+  "heard": "chapter three the second"
+ },
+ {
+  "phrase": "ruth gets a text",
+  "time": 164.18,
+  "match": 1.0,
+  "heard": "ruth gets a text"
+ },
+ {
+  "phrase": "then a call",
+  "time": 165.7,
+  "match": 1.0,
+  "heard": "then a call"
+ },
+ {
+  "phrase": "her bank's fraud",
+  "time": 168.77,
+  "match": 1.0,
+  "heard": "her bank's fraud"
+ },
+ {
+  "phrase": "act fast",
+  "time": 173.09,
+  "match": 1.0,
+  "heard": "act fast"
+ },
+ {
+  "phrase": "most common trick",
+  "time": 175.17,
+  "match": 1.0,
+  "heard": "most common trick"
+ },
+ {
+  "phrase": "nine years in a row",
+  "time": 181.45,
+  "match": 1.0,
+  "heard": "nine years in a row"
+ },
+ {
+  "phrase": "one million impostor",
+  "time": 185.73,
+  "match": 1.0,
+  "heard": "one million impostor"
+ },
+ {
+  "phrase": "three and a half billion",
+  "time": 188.93,
+  "match": 1.0,
+  "heard": "three and a half billion"
+ },
+ {
+  "phrase": "nearly one and three",
+  "time": 191.21,
+  "match": 1.0,
+  "heard": "nearly one and three"
+ },
+ {
+  "phrase": "hit subscribe",
+  "time": 197.09,
+  "match": 1.0,
+  "heard": "hit subscribe"
+ },
+ {
+  "phrase": "costliest scams often",
+  "time": 201.39,
+  "match": 1.0,
+  "heard": "costliest scams often"
+ },
+ {
+  "phrase": "business impersonators",
+  "time": 208.95,
+  "match": 1.0,
+  "heard": "business impersonators"
+ },
+ {
+  "phrase": "bank impersonators were",
+  "time": 211.63,
+  "match": 1.0,
+  "heard": "bank impersonators were"
+ },
+ {
+  "phrase": "government impersonators took",
+  "time": 214.39,
+  "match": 1.0,
+  "heard": "government impersonators took"
+ },
+ {
+  "phrase": "nine hundred twenty million",
+  "time": 216.23,
+  "match": 1.0,
+  "heard": "nine hundred twenty million"
+ },
+ {
+  "phrase": "jumped forty per cent",
+  "time": 220.39,
+  "match": 1.0,
+  "heard": "jumped forty per cent"
+ },
+ {
+  "phrase": "unpaid tolls",
+  "time": 223.91,
+  "match": 1.0,
+  "heard": "unpaid tolls"
+ },
+ {
+  "phrase": "text messages were",
+  "time": 225.47,
+  "match": 1.0,
+  "heard": "text messages were"
+ },
+ {
+  "phrase": "chapter four moving",
+  "time": 229.4,
+  "match": 1.0,
+  "heard": "chapter four moving"
+ },
+ {
+  "phrase": "savings aren't safe",
+  "time": 233.96,
+  "match": 1.0,
+  "heard": "savings aren't safe"
+ },
+ {
+  "phrase": "don't hang up",
+  "time": 238.8,
+  "match": 1.0,
+  "heard": "don't hang up"
+ },
+ {
+  "phrase": "at the branch",
+  "time": 242.28,
+  "match": 1.0,
+  "heard": "at the branch"
+ },
+ {
+  "phrase": "hands are shaking",
+  "time": 244.08,
+  "match": 1.0,
+  "heard": "hands are shaking"
+ },
+ {
+  "phrase": "money actually leaves",
+  "time": 248.58,
+  "match": 1.0,
+  "heard": "money actually leaves"
+ },
+ {
+  "phrase": "payment methods with",
+  "time": 252.3,
+  "match": 1.0,
+  "heard": "payment methods with"
+ },
+ {
+  "phrase": "bank payments",
+  "time": 254.58,
+  "match": 1.0,
+  "heard": "bank payments"
+ },
+ {
+  "phrase": "then crypto",
+  "time": 255.58,
+  "match": 1.0,
+  "heard": "then crypto"
+ },
+ {
+  "phrase": "biggest losses didn't",
+  "time": 257.34,
+  "match": 1.0,
+  "heard": "biggest losses didn't"
+ },
+ {
+  "phrase": "investment scams more",
+  "time": 261.29,
+  "match": 1.0,
+  "heard": "investment scams more"
+ },
+ {
+  "phrase": "seven point nine billion",
+  "time": 263.29,
+  "match": 1.0,
+  "heard": "seven point nine billion"
+ },
+ {
+  "phrase": "about half of everything",
+  "time": 265.77,
+  "match": 1.0,
+  "heard": "about half of everything"
+ },
+ {
+  "phrase": "average victim",
+  "time": 270.21,
+  "match": 1.0,
+  "heard": "average victim"
+ },
+ {
+  "phrase": "ten thousand",
+  "time": 273.01,
+  "match": 1.0,
+  "heard": "ten thousand"
+ },
+ {
+  "phrase": "contact method with the highest",
+  "time": 275.01,
+  "match": 1.0,
+  "heard": "contact method with the highest"
+ },
+ {
+  "phrase": "social media",
+  "time": 278.63,
+  "match": 1.0,
+  "heard": "social media"
+ },
+ {
+  "phrase": "two billion dollars",
+  "time": 280.39,
+  "match": 1.0,
+  "heard": "two billion dollars"
+ },
+ {
+  "phrase": "just the door",
+  "time": 284.31,
+  "match": 1.0,
+  "heard": "just the door"
+ },
+ {
+  "phrase": "pretty much",
+  "time": 285.31,
+  "match": 1.0,
+  "heard": "pretty much"
+ },
+ {
+  "phrase": "cheques who picks up",
+  "time": 287.43,
+  "match": 1.0,
+  "heard": "cheques who picks up"
+ },
+ {
+  "phrase": "builds the story",
+  "time": 290.91,
+  "match": 1.0,
+  "heard": "builds the story"
+ },
+ {
+  "phrase": "transfer is where",
+  "time": 292.67,
+  "match": 1.0,
+  "heard": "transfer is where"
+ },
+ {
+  "phrase": "chapter five",
+  "time": 294.98,
+  "match": 1.0,
+  "heard": "chapter five"
+ },
+ {
+  "phrase": "three million fraud",
+  "time": 304.5,
+  "match": 1.0,
+  "heard": "three million fraud"
+ },
+ {
+  "phrase": "dollars lost",
+  "time": 308.66,
+  "match": 1.0,
+  "heard": "dollars lost"
+ },
+ {
+  "phrase": "twenty five per cent more",
+  "time": 310.62,
+  "match": 1.0,
+  "heard": "twenty five per cent more"
+ },
+ {
+  "phrase": "two point six million",
+  "time": 313.5,
+  "match": 1.0,
+  "heard": "two point six million"
+ },
+ {
+  "phrase": "more than twelve billion",
+  "time": 315.78,
+  "match": 1.0,
+  "heard": "more than twelve billion"
+ },
+ {
+  "phrase": "every year for six",
+  "time": 318.74,
+  "match": 1.0,
+  "heard": "every year for six"
+ },
+ {
+  "phrase": "more than six billion",
+  "time": 320.78,
+  "match": 1.0,
+  "heard": "more than six billion"
+ },
+ {
+  "phrase": "about nine billion",
+  "time": 323.38,
+  "match": 1.0,
+  "heard": "about nine billion"
+ },
+ {
+  "phrase": "more than ten billion",
+  "time": 325.74,
+  "match": 1.0,
+  "heard": "more than ten billion"
+ },
+ {
+  "phrase": "since twenty twenty",
+  "time": 328.5,
+  "match": 1.0,
+  "heard": "since twenty twenty"
+ },
+ {
+  "phrase": "four hundred thirty",
+  "time": 330.66,
+  "match": 1.0,
+  "heard": "four hundred thirty"
+ },
+ {
+  "phrase": "a hundred thousand dollars",
+  "time": 336.91,
+  "match": 1.0,
+  "heard": "a hundred thousand dollars"
+ },
+ {
+  "phrase": "here's the twist",
+  "time": 338.83,
+  "match": 1.0,
+  "heard": "here's the twist"
+ },
+ {
+  "phrase": "only the part people",
+  "time": 341.39,
+  "match": 1.0,
+  "heard": "only the part people"
+ },
+ {
+  "phrase": "four point eight",
+  "time": 346.31,
+  "match": 1.0,
+  "heard": "four point eight"
+ },
+ {
+  "phrase": "better business bureau",
+  "time": 350.23,
+  "match": 1.0,
+  "heard": "better business bureau"
+ },
+ {
+  "phrase": "estimate the real cost",
+  "time": 354.66,
+  "match": 1.0,
+  "heard": "estimate the real cost"
+ },
+ {
+  "phrase": "one hundred ninety five point nine",
+  "time": 361.62,
+  "match": 1.0,
+  "heard": "one hundred ninety five point nine"
+ },
+ {
+  "phrase": "more than ten times",
+  "time": 368.35,
+  "match": 1.0,
+  "heard": "more than ten times"
+ },
+ {
+  "phrase": "chapter six never",
+  "time": 370.79,
+  "match": 1.0,
+  "heard": "chapter six never"
+ },
+ {
+  "phrase": "back to that silent",
+  "time": 375.23,
+  "match": 1.0,
+  "heard": "back to that silent"
+ },
+ {
+  "phrase": "took nothing from ruth",
+  "time": 378.55,
+  "match": 1.0,
+  "heard": "took nothing from ruth"
+ },
+ {
+  "phrase": "lost later",
+  "time": 383.47,
+  "match": 1.0,
+  "heard": "lost later"
+ },
+ {
+  "phrase": "called never ever",
+  "time": 391.28,
+  "match": 1.0,
+  "heard": "called never ever"
+ },
+ {
+  "phrase": "new alerts about",
+  "time": 401.8,
+  "match": 1.0,
+  "heard": "new alerts about"
+ },
+ {
+  "phrase": "grand kid scams",
+  "time": 402.72,
+  "match": 1.0,
+  "heard": "grand kid scams"
+ },
+ {
+  "phrase": "holiday search results",
+  "time": 404.28,
+  "match": 1.0,
+  "heard": "holiday search results"
+ },
+ {
+  "phrase": "dollars reported may",
+  "time": 407.54,
+  "match": 1.0,
+  "heard": "dollars reported may"
+ },
+ {
+  "phrase": "far more unreported",
+  "time": 409.74,
+  "match": 1.0,
+  "heard": "far more unreported"
+ },
+ {
+  "phrase": "three little words",
+  "time": 413.74,
+  "match": 1.0,
+  "heard": "three little words"
+ },
+ {
+  "phrase": "hello any one there",
+  "time": 415.3,
+  "match": 1.0,
+  "heard": "hello any one there"
+ },
+ {
+  "phrase": "your turn have you",
+  "time": 417.74,
+  "match": 1.0,
+  "heard": "your turn have you"
+ },
+ {
+  "phrase": "tell us in the comments",
+  "time": 423.05,
+  "match": 1.0,
+  "heard": "tell us in the comments"
+ },
+ {
+  "phrase": "follow the money",
+  "time": 425.41,
+  "match": 1.0,
+  "heard": "follow the money"
+ },
+ {
+  "phrase": "subscribe to tertography",
+  "time": 426.77,
+  "match": 1.0,
+  "heard": "subscribe to tertography"
+ },
+ {
+  "phrase": "what if the world",
+  "time": 429.57,
+  "match": 1.0,
+  "heard": "what if the world"
+ },
+ {
+  "phrase": "day by day see",
+  "time": 433.01,
+  "match": 1.0,
+  "heard": "day by day see"
+ }
+]
