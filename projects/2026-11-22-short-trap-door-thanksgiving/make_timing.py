@@ -17,8 +17,8 @@ P = [
     ('fall', 'and i fall'), ('r1', 'round one'), ('cheaper', 'got cheaper this year'), ('o1', 'the turkey the cranberries'),
     ('o2', 'the cranberries'), ('o3', 'or the vegetray'), ('pick3', 'door three'), ('safe', 'safe'), ('down37', 'down three point seven'),
     ('afbf', 'american farm bureau'), ('turkey', 'the turkey up'), ('up10', 'up ten per cent'),
-    ('r2', 'round two'), ('gas', 'a gallon of gas'), ('d1', 'a dime about'), ('d2', 'sixty seven cents or'), ('d3', 'two dollars'),
-    ('pick1', 'a dime wrong'), ('wrong', 'wrong door'), ('more67', 'sixty seven cents more'), ('p375', 'three seventy five'), ('p308', 'three o eight'),
+    ('r2', 'round two'), ('gas', 'a gallon of gas'), ('d1', 'a dime about'), ('d2', 'fifty seven cents or'), ('d3', 'two dollars'),
+    ('pick1', 'a dime wrong'), ('wrong', 'wrong door'), ('more67', 'fifty seven cents more'), ('p375', 'three sixty six'), ('p308', 'three o nine'),
     ('noo', 'no final'), ('r3', 'final round'), ('pit', 'bottom of the pit'), ('travel', 'how many americans'), ('ans', 'eighty one and a half'),
     ('correct', 'correct'), ('fewer', 'tiny bit fewer'), ('records', 'three straight records'), ('cta', 'how many doors'), ('score', 'your score'),
 ]

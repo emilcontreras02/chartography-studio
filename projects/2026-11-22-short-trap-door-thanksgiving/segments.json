@@ -1,14 +1,50 @@
 [
-["hero", "Three trap doors. Three questions. One wrong answer, and I fall!"],
-["narr", "Round one. Which Thanksgiving food got cheaper this year? The turkey, the cranberries, or the veggie tray?"],
-["hero", "Door three. The veggie tray!"],
-["narr", "Safe. Down three point seven percent, says the American Farm Bureau. The turkey? Up ten percent."],
-["narr", "Round two. How much more is a gallon of gas than a year ago? A dime, about sixty-seven cents, or two dollars?"],
-["hero", "A dime!"],
-["narr", "Wrong door. About sixty-seven cents more. Three seventy-five a gallon, versus three oh eight last year."],
-["hero", "Nooooo!"],
-["narr", "Final round, from the bottom of the pit. How many Americans will travel for Thanksgiving?"],
-["hero", "Eighty-one and a half million!"],
-["narr", "Correct. Just a tiny bit fewer than last year, ending three straight records."],
-["hero", "How many doors would you survive? Comment your score!"]
+ [
+  "hero",
+  "Three trap doors. Three questions. One wrong answer, and I fall!"
+ ],
+ [
+  "narr",
+  "Round one. Which Thanksgiving food got cheaper this year? The turkey, the cranberries, or the veggie tray?"
+ ],
+ [
+  "hero",
+  "Door three. The veggie tray!"
+ ],
+ [
+  "narr",
+  "Safe. Down three point seven percent, says the American Farm Bureau. The turkey? Up ten percent."
+ ],
+ [
+  "narr",
+  "Round two. How much more is a gallon of gas than a year ago? A dime, about fifty-seven cents, or two dollars?"
+ ],
+ [
+  "hero",
+  "A dime!"
+ ],
+ [
+  "narr",
+  "Wrong door. About fifty-seven cents more. Three sixty-six a gallon, versus three oh nine last year."
+ ],
+ [
+  "hero",
+  "Nooooo!"
+ ],
+ [
+  "narr",
+  "Final round, from the bottom of the pit. How many Americans will travel for Thanksgiving?"
+ ],
+ [
+  "hero",
+  "Eighty-one and a half million!"
+ ],
+ [
+  "narr",
+  "Correct. Just a tiny bit fewer than last year, ending three straight records."
+ ],
+ [
+  "hero",
+  "How many doors would you survive? Comment your score!"
+ ]
 ]

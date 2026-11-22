@@ -77,7 +77,7 @@ const Brand: React.FC = () => (
 const SRC: [number, string][] = [
   [0, ''],
   [S[1], 'Source: American Farm Bureau Federation, Thanksgiving Dinner Cost Survey (released Nov 18, 2026)'],
-  [S[4], 'Source: AAA national average, regular unleaded, Nov 18, 2026 vs a year earlier'],
+  [S[4], 'Source: AAA national average, regular unleaded, as of Nov 21, 2026 vs a year earlier'],
   [S[8], 'Source: AAA Thanksgiving travel forecast (travel of 50+ miles, Nov 24-30, 2026)'],
   [S[11], ''],
 ];
@@ -233,7 +233,7 @@ const Round2: React.FC<{dur: number; off: number}> = ({dur, off}) => {
   return (
     <Fade dur={dur}>
       <RoundTitle o={1 - card} n="ROUND 2" q={<>Gas: how much more per gallon than <span style={{color: C.amber}}>a year ago?</span></>} />
-      <Signs labels={['A DIME', 'ABOUT 67¢', '$2']} delays={[at('d1'), at('d2'), at('d3')]} mark={[f >= at('wrong') ? C.red : f >= at('pick1') ? C.amber : null, f >= at('more67') ? C.mint : null, null]} />
+      <Signs labels={['A DIME', 'ABOUT 57¢', '$2']} delays={[at('d1'), at('d2'), at('d3')]} mark={[f >= at('wrong') ? C.red : f >= at('pick1') ? C.amber : null, f >= at('more67') ? C.mint : null, null]} />
       {/* the mascot drops through door 1; drawn under the floor so he vanishes into the hole */}
       <AbsoluteFill style={{clipPath: drop > 0 ? `inset(0 0 ${1920 - FLOOR - 28}px 0)` : 'none'}}>
         <Hero pose={pose} x={x} y={FLOOR + 20 + drop * 520} h={300} flip={walk < 1 && f >= at('pick1') - 4} shake={f >= at('wrong') && drop === 0 ? 8 : 0} />
@@ -242,10 +242,10 @@ const Round2: React.FC<{dur: number; off: number}> = ({dur, off}) => {
       {f >= at('wrong') && drop < 1 && <div style={{position: 'absolute', left: DX[0] - 130, top: 800, width: 260, textAlign: 'center', fontFamily: HEAD, fontSize: 60, color: C.red}}>WRONG!</div>}
       <div style={{position: 'absolute', top: 250, left: 0, right: 0, display: 'flex', justifyContent: 'center', opacity: card}}>
         <div style={{transform: `scale(${card})`, width: 920, height: 300, borderRadius: 30, background: C.panel, border: `7px solid ${C.amber}`, textAlign: 'center', paddingTop: 22}}>
-          <div style={{fontFamily: HEAD, fontSize: 120, color: C.amber, lineHeight: 1}}>+67¢<span style={{fontSize: 56, color: C.cream}}> / gal</span></div>
+          <div style={{fontFamily: HEAD, fontSize: 120, color: C.amber, lineHeight: 1}}>+57¢<span style={{fontSize: 56, color: C.cream}}> / gal</span></div>
           <div style={{display: 'flex', justifyContent: 'center', gap: 60, marginTop: 22, fontFamily: HEAD, fontSize: 52}}>
-            <span style={{opacity: p1, color: C.red}}>$3.75 <span style={{fontFamily: BODY, fontSize: 30, color: C.muted}}>now</span></span>
-            <span style={{opacity: p2, color: C.mint}}>$3.08 <span style={{fontFamily: BODY, fontSize: 30, color: C.muted}}>a year ago</span></span>
+            <span style={{opacity: p1, color: C.red}}>$3.66 <span style={{fontFamily: BODY, fontSize: 30, color: C.muted}}>now</span></span>
+            <span style={{opacity: p2, color: C.mint}}>$3.09 <span style={{fontFamily: BODY, fontSize: 30, color: C.muted}}>a year ago</span></span>
           </div>
         </div>
       </div>
