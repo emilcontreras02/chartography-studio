@@ -12,7 +12,7 @@ P = [
  ('s9', 'number nine a one pound'), ('v9', 'one dollar and ninety nine'), ('p9', 'down two per cent'), ('under9', 'under two dollars'), ('four9', 'only four items'),
  ('s8', 'number eight two frozen'), ('v8', 'three dollars and twenty eight'), ('p8', 'down two point seven'), ('pie8', "here's the pie again"), ('up8', 'the filling went up'), ('down8', 'the crust went down'),
  ('s7', 'number seven the vegetray'), ('v7', 'one dollar and thirty one'), ('p7', 'down three point seven'), ('cheap7', 'cheapest thing on the whole table'), ('drop7', 'biggest price drop'),
- ('nodrops', 'no more drops'), ('s6', 'number six three pounds'), ('v6', 'four dollars and twenty cents'), ('p6', 'up five per cent'), ('six6', 'six price jumps in a row'), ('big6', 'bigger than the last'),
+ ('nodrops', 'no more drops'), ('s6', 'number six three pounds'), ('v6', 'four dollars and twenty cents'), ('p6', 'up five per cent'), ('six6', 'six price jumps in'), ('big6', 'bigger than the last'),
  ('s5', 'number five a fourteen'), ('v5', 'three dollars and ninety one'), ('p5', 'up five point four'), ('tied5', 'almost tied less than half'), ('pic5', 'one bag of stuffing now costs'), ('pic5b', 'the cranberries and the vegey tray'),
  ('s4', 'number four a dozen'), ('v4', 'three dollars and eighty one'), ('p4', 'up seven per cent'), ('why4', 'points to higher costs'), ('c_fuel', 'fuel processing'), ('c_pack', 'packaging and transport'), ('bread4', 'bread shows up twice'),
  ('s3', 'number three whole milk'), ('v3', 'four dollars and five cents'), ('p3', 'up eight point six'), ('why3', 'powdered protein'),
@@ -24,7 +24,7 @@ P = [
  ('rc', 'quick recap'), ('rc73', 'seven went up three went down'),
  ('rc10', 'pumpkin pie mix frozen'), ('rc9', 'frozen peas pie'), ('rc8', 'pie crusts the'), ('rc7', 'the vegetray sweet'), ('rc6', 'sweet potatoes stuffing'),
  ('rc5', 'stuffing dinner'), ('rc4', 'dinner rolls whole'), ('rc3', 'whole milk cranberries'), ('rc2', 'cranberries and at the top'), ('rc1', 'the turkey up ten'),
- ('q', 'which price surprised you'), ('comments', 'tell us in the comments'), ('follow', 'follow the money'), ('sub', 'subscribe to'), ('wed', 'on wednesday the ten'),
+ ('q', 'which price surprised you'), ('comments', 'tell us in the comments'), ('follow', 'follow the money'), ('sub', 'subscribe to'), ('wed', 'tomorrow why so many'),
 ]
 if __name__ == '__main__':
     segs = json.load(open(H + '/segments.json')); words = json.load(open(H + '/words.json')); spk = json.load(open(H + '/speakers.json'))

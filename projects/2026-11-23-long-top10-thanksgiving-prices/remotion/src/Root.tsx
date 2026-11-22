@@ -555,7 +555,7 @@ const CTA: React.FC = () => {
       <div style={{marginTop: 34}}><Pill o={fade(f, cx('comments'))} size={48}>Tell us in the comments ↓</Pill></div>
       <div style={{marginTop: 34, fontFamily: HEAD, fontSize: 70, color: C.amber, opacity: fade(f, cx('follow')), transform: `rotate(-2deg)`}}>"Follow the money."</div>
       <div style={{marginTop: 30, opacity: fade(f, sub), transform: `scale(${f >= sub ? pulse : 1})`, transformOrigin: 'left', display: 'inline-block', background: C.red, color: '#fff', fontFamily: HEAD, fontSize: 58, padding: '18px 44px', borderRadius: 20}}>▶ SUBSCRIBE</div>
-      <div style={{opacity: fade(f, cx('wed')), marginTop: 26, fontFamily: BODY, fontWeight: 700, fontSize: 40, color: C.cream}}>Wednesday: <span style={{color: C.mint}}>the 10 biggest bankruptcies in US history</span></div>
+      <div style={{opacity: fade(f, cx('wed')), marginTop: 26, fontFamily: BODY, fontWeight: 700, fontSize: 40, color: C.cream}}>Tomorrow: <span style={{color: C.mint}}>why so many scam calls start with silence</span></div>
     </div>
   );
 };

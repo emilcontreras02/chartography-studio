@@ -13,7 +13,7 @@
  },
  {
   "phrase": "four dollars and twenty four cents",
-  "time": 32.04,
+  "time": 32.0,
   "match": 1.0,
   "heard": "four dollars and twenty four cents"
  },
@@ -163,37 +163,37 @@
  },
  {
   "phrase": "up five per cent",
-  "time": 131.33,
+  "time": 131.26,
   "match": 1.0,
   "heard": "up five per cent"
  },
  {
-  "phrase": "six price jumps in a row",
+  "phrase": "six price jumps in",
   "time": 134.06,
   "match": 1.0,
-  "heard": "six price jumps in a row"
+  "heard": "six price jumps in"
  },
  {
   "phrase": "bigger than the last",
-  "time": 138.69,
+  "time": 138.66,
   "match": 1.0,
   "heard": "bigger than the last"
  },
  {
   "phrase": "number five a fourteen",
-  "time": 139.93,
+  "time": 139.98,
   "match": 1.0,
   "heard": "number five a fourteen"
  },
  {
   "phrase": "three dollars and ninety one",
-  "time": 144.13,
+  "time": 144.14,
   "match": 1.0,
   "heard": "three dollars and ninety one"
  },
  {
   "phrase": "up five point four",
-  "time": 146.29,
+  "time": 146.3,
   "match": 1.0,
   "heard": "up five point four"
  },
@@ -289,7 +289,7 @@
  },
  {
   "phrase": "two dollars and forty eight",
-  "time": 206.62,
+  "time": 206.66,
   "match": 1.0,
   "heard": "two dollars and forty eight"
  },
@@ -403,7 +403,7 @@
  },
  {
   "phrase": "the u s department",
-  "time": 289.11,
+  "time": 289.15,
   "match": 1.0,
   "heard": "the u s department"
  },
@@ -463,49 +463,49 @@
  },
  {
   "phrase": "sweet potatoes stuffing",
-  "time": 318.74,
+  "time": 318.75,
   "match": 1.0,
   "heard": "sweet potatoes stuffing"
  },
  {
   "phrase": "stuffing dinner",
-  "time": 320.26,
+  "time": 320.27,
   "match": 1.0,
   "heard": "stuffing dinner"
  },
  {
   "phrase": "dinner rolls whole",
-  "time": 321.18,
+  "time": 321.19,
   "match": 1.0,
   "heard": "dinner rolls whole"
  },
  {
   "phrase": "whole milk cranberries",
-  "time": 322.34,
+  "time": 322.35,
   "match": 1.0,
   "heard": "whole milk cranberries"
  },
  {
   "phrase": "cranberries and at the top",
-  "time": 323.38,
+  "time": 323.39,
   "match": 1.0,
   "heard": "cranberries and at the top"
  },
  {
   "phrase": "the turkey up ten",
-  "time": 325.38,
+  "time": 325.39,
   "match": 1.0,
   "heard": "the turkey up ten"
  },
  {
   "phrase": "which price surprised you",
-  "time": 329.78,
+  "time": 329.79,
   "match": 1.0,
   "heard": "which price surprised you"
  },
  {
   "phrase": "tell us in the comments",
-  "time": 332.18,
+  "time": 332.23,
   "match": 1.0,
   "heard": "tell us in the comments"
  },
@@ -522,9 +522,9 @@
   "heard": "subscribe to"
  },
  {
-  "phrase": "on wednesday the ten",
+  "phrase": "tomorrow why so many",
   "time": 337.85,
   "match": 1.0,
-  "heard": "on wednesday the ten"
+  "heard": "to morrow why so many"
  }
 ]
