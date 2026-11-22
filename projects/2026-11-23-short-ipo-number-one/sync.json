@@ -1,0 +1,86 @@
+[
+ {
+  "phrase": "eighty one point three",
+  "time": 0.73,
+  "match": 1.0,
+  "heard": "eighty one point three"
+ },
+ {
+  "phrase": "six point three billion more",
+  "time": 3.69,
+  "match": 1.0,
+  "heard": "six point three billion more"
+ },
+ {
+  "phrase": "more than spaceax",
+  "time": 5.09,
+  "match": 1.0,
+  "heard": "more than spaceax"
+ },
+ {
+  "phrase": "at that price",
+  "time": 6.65,
+  "match": 1.0,
+  "heard": "at that price"
+ },
+ {
+  "phrase": "one point five trillion",
+  "time": 9.77,
+  "match": 1.0,
+  "heard": "one point five trillion"
+ },
+ {
+  "phrase": "last private valuation",
+  "time": 12.5,
+  "match": 1.0,
+  "heard": "last private valuation"
+ },
+ {
+  "phrase": "nine hundred sixty five",
+  "time": 14.05,
+  "match": 1.0,
+  "heard": "nine hundred sixty five"
+ },
+ {
+  "phrase": "and it raised more",
+  "time": 16.38,
+  "match": 1.0,
+  "heard": "and it raised more"
+ },
+ {
+  "phrase": "numbers three four and five combined",
+  "time": 17.89,
+  "match": 1.0,
+  "heard": "numbers three four and five combined"
+ },
+ {
+  "phrase": "its shares started trading",
+  "time": 21.13,
+  "match": 1.0,
+  "heard": "its shares started trading"
+ },
+ {
+  "phrase": "on the nazdack",
+  "time": 22.57,
+  "match": 1.0,
+  "heard": "on the nazdack"
+ },
+ {
+  "phrase": "under the ticker",
+  "time": 25.25,
+  "match": 1.0,
+  "heard": "under the ticker"
+ },
+ {
+  "phrase": "more than numbers three",
+  "time": 27.33,
+  "match": 1.0,
+  "heard": "more than numbers three"
+ },
+ {
+  "phrase": "five combined",
+  "time": 29.38,
+  "match": 1.0,
+  "heard": "five combined"
+ }
+]
