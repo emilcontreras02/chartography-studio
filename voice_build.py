@@ -2,8 +2,9 @@
 
     python3 voice_build.py projects/<slug>
 
-segments.json = [["hero"|"narr", "text"], ...]
-  hero = the mascot (ElevenLabs premade Liam), narr = Jarnathan narrator.
+segments.json = [["hero"|"narr"|"doc", "text"], ...]
+  hero = the mascot (ElevenLabs premade Liam), narr = Jarnathan narrator,
+  doc = Brian, the 4-5 min documentary narrator (Brand Guide row DOCUMENTARY v5).
 Writes vo.mp3, speakers.json ([speaker, start, end] per segment) and words.json (ASR word times).
 Key: ELEVENLABS_API_KEY env or /tmp/el_key. Falls back to the free voice when credits run low (tts_auto).
 """
@@ -14,6 +15,7 @@ import chartography_engine as ce
 VOICES = {
     'hero': dict(voice_id='TX3LPaxmHKxFdv7VOQHJ', stability=0.35, style=0.5),   # Liam
     'narr': dict(voice_id='c6SfcYrb2t09NHXiT80T', stability=0.5, style=0.0),    # Jarnathan
+    'doc':  dict(voice_id='nPczCjzI2devNBz1zQrb', stability=0.45, style=0.3),   # Brian - documentary narrator (DOCUMENTARY v5, Nov 24, 2026)
 }
 GAP = 0.3
 
