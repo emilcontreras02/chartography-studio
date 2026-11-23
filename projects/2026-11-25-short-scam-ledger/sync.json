@@ -1,0 +1,92 @@
+[
+ {
+  "phrase": "three million fraud",
+  "time": 0.0,
+  "match": 1.0,
+  "heard": "three million fraud"
+ },
+ {
+  "phrase": "fifteen point nine billion",
+  "time": 2.21,
+  "match": 1.0,
+  "heard": "fifteen point nine billion"
+ },
+ {
+  "phrase": "dollars lost",
+  "time": 4.09,
+  "match": 1.0,
+  "heard": "dollars lost"
+ },
+ {
+  "phrase": "twenty five per cent more",
+  "time": 6.05,
+  "match": 1.0,
+  "heard": "twenty five per cent more"
+ },
+ {
+  "phrase": "than twenty twenty four",
+  "time": 7.37,
+  "match": 1.0,
+  "heard": "than twenty twenty four"
+ },
+ {
+  "phrase": "two point six million",
+  "time": 8.93,
+  "match": 1.0,
+  "heard": "two point six million"
+ },
+ {
+  "phrase": "more than twelve billion",
+  "time": 11.21,
+  "match": 1.0,
+  "heard": "more than twelve billion"
+ },
+ {
+  "phrase": "every year for six",
+  "time": 14.17,
+  "match": 1.0,
+  "heard": "every year for six"
+ },
+ {
+  "phrase": "more than six billion",
+  "time": 16.21,
+  "match": 1.0,
+  "heard": "more than six billion"
+ },
+ {
+  "phrase": "about nine billion",
+  "time": 18.81,
+  "match": 1.0,
+  "heard": "about nine billion"
+ },
+ {
+  "phrase": "more than ten billion",
+  "time": 21.17,
+  "match": 1.0,
+  "heard": "more than ten billion"
+ },
+ {
+  "phrase": "since twenty twenty",
+  "time": 23.93,
+  "match": 1.0,
+  "heard": "since twenty twenty"
+ },
+ {
+  "phrase": "four hundred thirty",
+  "time": 26.09,
+  "match": 1.0,
+  "heard": "four hundred thirty"
+ },
+ {
+  "phrase": "says a big driver",
+  "time": 29.26,
+  "match": 1.0,
+  "heard": "says a big driver"
+ },
+ {
+  "phrase": "a hundred thousand dollars",
+  "time": 32.34,
+  "match": 1.0,
+  "heard": "a hundred thousand dollars"
+ }
+]
