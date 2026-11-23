@@ -1,0 +1,710 @@
+[
+ {
+  "phrase": "day one a scenario",
+  "time": 0.0,
+  "match": 1.0,
+  "heard": "day one a scenario"
+ },
+ {
+  "phrase": "somewhere in washington",
+  "time": 3.9,
+  "match": 1.0,
+  "heard": "somewhere in washington"
+ },
+ {
+  "phrase": "opens an auction",
+  "time": 6.62,
+  "match": 1.0,
+  "heard": "opens an auction"
+ },
+ {
+  "phrase": "needs to borrow",
+  "time": 8.14,
+  "match": 1.0,
+  "heard": "needs to borrow"
+ },
+ {
+  "phrase": "from overseas",
+  "time": 12.26,
+  "match": 1.0,
+  "heard": "from overseas"
+ },
+ {
+  "phrase": "wait nobody wants",
+  "time": 14.38,
+  "match": 1.0,
+  "heard": "wait nobody wants"
+ },
+ {
+  "phrase": "here's what's real",
+  "time": 17.13,
+  "match": 1.0,
+  "heard": "here's what's real"
+ },
+ {
+  "phrase": "nine point two trillion",
+  "time": 22.13,
+  "match": 1.0,
+  "heard": "nine point two trillion"
+ },
+ {
+  "phrase": "china just cut",
+  "time": 26.09,
+  "match": 1.0,
+  "heard": "china just cut"
+ },
+ {
+  "phrase": "lowest level since",
+  "time": 27.93,
+  "match": 1.0,
+  "heard": "lowest level since"
+ },
+ {
+  "phrase": "what would happen day by day",
+  "time": 30.65,
+  "match": 1.0,
+  "heard": "what would happen day by day"
+ },
+ {
+  "phrase": "every number you'll see",
+  "time": 35.15,
+  "match": 1.0,
+  "heard": "every number you'll see"
+ },
+ {
+  "phrase": "every scene marked",
+  "time": 38.31,
+  "match": 1.0,
+  "heard": "every scene marked"
+ },
+ {
+  "phrase": "the scariest part",
+  "time": 42.75,
+  "match": 1.0,
+  "heard": "the scariest part"
+ },
+ {
+  "phrase": "chapter one the pile",
+  "time": 45.55,
+  "match": 1.0,
+  "heard": "chapter one the pile"
+ },
+ {
+  "phrase": "forty point seven trillion",
+  "time": 55.33,
+  "match": 1.0,
+  "heard": "forty point seven trillion"
+ },
+ {
+  "phrase": "thirty two point nine",
+  "time": 58.33,
+  "match": 1.0,
+  "heard": "thirty two point nine"
+ },
+ {
+  "phrase": "held by the public",
+  "time": 60.41,
+  "match": 1.0,
+  "heard": "held by the public"
+ },
+ {
+  "phrase": "seven point eight trillion",
+  "time": 66.84,
+  "match": 1.0,
+  "heard": "seven point eight trillion"
+ },
+ {
+  "phrase": "trust funds like",
+  "time": 71.16,
+  "match": 1.0,
+  "heard": "trust funds like"
+ },
+ {
+  "phrase": "the congressional budget",
+  "time": 73.12,
+  "match": 1.0,
+  "heard": "the congressional budget"
+ },
+ {
+  "phrase": "one hundred per cent of the whole",
+  "time": 77.28,
+  "match": 1.0,
+  "heard": "one hundred per cent of the whole"
+ },
+ {
+  "phrase": "highest since nineteen forty six",
+  "time": 80.88,
+  "match": 1.0,
+  "heard": "highest since nineteen forty six"
+ },
+ {
+  "phrase": "a hundred per cent of everything",
+  "time": 84.7,
+  "match": 1.0,
+  "heard": "a hundred per cent of everything"
+ },
+ {
+  "phrase": "chapter two the empty",
+  "time": 87.26,
+  "match": 1.0,
+  "heard": "chapter two the empty"
+ },
+ {
+  "phrase": "foreign bids are thin",
+  "time": 93.02,
+  "match": 1.0,
+  "heard": "foreign bids are thin"
+ },
+ {
+  "phrase": "has the list",
+  "time": 99.86,
+  "match": 1.0,
+  "heard": "has the list"
+ },
+ {
+  "phrase": "japan about one point",
+  "time": 100.86,
+  "match": 1.0,
+  "heard": "japan about one point"
+ },
+ {
+  "phrase": "the united kingdom about",
+  "time": 104.82,
+  "match": 1.0,
+  "heard": "the united kingdom about"
+ },
+ {
+  "phrase": "china about five hundred",
+  "time": 108.54,
+  "match": 1.0,
+  "heard": "china about five hundred"
+ },
+ {
+  "phrase": "then belgium the cayman",
+  "time": 111.74,
+  "match": 1.0,
+  "heard": "then belgium the cayman"
+ },
+ {
+  "phrase": "four hundred fifty to five",
+  "time": 116.58,
+  "match": 1.0,
+  "heard": "four hundred fifty to five"
+ },
+ {
+  "phrase": "held in custody",
+  "time": 124.54,
+  "match": 1.0,
+  "heard": "held in custody"
+ },
+ {
+  "phrase": "who really owns them",
+  "time": 125.98,
+  "match": 1.0,
+  "heard": "who really owns them"
+ },
+ {
+  "phrase": "foreign governments and central",
+  "time": 131.26,
+  "match": 1.0,
+  "heard": "foreign governments and central"
+ },
+ {
+  "phrase": "three point six seven",
+  "time": 133.7,
+  "match": 1.0,
+  "heard": "three point six seven"
+ },
+ {
+  "phrase": "private investors abroad",
+  "time": 137.14,
+  "match": 1.0,
+  "heard": "private investors abroad"
+ },
+ {
+  "phrase": "day too of our",
+  "time": 138.82,
+  "match": 1.0,
+  "heard": "day too of our"
+ },
+ {
+  "phrase": "the headlines spread",
+  "time": 140.74,
+  "match": 1.0,
+  "heard": "the headlines spread"
+ },
+ {
+  "phrase": "who fills the gap",
+  "time": 147.78,
+  "match": 1.0,
+  "heard": "who fills the gap"
+ },
+ {
+  "phrase": "the answer is the twist",
+  "time": 152.41,
+  "match": 1.0,
+  "heard": "the answer is the twist"
+ },
+ {
+  "phrase": "chapter three china",
+  "time": 154.86,
+  "match": 1.0,
+  "heard": "chapter three china"
+ },
+ {
+  "phrase": "day seven is when",
+  "time": 159.53,
+  "match": 1.0,
+  "heard": "day seven is when"
+ },
+ {
+  "phrase": "already on the move",
+  "time": 164.89,
+  "match": 1.0,
+  "heard": "already on the move"
+ },
+ {
+  "phrase": "china now holds about",
+  "time": 166.26,
+  "match": 1.0,
+  "heard": "china now holds about"
+ },
+ {
+  "phrase": "the least since",
+  "time": 171.9,
+  "match": 1.0,
+  "heard": "the least since"
+ },
+ {
+  "phrase": "four and a half per cent",
+  "time": 177.1,
+  "match": 1.0,
+  "heard": "four and a half per cent"
+ },
+ {
+  "phrase": "five hundred ninety one",
+  "time": 179.02,
+  "match": 1.0,
+  "heard": "five hundred ninety one"
+ },
+ {
+  "phrase": "fourth monthly drop",
+  "time": 181.86,
+  "match": 1.0,
+  "heard": "fourth monthly drop"
+ },
+ {
+  "phrase": "has cut for five months",
+  "time": 186.44,
+  "match": 1.0,
+  "heard": "has cut for five months"
+ },
+ {
+  "phrase": "a peak of about",
+  "time": 189.0,
+  "match": 1.0,
+  "heard": "a peak of about"
+ },
+ {
+  "phrase": "quietly backing away",
+  "time": 196.0,
+  "match": 1.0,
+  "heard": "quietly backing away"
+ },
+ {
+  "phrase": "the world really is leaving",
+  "time": 197.76,
+  "match": 1.0,
+  "heard": "the world really is leaving"
+ },
+ {
+  "phrase": "not so fast",
+  "time": 199.66,
+  "match": 1.0,
+  "heard": "not so fast"
+ },
+ {
+  "phrase": "eighty point eight billion",
+  "time": 204.58,
+  "match": 1.0,
+  "heard": "eighty point eight billion"
+ },
+ {
+  "phrase": "nine point two four",
+  "time": 210.42,
+  "match": 1.0,
+  "heard": "nine point two four"
+ },
+ {
+  "phrase": "higher than a year earlier",
+  "time": 213.18,
+  "match": 1.0,
+  "heard": "higher than a year earlier"
+ },
+ {
+  "phrase": "the record of about",
+  "time": 215.62,
+  "match": 1.0,
+  "heard": "the record of about"
+ },
+ {
+  "phrase": "others are buying",
+  "time": 222.89,
+  "match": 1.0,
+  "heard": "others are buying"
+ },
+ {
+  "phrase": "two hundred sixty one billion",
+  "time": 231.17,
+  "match": 1.0,
+  "heard": "two hundred sixty one billion"
+ },
+ {
+  "phrase": "surprised you it subscribe",
+  "time": 234.77,
+  "match": 1.0,
+  "heard": "surprised you it subscribe"
+ },
+ {
+  "phrase": "chapter four rates",
+  "time": 238.89,
+  "match": 1.0,
+  "heard": "chapter four rates"
+ },
+ {
+  "phrase": "day fourteen",
+  "time": 243.33,
+  "match": 1.0,
+  "heard": "day fourteen"
+ },
+ {
+  "phrase": "better deal to borrow",
+  "time": 247.65,
+  "match": 1.0,
+  "heard": "better deal to borrow"
+ },
+ {
+  "phrase": "higher interest rate or yield",
+  "time": 250.13,
+  "match": 1.0,
+  "heard": "higher interest rate or yield"
+ },
+ {
+  "phrase": "kitchen table",
+  "time": 254.21,
+  "match": 1.0,
+  "heard": "kitchen table"
+ },
+ {
+  "phrase": "mortgage rates tend",
+  "time": 255.46,
+  "match": 1.0,
+  "heard": "mortgage rates tend"
+ },
+ {
+  "phrase": "real numbers on november",
+  "time": 258.82,
+  "match": 1.0,
+  "heard": "real numbers on november"
+ },
+ {
+  "phrase": "four point nine two",
+  "time": 263.42,
+  "match": 1.0,
+  "heard": "four point nine two"
+ },
+ {
+  "phrase": "five point one five",
+  "time": 266.94,
+  "match": 1.0,
+  "heard": "five point one five"
+ },
+ {
+  "phrase": "rates can swing",
+  "time": 268.7,
+  "match": 1.0,
+  "heard": "rates can swing"
+ },
+ {
+  "phrase": "seven point three five",
+  "time": 274.58,
+  "match": 1.0,
+  "heard": "seven point three five"
+ },
+ {
+  "phrase": "buyer strike would",
+  "time": 277.98,
+  "match": 1.0,
+  "heard": "buyer strike would"
+ },
+ {
+  "phrase": "so does almost every one",
+  "time": 285.54,
+  "match": 1.0,
+  "heard": "so does almost every one"
+ },
+ {
+  "phrase": "day twenty one",
+  "time": 287.34,
+  "match": 1.0,
+  "heard": "day twenty one"
+ },
+ {
+  "phrase": "american banks and funds",
+  "time": 292.14,
+  "match": 1.0,
+  "heard": "american banks and funds"
+ },
+ {
+  "phrase": "federal reserve steps in",
+  "time": 295.02,
+  "match": 1.0,
+  "heard": "federal reserve steps in"
+ },
+ {
+  "phrase": "already one of the biggest",
+  "time": 298.9,
+  "match": 1.0,
+  "heard": "already one of the biggest"
+ },
+ {
+  "phrase": "bonds and toky o",
+  "time": 304.1,
+  "match": 1.0,
+  "heard": "bonds and toky o"
+ },
+ {
+  "phrase": "partly yes",
+  "time": 305.34,
+  "match": 1.0,
+  "heard": "partly yes"
+ },
+ {
+  "phrase": "chapter five the bill",
+  "time": 307.18,
+  "match": 1.0,
+  "heard": "chapter five the bill"
+ },
+ {
+  "phrase": "day thirty of",
+  "time": 310.02,
+  "match": 1.0,
+  "heard": "day thirty of"
+ },
+ {
+  "phrase": "isn't a scenario at all",
+  "time": 316.7,
+  "match": 1.0,
+  "heard": "isn't a scenario at all"
+ },
+ {
+  "phrase": "one point one four trillion",
+  "time": 321.58,
+  "match": 1.0,
+  "heard": "one point one four trillion"
+ },
+ {
+  "phrase": "one hundred fourteen billion",
+  "time": 326.78,
+  "match": 1.0,
+  "heard": "one hundred fourteen billion"
+ },
+ {
+  "phrase": "more than it spent on medica",
+  "time": 331.98,
+  "match": 1.0,
+  "heard": "more than it spent on medica"
+ },
+ {
+  "phrase": "spent on the military",
+  "time": 338.02,
+  "match": 1.0,
+  "heard": "spent on the military"
+ },
+ {
+  "phrase": "three point one billion",
+  "time": 343.01,
+  "match": 1.0,
+  "heard": "three point one billion"
+ },
+ {
+  "phrase": "five point four trillion",
+  "time": 348.89,
+  "match": 1.0,
+  "heard": "five point four trillion"
+ },
+ {
+  "phrase": "twenty one cents",
+  "time": 352.29,
+  "match": 1.0,
+  "heard": "twenty one cents"
+ },
+ {
+  "phrase": "a deficit of almost",
+  "time": 356.97,
+  "match": 1.0,
+  "heard": "a deficit of almost"
+ },
+ {
+  "phrase": "three billion dollars a day just",
+  "time": 359.97,
+  "match": 1.0,
+  "heard": "three billion dollars a day just"
+ },
+ {
+  "phrase": "chapter six who",
+  "time": 363.91,
+  "match": 1.0,
+  "heard": "chapter six who"
+ },
+ {
+  "phrase": "here's the twist the question",
+  "time": 367.95,
+  "match": 1.0,
+  "heard": "here's the twist the question"
+ },
+ {
+  "phrase": "owns a slice",
+  "time": 375.31,
+  "match": 1.0,
+  "heard": "owns a slice"
+ },
+ {
+  "phrase": "twenty three per cent",
+  "time": 379.95,
+  "match": 1.0,
+  "heard": "twenty three per cent"
+ },
+ {
+  "phrase": "four point five nine",
+  "time": 384.59,
+  "match": 1.0,
+  "heard": "four point five nine"
+ },
+ {
+  "phrase": "about eleven per cent",
+  "time": 387.03,
+  "match": 1.0,
+  "heard": "about eleven per cent"
+ },
+ {
+  "phrase": "nineteen per cent",
+  "time": 390.31,
+  "match": 1.0,
+  "heard": "nineteen per cent"
+ },
+ {
+  "phrase": "forty seven per cent",
+  "time": 397.15,
+  "match": 1.0,
+  "heard": "forty seven per cent"
+ },
+ {
+  "phrase": "these shares are rough",
+  "time": 398.62,
+  "match": 1.0,
+  "heard": "these shares are rough"
+ },
+ {
+  "phrase": "here's a fun one",
+  "time": 402.62,
+  "match": 1.0,
+  "heard": "here's a fun one"
+ },
+ {
+  "phrase": "china combined",
+  "time": 409.42,
+  "match": 1.0,
+  "heard": "china combined"
+ },
+ {
+  "phrase": "one point eight times",
+  "time": 411.54,
+  "match": 1.0,
+  "heard": "one point eight times"
+ },
+ {
+  "phrase": "mostly owes money",
+  "time": 415.55,
+  "match": 1.0,
+  "heard": "mostly owes money"
+ },
+ {
+  "phrase": "mostly yes that's",
+  "time": 418.39,
+  "match": 1.0,
+  "heard": "mostly yes that's"
+ },
+ {
+  "phrase": "collapse is harder",
+  "time": 421.07,
+  "match": 1.0,
+  "heard": "collapse is harder"
+ },
+ {
+  "phrase": "the real pressure",
+  "time": 424.11,
+  "match": 1.0,
+  "heard": "the real pressure"
+ },
+ {
+  "phrase": "already here in the bill",
+  "time": 427.35,
+  "match": 1.0,
+  "heard": "already here in the bill"
+ },
+ {
+  "phrase": "now bigger than medica",
+  "time": 431.02,
+  "match": 1.0,
+  "heard": "now bigger than medica"
+ },
+ {
+  "phrase": "december fifteenth",
+  "time": 435.22,
+  "match": 1.0,
+  "heard": "december fifteenth"
+ },
+ {
+  "phrase": "watching china's line",
+  "time": 436.98,
+  "match": 1.0,
+  "heard": "watching china's line"
+ },
+ {
+  "phrase": "your turn before",
+  "time": 438.9,
+  "match": 1.0,
+  "heard": "your turn before"
+ },
+ {
+  "phrase": "tell us in the comments",
+  "time": 443.98,
+  "match": 1.0,
+  "heard": "tell us in the comments"
+ },
+ {
+  "phrase": "follow the money",
+  "time": 446.6,
+  "match": 1.0,
+  "heard": "follow the money"
+ },
+ {
+  "phrase": "subscribe to tchertography",
+  "time": 447.92,
+  "match": 1.0,
+  "heard": "subscribe to tchertography"
+ },
+ {
+  "phrase": "friday invid",
+  "time": 449.84,
+  "match": 1.0,
+  "heard": "friday invid"
+ },
+ {
+  "phrase": "see you there",
+  "time": 454.28,
+  "match": 1.0,
+  "heard": "see you there"
+ }
+]
