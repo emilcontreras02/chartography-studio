@@ -1,0 +1,30 @@
+{
+ "title": ["THE 10 COUNTRIES RUNNING OUT OF BABIES", "births per woman · World Bank · 2023 · countries only"],
+ "hook": {"big": "0.72", "big2": "BABIES PER WOMAN", "small": "South Korea, 2023 · the lowest on Earth"},
+ "valueLabel": "births per woman, 2023 (World Bank)",
+ "items": [
+  {"rank": 10, "name": "Lithuania", "line": "A Baltic country of about 2.9M people", "fact": "barely more than 1 child per woman", "value": 1.18, "label": "1.18", "seg": 3},
+  {"rank": 9, "name": "Chile", "line": "The only country here from the Americas", "fact": "about 19.7M people", "value": 1.167, "label": "1.167", "seg": 4},
+  {"rank": 8, "name": "San Marino", "line": "A tiny country surrounded by Italy", "fact": "about 34,000 people", "value": 1.149, "label": "1.149", "seg": 5},
+  {"rank": 7, "name": "Spain", "line": "Well below the roughly 2 per family", "fact": "needed to keep a population steady", "value": 1.12, "label": "1.12", "seg": 6},
+  {"rank": 6, "name": "Andorra", "line": "A mountain country between Spain and France", "fact": "about 81,000 people", "value": 1.082, "label": "1.082", "seg": 7},
+  {"rank": 5, "name": "Malta", "line": "An island country in the Mediterranean", "fact": "about 550,000 people", "value": 1.06, "label": "1.06", "seg": 8},
+  {"rank": 4, "name": "China", "line": "One of the most populous countries on Earth", "fact": "now just under 1", "value": 0.999, "label": "0.999", "seg": 10},
+  {"rank": 3, "name": "Ukraine", "line": "Under one, again", "fact": "", "value": 0.977, "label": "0.977", "seg": 11},
+  {"rank": 2, "name": "Singapore", "line": "A city country of about 5.9M people", "fact": "a hair below Ukraine", "value": 0.97, "label": "0.97", "seg": 12},
+  {"rank": 1, "name": "South Korea", "line": "The lowest of any country in the data", "fact": "about 51.7M people · under 3 kids per 4 women", "value": 0.721, "label": "0.721", "seg": 13}
+ ],
+ "twist": {"seg": 14, "title": "THE TWIST", "lines": [
+   ["South Korea, 2025: about 0.80 (record low 0.72 in 2023)", "climbed to about zero point eight"],
+   ["254,457 babies born · up 16,140 in a year", "two hundred fifty four thousand"],
+   ["Most since 2021 · biggest yearly rise since 2015", "the most since"],
+   ["One year is not a trend.", "one year is not a trend"],
+   ["Fewer babies today = fewer workers tomorrow, more retirees", "fewer workers to morrow"],
+   ["Fewer kids in schools. One day, fewer home buyers.", "fewer kids in schools"]
+ ]},
+ "recapSeg": 16,
+ "cta": {"seg": 17, "question": "Did any country on this list surprise you?", "next": "Monday: how The Children's Place went from $1.92B in sales to a going-out-of-business sale"},
+ "heroPoses": {"0": "shock_shock", "1": "shock_shock", "9": "point_talk", "13": "think_worry", "14": "cheer_happy", "18": "wave_happy"},
+ "source": "Source: World Bank, fertility rate (SP.DYN.TFRT.IN) and population, 2023 · countries only (territories such as Hong Kong and Macao excluded)",
+ "thumb": {"top": "SOUTH KOREA", "big": "0.72", "bottom": "...then it went UP?", "pose": "shock_shock"}
+}
